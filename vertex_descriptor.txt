@@ -1,0 +1,1614 @@
+./graph/doc/eg1-iso.cpp:89:  std::vector<graph_traits<GraphB>::vertex_descriptor> f(num_vertices(Ga));
+./graph/include/boost/graph/adjacency_iterator.hpp:51:            class Vertex = typename graph_traits<Graph>::vertex_descriptor,
+./graph/include/boost/graph/adjacency_iterator.hpp:92:            class Vertex = typename graph_traits<Graph>::vertex_descriptor,
+./graph/include/boost/graph/adjacency_list.hpp:202:      vertices_size_type, vertex_ptr>::type vertex_descriptor;
+./graph/include/boost/graph/adjacency_list.hpp:203:    typedef detail::edge_desc_impl<directed_category, vertex_descriptor>
+./graph/include/boost/graph/adjacency_list.hpp:250:                                       EdgeListS>::vertex_descriptor,
+./graph/include/boost/graph/adjacency_list.hpp:275:    typedef typename Base::vertex_descriptor vertex_descriptor;
+./graph/include/boost/graph/adjacency_list.hpp:342:    vertex_bundled& operator[](vertex_descriptor v)
+./graph/include/boost/graph/adjacency_list.hpp:345:    const vertex_bundled& operator[](vertex_descriptor v) const
+./graph/include/boost/graph/adjacency_list_io.hpp:133:                typedef typename graph_traits<Graph>::vertex_descriptor Vertex;
+./graph/include/boost/graph/adjacency_list_io.hpp:280:        typedef typename graph_traits<Graph>::vertex_descriptor Vertex;
+./graph/include/boost/graph/adjacency_matrix.hpp:454:    typedef std::size_t vertex_descriptor;
+./graph/include/boost/graph/adjacency_matrix.hpp:457:      vertex_descriptor> edge_descriptor;
+./graph/include/boost/graph/adjacency_matrix.hpp:513:    typedef typename Traits::vertex_descriptor vertex_descriptor;
+./graph/include/boost/graph/adjacency_matrix.hpp:519:    static vertex_descriptor null_vertex()
+./graph/include/boost/graph/adjacency_matrix.hpp:521:      return (std::numeric_limits<vertex_descriptor>::max)();
+./graph/include/boost/graph/adjacency_matrix.hpp:527:        vertex_descriptor, MatrixIter, size_type, edge_descriptor
+./graph/include/boost/graph/adjacency_matrix.hpp:531:        vertex_descriptor, MatrixIter, size_type, edge_descriptor
+./graph/include/boost/graph/adjacency_matrix.hpp:539:        vertex_descriptor, MatrixIter, size_type, edge_descriptor
+./graph/include/boost/graph/adjacency_matrix.hpp:543:        vertex_descriptor, MatrixIter, size_type, edge_descriptor
+./graph/include/boost/graph/adjacency_matrix.hpp:568:       vertex_descriptor, out_edge_iterator>::type adjacency_iterator;
+./graph/include/boost/graph/adjacency_matrix.hpp:572:    typedef integer_range<vertex_descriptor> VertexList;
+./graph/include/boost/graph/adjacency_matrix.hpp:634:    vertex_bundled& operator[](vertex_descriptor v)
+./graph/include/boost/graph/adjacency_matrix.hpp:637:    const vertex_bundled& operator[](vertex_descriptor v) const
+./graph/include/boost/graph/adjacency_matrix.hpp:656:    get_edge(vertex_descriptor u, vertex_descriptor v) const {
+./graph/include/boost/graph/adjacency_matrix.hpp:666:    get_edge(vertex_descriptor u, vertex_descriptor v) {
+./graph/include/boost/graph/adjacency_matrix.hpp:689:  edge(typename adjacency_matrix<D,VP,EP,GP,A>::vertex_descriptor u,
+./graph/include/boost/graph/adjacency_matrix.hpp:690:       typename adjacency_matrix<D,VP,EP,GP,A>::vertex_descriptor v,
+./graph/include/boost/graph/adjacency_matrix.hpp:707:    (typename adjacency_matrix<directedS,VP,EP,GP,A>::vertex_descriptor u,
+./graph/include/boost/graph/adjacency_matrix.hpp:730:    (typename adjacency_matrix<undirectedS,VP,EP,GP,A>::vertex_descriptor u,
+./graph/include/boost/graph/adjacency_matrix.hpp:752:  out_degree(typename adjacency_matrix<D,VP,EP,GP,A>::vertex_descriptor u,
+./graph/include/boost/graph/adjacency_matrix.hpp:765:  typename adjacency_matrix<D,VP,EP,GP,A>::vertex_descriptor
+./graph/include/boost/graph/adjacency_matrix.hpp:775:  typename adjacency_matrix<D,VP,EP,GP,A>::vertex_descriptor
+./graph/include/boost/graph/adjacency_matrix.hpp:790:    (typename adjacency_matrix<directedS,VP,EP,GP,A>::vertex_descriptor u,
+./graph/include/boost/graph/adjacency_matrix.hpp:812:    (typename adjacency_matrix<undirectedS,VP,EP,GP,A>::vertex_descriptor u,
+./graph/include/boost/graph/adjacency_matrix.hpp:834:  in_degree(typename adjacency_matrix<D,VP,EP,GP,A>::vertex_descriptor u,
+./graph/include/boost/graph/adjacency_matrix.hpp:851:    (typename adjacency_matrix<D,VP,EP,GP,A>::vertex_descriptor u,
+./graph/include/boost/graph/adjacency_matrix.hpp:919:  add_edge(typename adjacency_matrix<D,VP,EP,GP,A>::vertex_descriptor u,
+./graph/include/boost/graph/adjacency_matrix.hpp:920:           typename adjacency_matrix<D,VP,EP,GP,A>::vertex_descriptor v,
+./graph/include/boost/graph/adjacency_matrix.hpp:941:  add_edge(typename adjacency_matrix<D,VP,EP,GP,A>::vertex_descriptor u,
+./graph/include/boost/graph/adjacency_matrix.hpp:942:           typename adjacency_matrix<D,VP,EP,GP,A>::vertex_descriptor v,
+./graph/include/boost/graph/adjacency_matrix.hpp:952:  remove_edge(typename adjacency_matrix<D,VP,EP,GP,A>::vertex_descriptor u,
+./graph/include/boost/graph/adjacency_matrix.hpp:953:              typename adjacency_matrix<D,VP,EP,GP,A>::vertex_descriptor v,
+./graph/include/boost/graph/adjacency_matrix.hpp:974:  inline typename adjacency_matrix<D,VP,EP,GP,A>::vertex_descriptor
+./graph/include/boost/graph/adjacency_matrix.hpp:983:  inline typename adjacency_matrix<D,VP,EP,GP,A>::vertex_descriptor
+./graph/include/boost/graph/adjacency_matrix.hpp:992:  remove_vertex(typename adjacency_matrix<D,VP,EP,GP,A>::vertex_descriptor /*u*/,
+./graph/include/boost/graph/adjacency_matrix.hpp:1003:    (typename adjacency_matrix<directedS,VP,EP,GP,A>::vertex_descriptor u,
+./graph/include/boost/graph/adjacency_matrix.hpp:1018:    (typename adjacency_matrix<undirectedS,VP,EP,GP,A>::vertex_descriptor u,
+./graph/include/boost/graph/adjacency_matrix.hpp:1037:    typedef typename graph_traits<adjacency_matrix<D, VP, EP, GP, A> >::vertex_descriptor arg_type;
+./graph/include/boost/graph/adjacency_matrix.hpp:1187:    typedef typename adjacency_matrix<D, VP, EP, GP, A>::vertex_descriptor Vertex;
+./graph/include/boost/graph/adjacency_matrix.hpp:1199:  typename adjacency_matrix<D, VP, EP, GP, A>::vertex_descriptor
+./graph/include/boost/graph/adjacency_matrix.hpp:1202:      typename adjacency_matrix<D, VP, EP, GP, A>::vertex_descriptor v) {
+./graph/include/boost/graph/adjacency_matrix.hpp:1213:  typename adjacency_matrix<D, VP, EP, GP, A>::vertex_descriptor
+./graph/include/boost/graph/adjacency_matrix.hpp:1216:      typename adjacency_matrix<D, VP, EP, GP, A>::vertex_descriptor v) {
+./graph/include/boost/graph/adjacency_matrix.hpp:1224:  typename adjacency_matrix<D,VP,EP,GP,A>::vertex_descriptor
+./graph/include/boost/graph/adj_list_serialize.hpp:43:  typedef typename graph_traits<Graph>::vertex_descriptor Vertex;
+./graph/include/boost/graph/adj_list_serialize.hpp:77:  typedef typename graph_traits<Graph>::vertex_descriptor Vertex;
+./graph/include/boost/graph/astar_search.hpp:44:    typename graph_traits<Graph>::vertex_descriptor u;
+./graph/include/boost/graph/astar_search.hpp:52:    typedef typename graph_traits<Graph>::vertex_descriptor Vertex;
+./graph/include/boost/graph/astar_search.hpp:77:    typename graph_traits<Graph>::vertex_descriptor u;
+./graph/include/boost/graph/astar_search.hpp:247:     typename graph_traits<VertexListGraph>::vertex_descriptor s,
+./graph/include/boost/graph/astar_search.hpp:255:    typedef typename graph_traits<VertexListGraph>::vertex_descriptor
+./graph/include/boost/graph/astar_search.hpp:290:     typename graph_traits<VertexListGraph>::vertex_descriptor s,
+./graph/include/boost/graph/astar_search.hpp:297:    typedef typename graph_traits<VertexListGraph>::vertex_descriptor
+./graph/include/boost/graph/astar_search.hpp:355:     typename graph_traits<VertexListGraph>::vertex_descriptor s,
+./graph/include/boost/graph/astar_search.hpp:393:     typename graph_traits<VertexListGraph>::vertex_descriptor s,
+./graph/include/boost/graph/astar_search.hpp:424:     typename graph_traits<VertexListGraph>::vertex_descriptor s,
+./graph/include/boost/graph/astar_search.hpp:522:     typename graph_traits<VertexListGraph>::vertex_descriptor s,
+./graph/include/boost/graph/astar_search.hpp:606:     typename graph_traits<VertexListGraph>::vertex_descriptor s,
+./graph/include/boost/graph/astar_search.hpp:701:     typename graph_traits<VertexListGraph>::vertex_descriptor s,
+./graph/include/boost/graph/bandwidth.hpp:19:  ith_bandwidth(typename graph_traits<Graph>::vertex_descriptor i,
+./graph/include/boost/graph/bandwidth.hpp:38:  ith_bandwidth(typename graph_traits<Graph>::vertex_descriptor i,
+./graph/include/boost/graph/bellman_ford_shortest_paths.hpp:102:    typedef typename GTraits::vertex_descriptor Vertex;
+./graph/include/boost/graph/bellman_ford_shortest_paths.hpp:142:       typename graph_traits<VertexAndEdgeListGraph>::vertex_descriptor s,
+./graph/include/boost/graph/betweenness_centrality.hpp:42:    typedef typename graph_traits<Graph>::vertex_descriptor vertex_descriptor;
+./graph/include/boost/graph/betweenness_centrality.hpp:45:    brandes_dijkstra_visitor(std::stack<vertex_descriptor>& ordered_vertices,
+./graph/include/boost/graph/betweenness_centrality.hpp:62:      vertex_descriptor v = source(e, g), w = target(e, g);
+./graph/include/boost/graph/betweenness_centrality.hpp:78:      vertex_descriptor v = source(e, g), w = target(e, g);
+./graph/include/boost/graph/betweenness_centrality.hpp:90:    void examine_vertex(vertex_descriptor w, const Graph&) 
+./graph/include/boost/graph/betweenness_centrality.hpp:96:    std::stack<vertex_descriptor>& ordered_vertices;
+./graph/include/boost/graph/betweenness_centrality.hpp:118:               typename graph_traits<Graph>::vertex_descriptor s,
+./graph/include/boost/graph/betweenness_centrality.hpp:119:               std::stack<typename graph_traits<Graph>::vertex_descriptor>& ov,
+./graph/include/boost/graph/betweenness_centrality.hpp:156:      typedef typename graph_traits<Graph>::vertex_descriptor 
+./graph/include/boost/graph/betweenness_centrality.hpp:157:        vertex_descriptor;
+./graph/include/boost/graph/betweenness_centrality.hpp:161:                   std::stack<vertex_descriptor>& ordered_vertices)
+./graph/include/boost/graph/betweenness_centrality.hpp:166:      void examine_vertex(vertex_descriptor v, Graph&)
+./graph/include/boost/graph/betweenness_centrality.hpp:178:        vertex_descriptor v = source(e, g);
+./graph/include/boost/graph/betweenness_centrality.hpp:179:        vertex_descriptor w = target(e, g);
+./graph/include/boost/graph/betweenness_centrality.hpp:194:        vertex_descriptor v = source(e, g);
+./graph/include/boost/graph/betweenness_centrality.hpp:195:        vertex_descriptor w = target(e, g);
+./graph/include/boost/graph/betweenness_centrality.hpp:206:      std::stack<vertex_descriptor>& ordered_vertices;
+./graph/include/boost/graph/betweenness_centrality.hpp:213:               typename graph_traits<Graph>::vertex_descriptor s,
+./graph/include/boost/graph/betweenness_centrality.hpp:214:               std::stack<typename graph_traits<Graph>::vertex_descriptor>& ov,
+./graph/include/boost/graph/betweenness_centrality.hpp:220:      typedef typename graph_traits<Graph>::vertex_descriptor
+./graph/include/boost/graph/betweenness_centrality.hpp:221:        vertex_descriptor;
+./graph/include/boost/graph/betweenness_centrality.hpp:228:      boost::queue<vertex_descriptor> Q;
+./graph/include/boost/graph/betweenness_centrality.hpp:299:    typedef typename graph_traits<Graph>::vertex_descriptor vertex_descriptor;
+./graph/include/boost/graph/betweenness_centrality.hpp:305:    std::stack<vertex_descriptor> ordered_vertices;
+./graph/include/boost/graph/betweenness_centrality.hpp:324:        vertex_descriptor w = ordered_vertices.top();
+./graph/include/boost/graph/betweenness_centrality.hpp:335:          vertex_descriptor v = source(*vw, g);
+./graph/include/boost/graph/biconnected_components.hpp:81:        typename boost::graph_traits<Graph>::vertex_descriptor src = source(e, g);
+./graph/include/boost/graph/biconnected_components.hpp:82:        typename boost::graph_traits<Graph>::vertex_descriptor tgt = target(e, g);
+./graph/include/boost/graph/biconnected_components.hpp:97:        typename boost::graph_traits<Graph>::vertex_descriptor src = source(e, g);
+./graph/include/boost/graph/biconnected_components.hpp:98:        typename boost::graph_traits<Graph>::vertex_descriptor tgt = target(e, g);
+./graph/include/boost/graph/biconnected_components.hpp:166:    typedef typename graph_traits<Graph>::vertex_descriptor vertex_t;
+./graph/include/boost/graph/biconnected_components.hpp:224:    typedef typename graph_traits<Graph>::vertex_descriptor vertex_t;
+./graph/include/boost/graph/bipartite.hpp:69:        typedef typename graph_traits <Graph>::vertex_descriptor vertex_descriptor_t;
+./graph/include/boost/graph/bipartite.hpp:72:        vertex_descriptor_t source_vertex = source (e, g);
+./graph/include/boost/graph/bipartite.hpp:73:        vertex_descriptor_t target_vertex = target (e, g);
+./graph/include/boost/graph/bipartite.hpp:116:        typedef typename graph_traits <Graph>::vertex_descriptor vertex_descriptor_t;
+./graph/include/boost/graph/bipartite.hpp:118:        vertex_descriptor_t source_vertex = source (e, g);
+./graph/include/boost/graph/bipartite.hpp:119:        vertex_descriptor_t target_vertex = target (e, g);
+./graph/include/boost/graph/bipartite.hpp:121:          throw bipartite_visitor_error <vertex_descriptor_t> (source_vertex, target_vertex);
+./graph/include/boost/graph/bipartite.hpp:200:    typedef typename graph_traits <Graph>::vertex_descriptor vertex_descriptor_t;
+./graph/include/boost/graph/bipartite.hpp:215:    catch (const detail::bipartite_visitor_error <vertex_descriptor_t>&)
+./graph/include/boost/graph/bipartite.hpp:276:    typedef typename graph_traits <Graph>::vertex_descriptor vertex_descriptor_t;
+./graph/include/boost/graph/bipartite.hpp:281:    typedef std::vector <vertex_descriptor_t> predecessors_t;
+./graph/include/boost/graph/bipartite.hpp:282:    typedef iterator_property_map <typename predecessors_t::iterator, IndexMap, vertex_descriptor_t,
+./graph/include/boost/graph/bipartite.hpp:283:        vertex_descriptor_t&> predecessor_map_t;
+./graph/include/boost/graph/bipartite.hpp:302:    catch (const detail::bipartite_visitor_error <vertex_descriptor_t>& error)
+./graph/include/boost/graph/bipartite.hpp:304:      typedef std::vector <vertex_descriptor_t> path_t;
+./graph/include/boost/graph/bipartite.hpp:307:      vertex_descriptor_t next, current;
+./graph/include/boost/graph/boykov_kolmogorov_max_flow.hpp:80:  typedef typename tGraphTraits::vertex_descriptor vertex_descriptor;
+./graph/include/boost/graph/boykov_kolmogorov_max_flow.hpp:84:  typedef boost::queue<vertex_descriptor> tQueue;                               //queue of vertices, used in adoption-stage
+./graph/include/boost/graph/boykov_kolmogorov_max_flow.hpp:98:                  vertex_descriptor src,
+./graph/include/boost/graph/boykov_kolmogorov_max_flow.hpp:99:                  vertex_descriptor sink):
+./graph/include/boost/graph/boykov_kolmogorov_max_flow.hpp:170:          vertex_descriptor current_node = target(from_source, m_g);
+./graph/include/boost/graph/boykov_kolmogorov_max_flow.hpp:221:          vertex_descriptor current_node = source(to_sink, m_g);
+./graph/include/boost/graph/boykov_kolmogorov_max_flow.hpp:240:        vertex_descriptor current_node;
+./graph/include/boost/graph/boykov_kolmogorov_max_flow.hpp:257:                vertex_descriptor other_node = target(out_edge, m_g);
+./graph/include/boost/graph/boykov_kolmogorov_max_flow.hpp:291:                vertex_descriptor other_node = source(in_edge, m_g);
+./graph/include/boost/graph/boykov_kolmogorov_max_flow.hpp:349:        vertex_descriptor current_node = source(e, m_g);
+./graph/include/boost/graph/boykov_kolmogorov_max_flow.hpp:385:        vertex_descriptor current_node = source(e, m_g);
+./graph/include/boost/graph/boykov_kolmogorov_max_flow.hpp:409:          vertex_descriptor current_node;
+./graph/include/boost/graph/boykov_kolmogorov_max_flow.hpp:427:                vertex_descriptor other_node = source(in_edge, m_g);
+./graph/include/boost/graph/boykov_kolmogorov_max_flow.hpp:444:                vertex_descriptor other_node = source(in_edge, m_g);
+./graph/include/boost/graph/boykov_kolmogorov_max_flow.hpp:469:                const vertex_descriptor other_node = target(out_edge, m_g);
+./graph/include/boost/graph/boykov_kolmogorov_max_flow.hpp:485:                const vertex_descriptor other_node = target(out_edge, m_g);
+./graph/include/boost/graph/boykov_kolmogorov_max_flow.hpp:506:      inline vertex_descriptor get_next_active_node(){
+./graph/include/boost/graph/boykov_kolmogorov_max_flow.hpp:510:          vertex_descriptor v = m_active_nodes.front();
+./graph/include/boost/graph/boykov_kolmogorov_max_flow.hpp:526:      inline void add_active_node(vertex_descriptor v){
+./graph/include/boost/graph/boykov_kolmogorov_max_flow.hpp:542:      inline void finish_node(vertex_descriptor v){
+./graph/include/boost/graph/boykov_kolmogorov_max_flow.hpp:554:      inline void remove_active_node(vertex_descriptor v){
+./graph/include/boost/graph/boykov_kolmogorov_max_flow.hpp:562:      inline tColorValue get_tree(vertex_descriptor v) const {
+./graph/include/boost/graph/boykov_kolmogorov_max_flow.hpp:570:      inline void set_tree(vertex_descriptor v, tColorValue t){
+./graph/include/boost/graph/boykov_kolmogorov_max_flow.hpp:577:      inline edge_descriptor get_edge_to_parent(vertex_descriptor v) const{
+./graph/include/boost/graph/boykov_kolmogorov_max_flow.hpp:584:      inline bool has_parent(vertex_descriptor v) const{
+./graph/include/boost/graph/boykov_kolmogorov_max_flow.hpp:591:      inline void set_edge_to_parent(vertex_descriptor v, edge_descriptor f_edge_to_parent){
+./graph/include/boost/graph/boykov_kolmogorov_max_flow.hpp:601:      inline void set_no_parent(vertex_descriptor v){
+./graph/include/boost/graph/boykov_kolmogorov_max_flow.hpp:610:      inline bool has_sink_connect(vertex_descriptor v){
+./graph/include/boost/graph/boykov_kolmogorov_max_flow.hpp:612:        vertex_descriptor current_vertex = v;
+./graph/include/boost/graph/boykov_kolmogorov_max_flow.hpp:647:      inline bool has_source_connect(vertex_descriptor v){
+./graph/include/boost/graph/boykov_kolmogorov_max_flow.hpp:649:        vertex_descriptor current_vertex = v;
+./graph/include/boost/graph/boykov_kolmogorov_max_flow.hpp:682:      inline bool is_closer_to_terminal(vertex_descriptor p, vertex_descriptor q){
+./graph/include/boost/graph/boykov_kolmogorov_max_flow.hpp:699:      vertex_descriptor m_source;
+./graph/include/boost/graph/boykov_kolmogorov_max_flow.hpp:700:      vertex_descriptor m_sink;
+./graph/include/boost/graph/boykov_kolmogorov_max_flow.hpp:706:      std::list<vertex_descriptor> m_orphans;
+./graph/include/boost/graph/boykov_kolmogorov_max_flow.hpp:716:      vertex_descriptor m_last_grow_vertex;
+./graph/include/boost/graph/boykov_kolmogorov_max_flow.hpp:743:                           typename graph_traits<Graph>::vertex_descriptor src,
+./graph/include/boost/graph/boykov_kolmogorov_max_flow.hpp:744:                           typename graph_traits<Graph>::vertex_descriptor sink)
+./graph/include/boost/graph/boykov_kolmogorov_max_flow.hpp:746:  typedef typename graph_traits<Graph>::vertex_descriptor vertex_descriptor;
+./graph/include/boost/graph/boykov_kolmogorov_max_flow.hpp:756:  BOOST_CONCEPT_ASSERT(( ReadWritePropertyMapConcept<PredecessorMap, vertex_descriptor> )); //store predecessor there
+./graph/include/boost/graph/boykov_kolmogorov_max_flow.hpp:757:  BOOST_CONCEPT_ASSERT(( ReadWritePropertyMapConcept<ColorMap, vertex_descriptor> )); //write corresponding tree
+./graph/include/boost/graph/boykov_kolmogorov_max_flow.hpp:758:  BOOST_CONCEPT_ASSERT(( ReadWritePropertyMapConcept<DistanceMap, vertex_descriptor> )); //write distance to source/sink
+./graph/include/boost/graph/boykov_kolmogorov_max_flow.hpp:759:  BOOST_CONCEPT_ASSERT(( ReadablePropertyMapConcept<IndexMap, vertex_descriptor> )); //get index 0...|V|-1
+./graph/include/boost/graph/boykov_kolmogorov_max_flow.hpp:785:                           typename graph_traits<Graph>::vertex_descriptor src,
+./graph/include/boost/graph/boykov_kolmogorov_max_flow.hpp:786:                           typename graph_traits<Graph>::vertex_descriptor sink)
+./graph/include/boost/graph/boykov_kolmogorov_max_flow.hpp:819:                           typename graph_traits<Graph>::vertex_descriptor src,
+./graph/include/boost/graph/boykov_kolmogorov_max_flow.hpp:820:                           typename graph_traits<Graph>::vertex_descriptor sink)
+./graph/include/boost/graph/boykov_kolmogorov_max_flow.hpp:840:                           typename graph_traits<Graph>::vertex_descriptor src,
+./graph/include/boost/graph/boykov_kolmogorov_max_flow.hpp:841:                           typename graph_traits<Graph>::vertex_descriptor sink,
+./graph/include/boost/graph/boykov_kolmogorov_max_flow.hpp:863:                           typename graph_traits<Graph>::vertex_descriptor src,
+./graph/include/boost/graph/boykov_kolmogorov_max_flow.hpp:864:                           typename graph_traits<Graph>::vertex_descriptor sink)
+./graph/include/boost/graph/breadth_first_search.hpp:50:    typename graph_traits<Graph>::vertex_descriptor u;
+./graph/include/boost/graph/breadth_first_search.hpp:65:    typedef typename GTraits::vertex_descriptor Vertex;
+./graph/include/boost/graph/breadth_first_search.hpp:99:     typename graph_traits<IncidenceGraph>::vertex_descriptor s,
+./graph/include/boost/graph/breadth_first_search.hpp:102:    typename graph_traits<IncidenceGraph>::vertex_descriptor sources[1] = {s};
+./graph/include/boost/graph/breadth_first_search.hpp:130:     typename graph_traits<VertexListGraph>::vertex_descriptor s,
+./graph/include/boost/graph/breadth_first_search.hpp:133:    typename graph_traits<VertexListGraph>::vertex_descriptor sources[1] = {s};
+./graph/include/boost/graph/breadth_first_search.hpp:245:       typename graph_traits<VertexListGraph>::vertex_descriptor s,
+./graph/include/boost/graph/breadth_first_search.hpp:253:      typedef typename Traits::vertex_descriptor Vertex;
+./graph/include/boost/graph/breadth_first_search.hpp:267:       typename graph_traits<DistributedGraph>::vertex_descriptor s,
+./graph/include/boost/graph/breadth_first_search.hpp:284:       typename graph_traits<VertexListGraph>::vertex_descriptor s,
+./graph/include/boost/graph/breadth_first_search.hpp:305:       typename graph_traits<VertexListGraph>::vertex_descriptor s,
+./graph/include/boost/graph/breadth_first_search.hpp:334:     typename graph_traits<VertexListGraph>::vertex_descriptor s,
+./graph/include/boost/graph/breadth_first_search.hpp:354:     typename graph_traits<IncidenceGraph>::vertex_descriptor s,
+./graph/include/boost/graph/breadth_first_search.hpp:365:    typedef typename Traits::vertex_descriptor vertex_descriptor;
+./graph/include/boost/graph/breadth_first_search.hpp:366:    typedef boost::queue<vertex_descriptor> queue_t;
+./graph/include/boost/graph/breadth_first_search.hpp:386:          typename boost::graph_traits<Graph>::vertex_descriptor sources[1] = {source};
+./graph/include/boost/graph/breadth_first_search.hpp:387:          boost::queue<typename boost::graph_traits<Graph>::vertex_descriptor> Q;
+./graph/include/boost/graph/bron_kerbosch_all_cliques.hpp:127:                            typename graph_traits<Graph>::vertex_descriptor u,
+./graph/include/boost/graph/bron_kerbosch_all_cliques.hpp:128:                            typename graph_traits<Graph>::vertex_descriptor v,
+./graph/include/boost/graph/bron_kerbosch_all_cliques.hpp:137:                            typename graph_traits<Graph>::vertex_descriptor u,
+./graph/include/boost/graph/bron_kerbosch_all_cliques.hpp:138:                            typename graph_traits<Graph>::vertex_descriptor v,
+./graph/include/boost/graph/bron_kerbosch_all_cliques.hpp:152:                                typename graph_traits<Graph>::vertex_descriptor v,
+./graph/include/boost/graph/bron_kerbosch_all_cliques.hpp:181:        typedef typename graph_traits<Graph>::vertex_descriptor Vertex;
+./graph/include/boost/graph/bron_kerbosch_all_cliques.hpp:274:    typedef typename graph_traits<Graph>::vertex_descriptor Vertex;
+./graph/include/boost/graph/chrobak_payne_drawing.hpp:29:    void accumulate_offsets(typename graph_traits<Graph>::vertex_descriptor v,
+./graph/include/boost/graph/chrobak_payne_drawing.hpp:37:      typedef typename graph_traits<Graph>::vertex_descriptor vertex_descriptor;
+./graph/include/boost/graph/chrobak_payne_drawing.hpp:40:      typedef std::pair<vertex_descriptor, std::size_t> stack_entry;
+./graph/include/boost/graph/chrobak_payne_drawing.hpp:44:        vertex_descriptor v = st.top().first;
+./graph/include/boost/graph/chrobak_payne_drawing.hpp:75:    typedef typename graph_traits<Graph>::vertex_descriptor vertex_t;
+./graph/include/boost/graph/closeness_centrality.hpp:80:    typedef typename graph_traits<Graph>::vertex_descriptor Vertex;
+./graph/include/boost/graph/closeness_centrality.hpp:95:    typedef typename graph_traits<Graph>::vertex_descriptor Vertex;
+./graph/include/boost/graph/closeness_centrality.hpp:121:    typedef typename graph_traits<Graph>::vertex_descriptor Vertex;
+./graph/include/boost/graph/closeness_centrality.hpp:145:    typedef typename graph_traits<Graph>::vertex_descriptor Vertex;
+./graph/include/boost/graph/clustering_coefficient.hpp:41:                typename graph_traits<Graph>::vertex_descriptor u,
+./graph/include/boost/graph/clustering_coefficient.hpp:42:                typename graph_traits<Graph>::vertex_descriptor v,
+./graph/include/boost/graph/clustering_coefficient.hpp:55:                typename graph_traits<Graph>::vertex_descriptor u,
+./graph/include/boost/graph/clustering_coefficient.hpp:56:                typename graph_traits<Graph>::vertex_descriptor v,
+./graph/include/boost/graph/clustering_coefficient.hpp:124:    typedef typename graph_traits<Graph>::vertex_descriptor Vertex;
+./graph/include/boost/graph/clustering_coefficient.hpp:144:    typedef typename graph_traits<Graph>::vertex_descriptor Vertex;
+./graph/include/boost/graph/compressed_sparse_row_graph.hpp:216:  typedef Vertex vertex_descriptor;
+./graph/include/boost/graph/compressed_sparse_row_graph.hpp:226:  static vertex_descriptor null_vertex() { return vertex_descriptor(-1); }
+./graph/include/boost/graph/compressed_sparse_row_graph.hpp:380:                              std::vector<vertex_descriptor>& sources,
+./graph/include/boost/graph/compressed_sparse_row_graph.hpp:381:                              std::vector<vertex_descriptor>& targets,
+./graph/include/boost/graph/compressed_sparse_row_graph.hpp:396:                              std::vector<vertex_descriptor>& sources,
+./graph/include/boost/graph/compressed_sparse_row_graph.hpp:397:                              std::vector<vertex_descriptor>& targets,
+./graph/include/boost/graph/compressed_sparse_row_graph.hpp:410:                              std::vector<vertex_descriptor>& sources,
+./graph/include/boost/graph/compressed_sparse_row_graph.hpp:411:                              std::vector<vertex_descriptor>& targets,
+./graph/include/boost/graph/compressed_sparse_row_graph.hpp:427:                              std::vector<vertex_descriptor>& sources,
+./graph/include/boost/graph/compressed_sparse_row_graph.hpp:428:                              std::vector<vertex_descriptor>& targets,
+./graph/include/boost/graph/compressed_sparse_row_graph.hpp:447:    std::vector<vertex_descriptor> sources, targets;
+./graph/include/boost/graph/compressed_sparse_row_graph.hpp:464:    std::vector<vertex_descriptor> sources, targets;
+./graph/include/boost/graph/compressed_sparse_row_graph.hpp:487:    std::vector<vertex_descriptor> sources, targets;
+./graph/include/boost/graph/compressed_sparse_row_graph.hpp:508:    std::vector<vertex_descriptor> sources, targets;
+./graph/include/boost/graph/compressed_sparse_row_graph.hpp:649:    typedef typename boost::graph_traits<Graph>::vertex_descriptor vertex_t;
+./graph/include/boost/graph/compressed_sparse_row_graph.hpp:671:    typedef typename boost::graph_traits<Graph>::vertex_descriptor vertex_t;
+./graph/include/boost/graph/compressed_sparse_row_graph.hpp:760:  typedef Vertex vertex_descriptor;
+./graph/include/boost/graph/compressed_sparse_row_graph.hpp:770:  static vertex_descriptor null_vertex() { return vertex_descriptor(-1); }
+./graph/include/boost/graph/compressed_sparse_row_graph.hpp:1198:inline typename graph_traits<BOOST_CSR_GRAPH_TYPE>::vertex_descriptor
+./graph/include/boost/graph/compressed_sparse_row_graph.hpp:1199:vertex(typename graph_traits<BOOST_CSR_GRAPH_TYPE>::vertex_descriptor i,
+./graph/include/boost/graph/connected_components.hpp:68:    typedef typename graph_traits<Graph>::vertex_descriptor Vertex;
+./graph/include/boost/graph/connected_components.hpp:88:    typedef typename graph_traits<Graph>::vertex_descriptor Vertex;
+./graph/include/boost/graph/copy.hpp:26:  typename graph_traits<MutableGraph>::vertex_descriptor
+./graph/include/boost/graph/copy.hpp:28:                 typename graph_traits<IncidenceGraph>::vertex_descriptor src,
+./graph/include/boost/graph/copy.hpp:33:  typename graph_traits<MutableGraph>::vertex_descriptor
+./graph/include/boost/graph/copy.hpp:35:                 typename graph_traits<IncidenceGraph>::vertex_descriptor src,
+./graph/include/boost/graph/copy.hpp:161:          typename graph_traits<MutableGraph>::vertex_descriptor
+./graph/include/boost/graph/copy.hpp:191:          typename graph_traits<MutableGraph>::vertex_descriptor
+./graph/include/boost/graph/copy.hpp:227:          typename graph_traits<MutableGraph>::vertex_descriptor
+./graph/include/boost/graph/copy.hpp:344:    typedef typename graph_traits<MutableGraph>::vertex_descriptor vertex_t;
+./graph/include/boost/graph/copy.hpp:368:    std::vector<BOOST_DEDUCED_TYPENAME graph_traits<MutableGraph>::vertex_descriptor> 
+./graph/include/boost/graph/copy.hpp:399:      typename graph_traits<NewGraph>::vertex_descriptor copy_one_vertex(Vertex u) const {
+./graph/include/boost/graph/copy.hpp:400:        typename graph_traits<NewGraph>::vertex_descriptor
+./graph/include/boost/graph/copy.hpp:438:    typename graph_traits<MutableGraph>::vertex_descriptor
+./graph/include/boost/graph/copy.hpp:441:       typename graph_traits<Graph>::vertex_descriptor src,
+./graph/include/boost/graph/copy.hpp:449:      typename graph_traits<MutableGraph>::vertex_descriptor src_copy
+./graph/include/boost/graph/copy.hpp:463:  typename graph_traits<MutableGraph>::vertex_descriptor
+./graph/include/boost/graph/copy.hpp:465:                 typename graph_traits<IncidenceGraph>::vertex_descriptor src,
+./graph/include/boost/graph/copy.hpp:472:    std::vector<typename graph_traits<IncidenceGraph>::vertex_descriptor> 
+./graph/include/boost/graph/copy.hpp:491:  typename graph_traits<MutableGraph>::vertex_descriptor
+./graph/include/boost/graph/copy.hpp:493:                 typename graph_traits<IncidenceGraph>::vertex_descriptor src,
+./graph/include/boost/graph/copy.hpp:496:    std::vector<typename graph_traits<IncidenceGraph>::vertex_descriptor> 
+./graph/include/boost/graph/core_numbers.hpp:56:        typename graph_traits<Graph>::vertex_descriptor u;
+./graph/include/boost/graph/core_numbers.hpp:144:            typedef typename graph_traits<Graph>::vertex_descriptor vertex;
+./graph/include/boost/graph/core_numbers.hpp:179:            typedef typename graph_traits<Graph>::vertex_descriptor vertex;
+./graph/include/boost/graph/core_numbers.hpp:203:            typedef typename graph_traits<Graph>::vertex_descriptor vertex;
+./graph/include/boost/graph/create_condensation_graph.hpp:27:    typedef typename graph_traits<Graph>::vertex_descriptor vertex;
+./graph/include/boost/graph/create_condensation_graph.hpp:29:    typedef typename graph_traits<CondensationGraph>::vertex_descriptor 
+./graph/include/boost/graph/cuthill_mckee_ordering.hpp:72:                         graph_traits<Graph>::vertex_descriptor > vertex_queue,
+./graph/include/boost/graph/cuthill_mckee_ordering.hpp:78:    typedef typename graph_traits<Graph>::vertex_descriptor Vertex;
+./graph/include/boost/graph/cuthill_mckee_ordering.hpp:115:                         typename graph_traits<Graph>::vertex_descriptor s,
+./graph/include/boost/graph/cuthill_mckee_ordering.hpp:120:    std::deque< typename graph_traits<Graph>::vertex_descriptor > vertex_queue;
+./graph/include/boost/graph/cuthill_mckee_ordering.hpp:138:    typedef typename boost::graph_traits<Graph>::vertex_descriptor Vertex;
+./graph/include/boost/graph/cycle_canceling.hpp:69:    typedef typename ResGTraits::vertex_descriptor vertex_descriptor;
+./graph/include/boost/graph/cycle_canceling.hpp:78:    vertex_descriptor cycleStart;
+./graph/include/boost/graph/cycle_canceling.hpp:82:            visitor(detail::RecordEdgeMapAndCycleVertex<Pred, vertex_descriptor>(pred, cycleStart)))) {
+./graph/include/boost/graph/dag_shortest_paths.hpp:29:     typename graph_traits<VertexListGraph>::vertex_descriptor s, 
+./graph/include/boost/graph/dag_shortest_paths.hpp:35:    typedef typename graph_traits<VertexListGraph>::vertex_descriptor Vertex;
+./graph/include/boost/graph/dag_shortest_paths.hpp:85:       typename graph_traits<VertexListGraph>::vertex_descriptor s, 
+./graph/include/boost/graph/dag_shortest_paths.hpp:112:       typename graph_traits<VertexListGraph>::vertex_descriptor s, 
+./graph/include/boost/graph/dag_shortest_paths.hpp:141:     typename graph_traits<VertexListGraph>::vertex_descriptor s,
+./graph/include/boost/graph/degree_centrality.hpp:19:    typedef typename graph_traits<Graph>::vertex_descriptor vertex_type;
+./graph/include/boost/graph/degree_centrality.hpp:99:    typedef typename graph_traits<Graph>::vertex_descriptor Vertex;
+./graph/include/boost/graph/depth_first_search.hpp:53:    typename graph_traits<Graph>::vertex_descriptor u;
+./graph/include/boost/graph/depth_first_search.hpp:112:       typename graph_traits<IncidenceGraph>::vertex_descriptor u,
+./graph/include/boost/graph/depth_first_search.hpp:118:      typedef typename graph_traits<IncidenceGraph>::vertex_descriptor Vertex;
+./graph/include/boost/graph/depth_first_search.hpp:190:       typename graph_traits<IncidenceGraph>::vertex_descriptor u,
+./graph/include/boost/graph/depth_first_search.hpp:196:      typedef typename graph_traits<IncidenceGraph>::vertex_descriptor Vertex;
+./graph/include/boost/graph/depth_first_search.hpp:225:                     typename graph_traits<VertexListGraph>::vertex_descriptor start_vertex)
+./graph/include/boost/graph/depth_first_search.hpp:227:    typedef typename graph_traits<VertexListGraph>::vertex_descriptor Vertex;
+./graph/include/boost/graph/depth_first_search.hpp:351:     typename graph_traits<IncidenceGraph>::vertex_descriptor u,
+./graph/include/boost/graph/depth_first_search.hpp:362:     typename graph_traits<IncidenceGraph>::vertex_descriptor u,
+./graph/include/boost/graph/detail/adjacency_list.hpp:106:    template <class EdgeList, class vertex_descriptor>
+./graph/include/boost/graph/detail/adjacency_list.hpp:107:    void erase_from_incidence_list(EdgeList& el, vertex_descriptor v,
+./graph/include/boost/graph/detail/adjacency_list.hpp:110:      boost::graph_detail::erase_if(el, detail::target_is<vertex_descriptor>(v));
+./graph/include/boost/graph/detail/adjacency_list.hpp:113:    template <class EdgeList, class vertex_descriptor>
+./graph/include/boost/graph/detail/adjacency_list.hpp:114:    void erase_from_incidence_list(EdgeList& el, vertex_descriptor v,
+./graph/include/boost/graph/detail/adjacency_list.hpp:622:    remove_edge(typename Config::vertex_descriptor u,
+./graph/include/boost/graph/detail/adjacency_list.hpp:623:                typename Config::vertex_descriptor v,
+./graph/include/boost/graph/detail/adjacency_list.hpp:634:    remove_out_edge_if(typename Config::vertex_descriptor u, Predicate pred,
+./graph/include/boost/graph/detail/adjacency_list.hpp:669:    clear_vertex(typename Config::vertex_descriptor u,
+./graph/include/boost/graph/detail/adjacency_list.hpp:685:    clear_out_edges(typename Config::vertex_descriptor u,
+./graph/include/boost/graph/detail/adjacency_list.hpp:712:    add_edge(typename Config::vertex_descriptor u,
+./graph/include/boost/graph/detail/adjacency_list.hpp:713:             typename Config::vertex_descriptor v,
+./graph/include/boost/graph/detail/adjacency_list.hpp:732:    add_edge(typename Config::vertex_descriptor u,
+./graph/include/boost/graph/detail/adjacency_list.hpp:733:             typename Config::vertex_descriptor v,
+./graph/include/boost/graph/detail/adjacency_list.hpp:918:                 typename C::vertex_descriptor v)
+./graph/include/boost/graph/detail/adjacency_list.hpp:926:                 typename C::vertex_descriptor v) {
+./graph/include/boost/graph/detail/adjacency_list.hpp:945:    remove_edge(typename Config::vertex_descriptor u,
+./graph/include/boost/graph/detail/adjacency_list.hpp:946:                typename Config::vertex_descriptor v,
+./graph/include/boost/graph/detail/adjacency_list.hpp:961:    remove_out_edge_if(typename Config::vertex_descriptor u, Predicate pred,
+./graph/include/boost/graph/detail/adjacency_list.hpp:978:    remove_in_edge_if(typename Config::vertex_descriptor u, Predicate pred,
+./graph/include/boost/graph/detail/adjacency_list.hpp:1031:    clear_vertex(typename Config::vertex_descriptor u,
+./graph/include/boost/graph/detail/adjacency_list.hpp:1050:    add_edge(typename Config::vertex_descriptor u,
+./graph/include/boost/graph/detail/adjacency_list.hpp:1051:             typename Config::vertex_descriptor v,
+./graph/include/boost/graph/detail/adjacency_list.hpp:1080:    add_edge(typename Config::vertex_descriptor u,
+./graph/include/boost/graph/detail/adjacency_list.hpp:1081:             typename Config::vertex_descriptor v,
+./graph/include/boost/graph/detail/adjacency_list.hpp:1091:    degree(typename Config::vertex_descriptor u,
+./graph/include/boost/graph/detail/adjacency_list.hpp:1102:    in_edges(typename Config::vertex_descriptor u,
+./graph/include/boost/graph/detail/adjacency_list.hpp:1116:    in_degree(typename Config::vertex_descriptor u,
+./graph/include/boost/graph/detail/adjacency_list.hpp:1141:                 typename C::vertex_descriptor v)
+./graph/include/boost/graph/detail/adjacency_list.hpp:1149:                 typename C::vertex_descriptor v) {
+./graph/include/boost/graph/detail/adjacency_list.hpp:1175:    in_edges(typename Config::vertex_descriptor u,
+./graph/include/boost/graph/detail/adjacency_list.hpp:1280:    remove_edge(typename Config::vertex_descriptor u,
+./graph/include/boost/graph/detail/adjacency_list.hpp:1281:                typename Config::vertex_descriptor v,
+./graph/include/boost/graph/detail/adjacency_list.hpp:1308:    remove_out_edge_if(typename Config::vertex_descriptor u, Predicate pred,
+./graph/include/boost/graph/detail/adjacency_list.hpp:1349:    remove_in_edge_if(typename Config::vertex_descriptor v, Predicate pred,
+./graph/include/boost/graph/detail/adjacency_list.hpp:1368:          typename Config::vertex_descriptor u = source(*in_i, g);
+./graph/include/boost/graph/detail/adjacency_list.hpp:1401:    clear_vertex(typename Config::vertex_descriptor u,
+./graph/include/boost/graph/detail/adjacency_list.hpp:1432:    clear_out_edges(typename Config::vertex_descriptor u,
+./graph/include/boost/graph/detail/adjacency_list.hpp:1454:    clear_in_edges(typename Config::vertex_descriptor u,
+./graph/include/boost/graph/detail/adjacency_list.hpp:1478:    add_edge(typename Config::vertex_descriptor u,
+./graph/include/boost/graph/detail/adjacency_list.hpp:1479:             typename Config::vertex_descriptor v,
+./graph/include/boost/graph/detail/adjacency_list.hpp:1508:    add_edge(typename Config::vertex_descriptor u,
+./graph/include/boost/graph/detail/adjacency_list.hpp:1509:             typename Config::vertex_descriptor v,
+./graph/include/boost/graph/detail/adjacency_list.hpp:1518:    degree(typename Config::vertex_descriptor u,
+./graph/include/boost/graph/detail/adjacency_list.hpp:1533:      typedef typename Config::vertex_descriptor vertex_descriptor;
+./graph/include/boost/graph/detail/adjacency_list.hpp:1562:    adjacent_vertices(typename Config::vertex_descriptor u,
+./graph/include/boost/graph/detail/adjacency_list.hpp:1577:    inv_adjacent_vertices(typename Config::vertex_descriptor u,
+./graph/include/boost/graph/detail/adjacency_list.hpp:1592:    out_edges(typename Config::vertex_descriptor u,
+./graph/include/boost/graph/detail/adjacency_list.hpp:1623:    out_degree(typename Config::vertex_descriptor u,
+./graph/include/boost/graph/detail/adjacency_list.hpp:1632:    edge(typename Config::vertex_descriptor u,
+./graph/include/boost/graph/detail/adjacency_list.hpp:1633:         typename Config::vertex_descriptor v,
+./graph/include/boost/graph/detail/adjacency_list.hpp:1651:    edge_range(typename Config::vertex_descriptor u,
+./graph/include/boost/graph/detail/adjacency_list.hpp:1652:               typename Config::vertex_descriptor v,
+./graph/include/boost/graph/detail/adjacency_list.hpp:1671:    in_degree(typename Config::vertex_descriptor u,
+./graph/include/boost/graph/detail/adjacency_list.hpp:1790:      typedef typename Config::vertex_descriptor vertex_descriptor;
+./graph/include/boost/graph/detail/adjacency_list.hpp:1801:      static vertex_descriptor null_vertex()
+./graph/include/boost/graph/detail/adjacency_list.hpp:1831:        vertex_descriptor* v = new vertex_descriptor[num_vertices];
+./graph/include/boost/graph/detail/adjacency_list.hpp:1846:        vertex_descriptor* v = new vertex_descriptor[num_vertices];
+./graph/include/boost/graph/detail/adjacency_list.hpp:1863:      inline OutEdgeList& out_edge_list(vertex_descriptor v) {
+./graph/include/boost/graph/detail/adjacency_list.hpp:1867:      inline const OutEdgeList& out_edge_list(vertex_descriptor v) const {
+./graph/include/boost/graph/detail/adjacency_list.hpp:1896:          vertex_descriptor s = source(*ei,x), t = target(*ei,x);
+./graph/include/boost/graph/detail/adjacency_list.hpp:1911:    inline typename Config::vertex_descriptor
+./graph/include/boost/graph/detail/adjacency_list.hpp:1926:    inline typename Config::vertex_descriptor
+./graph/include/boost/graph/detail/adjacency_list.hpp:1930:      typedef typename Config::vertex_descriptor vertex_descriptor;
+./graph/include/boost/graph/detail/adjacency_list.hpp:1932:      if (optional<vertex_descriptor> v
+./graph/include/boost/graph/detail/adjacency_list.hpp:1947:    inline void remove_vertex(typename Config::vertex_descriptor u,
+./graph/include/boost/graph/detail/adjacency_list.hpp:1959:    inline typename Config::vertex_descriptor
+./graph/include/boost/graph/detail/adjacency_list.hpp:1974:      template <class Graph, class vertex_descriptor>
+./graph/include/boost/graph/detail/adjacency_list.hpp:1976:      remove_vertex_dispatch(Graph& g, vertex_descriptor u,
+./graph/include/boost/graph/detail/adjacency_list.hpp:1981:        vertex_descriptor V = num_vertices(g);
+./graph/include/boost/graph/detail/adjacency_list.hpp:1983:          for (vertex_descriptor v = 0; v < V; ++v)
+./graph/include/boost/graph/detail/adjacency_list.hpp:1988:      template <class Graph, class vertex_descriptor>
+./graph/include/boost/graph/detail/adjacency_list.hpp:1990:      remove_vertex_dispatch(Graph& g, vertex_descriptor u,
+./graph/include/boost/graph/detail/adjacency_list.hpp:1998:        vertex_descriptor V = num_vertices(g);
+./graph/include/boost/graph/detail/adjacency_list.hpp:1999:        for (vertex_descriptor v = 0; v < V; ++v)
+./graph/include/boost/graph/detail/adjacency_list.hpp:2012:      template <class Graph, class vertex_descriptor>
+./graph/include/boost/graph/detail/adjacency_list.hpp:2014:      remove_vertex_dispatch(Graph& g, vertex_descriptor u,
+./graph/include/boost/graph/detail/adjacency_list.hpp:2022:        vertex_descriptor V = num_vertices(g);
+./graph/include/boost/graph/detail/adjacency_list.hpp:2023:        vertex_descriptor v;
+./graph/include/boost/graph/detail/adjacency_list.hpp:2044:      template <class EdgeList, class vertex_descriptor>
+./graph/include/boost/graph/detail/adjacency_list.hpp:2046:      reindex_edge_list(EdgeList& el, vertex_descriptor u,
+./graph/include/boost/graph/detail/adjacency_list.hpp:2055:      template <class EdgeList, class vertex_descriptor>
+./graph/include/boost/graph/detail/adjacency_list.hpp:2057:      reindex_edge_list(EdgeList& el, vertex_descriptor u,
+./graph/include/boost/graph/detail/adjacency_list.hpp:2081:      typedef typename Config::vertex_descriptor vertex_descriptor;
+./graph/include/boost/graph/detail/adjacency_list.hpp:2095:      static vertex_descriptor null_vertex()
+./graph/include/boost/graph/detail/adjacency_list.hpp:2097:        return (std::numeric_limits<vertex_descriptor>::max)();
+./graph/include/boost/graph/detail/adjacency_list.hpp:2144:      inline boost::integer_range<vertex_descriptor> vertex_set() const {
+./graph/include/boost/graph/detail/adjacency_list.hpp:2145:        return boost::integer_range<vertex_descriptor>(0, m_vertices.size());
+./graph/include/boost/graph/detail/adjacency_list.hpp:2147:      inline OutEdgeList& out_edge_list(vertex_descriptor v) {
+./graph/include/boost/graph/detail/adjacency_list.hpp:2150:      inline const OutEdgeList& out_edge_list(vertex_descriptor v) const {
+./graph/include/boost/graph/detail/adjacency_list.hpp:2159:          vertex_descriptor v = add_vertex(*this);
+./graph/include/boost/graph/detail/adjacency_list.hpp:2181:                 typename C::vertex_descriptor v) {
+./graph/include/boost/graph/detail/adjacency_list.hpp:2187:                 typename C::vertex_descriptor v) {
+./graph/include/boost/graph/detail/adjacency_list.hpp:2193:    inline typename Config::vertex_descriptor
+./graph/include/boost/graph/detail/adjacency_list.hpp:2202:    inline typename Config::vertex_descriptor
+./graph/include/boost/graph/detail/adjacency_list.hpp:2205:      typedef typename Config::vertex_descriptor vertex_descriptor;
+./graph/include/boost/graph/detail/adjacency_list.hpp:2207:      if (optional<vertex_descriptor> v
+./graph/include/boost/graph/detail/adjacency_list.hpp:2221:    add_edge(typename Config::vertex_descriptor u,
+./graph/include/boost/graph/detail/adjacency_list.hpp:2222:             typename Config::vertex_descriptor v,
+./graph/include/boost/graph/detail/adjacency_list.hpp:2227:      typename Config::vertex_descriptor x = max BOOST_PREVENT_MACRO_SUBSTITUTION(u, v);
+./graph/include/boost/graph/detail/adjacency_list.hpp:2235:    add_edge(typename Config::vertex_descriptor u,
+./graph/include/boost/graph/detail/adjacency_list.hpp:2236:             typename Config::vertex_descriptor v,
+./graph/include/boost/graph/detail/adjacency_list.hpp:2246:    inline void remove_vertex(typename Config::vertex_descriptor v,
+./graph/include/boost/graph/detail/adjacency_list.hpp:2256:    inline typename Config::vertex_descriptor
+./graph/include/boost/graph/detail/adjacency_list.hpp:2296:        typedef typename Traits::vertex_descriptor vertex_descriptor;
+./graph/include/boost/graph/detail/adjacency_list.hpp:2307:        typedef boost::integer_range<vertex_descriptor> RandVertexList;
+./graph/include/boost/graph/detail/adjacency_list.hpp:2316:          list_edge<vertex_descriptor, EdgeProperty> >::type EdgeContainer;
+./graph/include/boost/graph/detail/adjacency_list.hpp:2330:          stored_edge_property<vertex_descriptor, EdgeProperty>,
+./graph/include/boost/graph/detail/adjacency_list.hpp:2332:            stored_ra_edge_iter<vertex_descriptor, EdgeContainer, EdgeProperty>,
+./graph/include/boost/graph/detail/adjacency_list.hpp:2333:            stored_edge_iter<vertex_descriptor, EdgeIter, EdgeProperty>
+./graph/include/boost/graph/detail/adjacency_list.hpp:2349:            OutEdgeIter, vertex_descriptor, edge_descriptor, OutEdgeIterDiff
+./graph/include/boost/graph/detail/adjacency_list.hpp:2353:           vertex_descriptor, out_edge_iterator>::type adjacency_iterator;
+./graph/include/boost/graph/detail/adjacency_list.hpp:2361:            InEdgeIter, vertex_descriptor, edge_descriptor, InEdgeIterDiff
+./graph/include/boost/graph/detail/adjacency_list.hpp:2365:           vertex_descriptor, in_edge_iterator>::type inv_adjacency_iterator;
+./graph/include/boost/graph/detail/adjacency_list.hpp:2464:      typedef typename Graph::vertex_descriptor key_type;
+./graph/include/boost/graph/detail/adjacency_list.hpp:2486:      typedef typename Graph::vertex_descriptor key_type;
+./graph/include/boost/graph/detail/adjacency_list.hpp:2509:      typedef typename boost::graph_traits<Graph>::vertex_descriptor key_type;
+./graph/include/boost/graph/detail/adjacency_list.hpp:2531:      typedef typename boost::graph_traits<Graph>::vertex_descriptor key_type;
+./graph/include/boost/graph/detail/adjacency_list.hpp:2559:        typedef typename Graph::vertex_descriptor Vertex;
+./graph/include/boost/graph/detail/adjacency_list.hpp:2600:        typedef typename Graph::vertex_descriptor Vertex;
+./graph/include/boost/graph/detail/adjacency_list.hpp:2608:        typedef typename Graph::vertex_descriptor Vertex;
+./graph/include/boost/graph/detail/adjacency_list.hpp:2705:            typename Graph::vertex_descriptor,Property,Tag> type;
+./graph/include/boost/graph/detail/adjacency_list.hpp:2708:            typename Graph::vertex_descriptor,const Property, Tag> const_type;
+./graph/include/boost/graph/detail/adjacency_list.hpp:2716:            typename Graph::vertex_descriptor> type;
+./graph/include/boost/graph/detail/adjacency_list.hpp:2719:            const Property*, typename Graph::vertex_descriptor> const_type;
+./graph/include/boost/graph/detail/augment.hpp:29:        typename graph_traits<Graph>::vertex_descriptor src,
+./graph/include/boost/graph/detail/augment.hpp:30:        typename graph_traits<Graph>::vertex_descriptor sink,
+./graph/include/boost/graph/detail/augment.hpp:36:    typename graph_traits<Graph>::vertex_descriptor u;
+./graph/include/boost/graph/detail/compressed_sparse_row_struct.hpp:96:    typedef Vertex vertex_descriptor;
+./graph/include/boost/graph/detail/compressed_sparse_row_struct.hpp:99:    static vertex_descriptor null_vertex() { return vertex_descriptor(-1); }
+./graph/include/boost/graph/detail/compressed_sparse_row_struct.hpp:251:    void assign_sources_and_targets_global(std::vector<vertex_descriptor>& sources,
+./graph/include/boost/graph/detail/compressed_sparse_row_struct.hpp:252:                                           std::vector<vertex_descriptor>& targets,
+./graph/include/boost/graph/detail/compressed_sparse_row_struct.hpp:276:    void assign_sources_and_targets_global(std::vector<vertex_descriptor>& sources,
+./graph/include/boost/graph/detail/compressed_sparse_row_struct.hpp:277:                                           std::vector<vertex_descriptor>& targets,
+./graph/include/boost/graph/detail/compressed_sparse_row_struct.hpp:313:      typedef typename boost::graph_traits<Graph>::vertex_descriptor g_vertex;
+./graph/include/boost/graph/detail/geodesic.hpp:56:        typedef typename graph_traits<Graph>::vertex_descriptor Vertex;
+./graph/include/boost/graph/detail/index.hpp:28:            typedef typename graph_traits<Graph>::vertex_descriptor key_type;
+./graph/include/boost/graph/detail/index.hpp:65:                    is_same<Key, typename graph_traits<Graph>::vertex_descriptor>,
+./graph/include/boost/graph/detail/self_avoiding_walk.hpp:177:      typedef typename boost::graph_traits<Graph>::vertex_descriptor Vertex;
+./graph/include/boost/graph/detail/sparse_ordering.hpp:178:  typedef typename graph_traits<Graph>::vertex_descriptor key_type;
+./graph/include/boost/graph/dijkstra_shortest_paths.hpp:78:    typename graph_traits<Graph>::vertex_descriptor u;
+./graph/include/boost/graph/dijkstra_shortest_paths.hpp:313:     typename graph_traits<Graph>::vertex_descriptor s,
+./graph/include/boost/graph/dijkstra_shortest_paths.hpp:341:    typedef typename graph_traits<Graph>::vertex_descriptor Vertex;
+./graph/include/boost/graph/dijkstra_shortest_paths.hpp:370:     typename graph_traits<Graph>::vertex_descriptor s,
+./graph/include/boost/graph/dijkstra_shortest_paths.hpp:413:     typename graph_traits<VertexListGraph>::vertex_descriptor s,
+./graph/include/boost/graph/dijkstra_shortest_paths.hpp:465:     typename graph_traits<VertexListGraph>::vertex_descriptor s,
+./graph/include/boost/graph/dijkstra_shortest_paths.hpp:505:     typename graph_traits<VertexListGraph>::vertex_descriptor s,
+./graph/include/boost/graph/dijkstra_shortest_paths.hpp:525:       typename graph_traits<VertexListGraph>::vertex_descriptor s,
+./graph/include/boost/graph/dijkstra_shortest_paths.hpp:557:       typename graph_traits<VertexListGraph>::vertex_descriptor s,
+./graph/include/boost/graph/dijkstra_shortest_paths.hpp:580:     typename graph_traits<VertexListGraph>::vertex_descriptor s,
+./graph/include/boost/graph/dijkstra_shortest_paths_no_color_map.hpp:30:     typename graph_traits<Graph>::vertex_descriptor start_vertex,
+./graph/include/boost/graph/dijkstra_shortest_paths_no_color_map.hpp:41:    typedef typename graph_traits<Graph>::vertex_descriptor Vertex;
+./graph/include/boost/graph/dijkstra_shortest_paths_no_color_map.hpp:130:     typename graph_traits<Graph>::vertex_descriptor start_vertex,
+./graph/include/boost/graph/dijkstra_shortest_paths_no_color_map.hpp:171:       typename graph_traits<Graph>::vertex_descriptor start_vertex,
+./graph/include/boost/graph/dijkstra_shortest_paths_no_color_map.hpp:202:       typename graph_traits<Graph>::vertex_descriptor start_vertex,
+./graph/include/boost/graph/dijkstra_shortest_paths_no_color_map.hpp:226:     typename graph_traits<Graph>::vertex_descriptor start_vertex,
+./graph/include/boost/graph/directed_graph.hpp:70:    typedef typename graph_type::vertex_descriptor vertex_descriptor;
+./graph/include/boost/graph/directed_graph.hpp:146:    vertex_descriptor make_index(vertex_descriptor v) {
+./graph/include/boost/graph/directed_graph.hpp:153:    vertex_descriptor add_vertex()
+./graph/include/boost/graph/directed_graph.hpp:156:    vertex_descriptor add_vertex(vertex_property_type const& p)
+./graph/include/boost/graph/directed_graph.hpp:159:    void clear_vertex(vertex_descriptor v)
+./graph/include/boost/graph/directed_graph.hpp:165:    void remove_vertex(vertex_descriptor v)
+./graph/include/boost/graph/directed_graph.hpp:188:    add_edge(vertex_descriptor u, vertex_descriptor v)
+./graph/include/boost/graph/directed_graph.hpp:192:    add_edge(vertex_descriptor u, vertex_descriptor v, edge_property_type const& p)
+./graph/include/boost/graph/directed_graph.hpp:195:    void remove_edge(vertex_descriptor u, vertex_descriptor v)
+./graph/include/boost/graph/directed_graph.hpp:278:    vertex_bundled& operator[](vertex_descriptor v)
+./graph/include/boost/graph/directed_graph.hpp:281:    vertex_bundled const& operator[](vertex_descriptor v) const
+./graph/include/boost/graph/directed_graph.hpp:298:    static vertex_descriptor null_vertex()
+./graph/include/boost/graph/directed_graph.hpp:356:inline typename DIRECTED_GRAPH::vertex_descriptor
+./graph/include/boost/graph/directed_graph.hpp:361:inline typename DIRECTED_GRAPH::vertex_descriptor
+./graph/include/boost/graph/directed_graph.hpp:367:out_degree(typename DIRECTED_GRAPH::vertex_descriptor v, DIRECTED_GRAPH const& g)
+./graph/include/boost/graph/directed_graph.hpp:375:out_edges(typename DIRECTED_GRAPH::vertex_descriptor v,
+./graph/include/boost/graph/directed_graph.hpp:382:in_degree(typename DIRECTED_GRAPH::vertex_descriptor v, DIRECTED_GRAPH const& g)
+./graph/include/boost/graph/directed_graph.hpp:390:in_edges(typename DIRECTED_GRAPH::vertex_descriptor v,
+./graph/include/boost/graph/directed_graph.hpp:397:degree(typename DIRECTED_GRAPH::vertex_descriptor v, DIRECTED_GRAPH const& g)
+./graph/include/boost/graph/directed_graph.hpp:406:adjacent_vertices(typename DIRECTED_GRAPH::vertex_descriptor v,
+./graph/include/boost/graph/directed_graph.hpp:411:typename DIRECTED_GRAPH::vertex_descriptor
+./graph/include/boost/graph/directed_graph.hpp:418:edge(typename DIRECTED_GRAPH::vertex_descriptor u,
+./graph/include/boost/graph/directed_graph.hpp:419:     typename DIRECTED_GRAPH::vertex_descriptor v,
+./graph/include/boost/graph/directed_graph.hpp:453:inline typename DIRECTED_GRAPH::vertex_descriptor
+./graph/include/boost/graph/directed_graph.hpp:458:inline typename DIRECTED_GRAPH::vertex_descriptor
+./graph/include/boost/graph/directed_graph.hpp:465:clear_vertex(typename DIRECTED_GRAPH::vertex_descriptor v,
+./graph/include/boost/graph/directed_graph.hpp:471:remove_vertex(typename DIRECTED_GRAPH::vertex_descriptor v,
+./graph/include/boost/graph/directed_graph.hpp:477:add_edge(typename DIRECTED_GRAPH::vertex_descriptor u,
+./graph/include/boost/graph/directed_graph.hpp:478:         typename DIRECTED_GRAPH::vertex_descriptor v,
+./graph/include/boost/graph/directed_graph.hpp:484:add_edge(typename DIRECTED_GRAPH::vertex_descriptor u,
+./graph/include/boost/graph/directed_graph.hpp:485:         typename DIRECTED_GRAPH::vertex_descriptor v,
+./graph/include/boost/graph/directed_graph.hpp:491:inline void remove_edge(typename DIRECTED_GRAPH::vertex_descriptor u,
+./graph/include/boost/graph/directed_graph.hpp:492:                        typename DIRECTED_GRAPH::vertex_descriptor v,
+./graph/include/boost/graph/directed_graph.hpp:511:remove_out_edge_if(typename DIRECTED_GRAPH::vertex_descriptor v,
+./graph/include/boost/graph/directed_graph.hpp:518:remove_in_edge_if(typename DIRECTED_GRAPH::vertex_descriptor v,
+./graph/include/boost/graph/directed_graph.hpp:643:get_vertex_index(typename DIRECTED_GRAPH::vertex_descriptor v,
+./graph/include/boost/graph/dominator_tree.hpp:66:      typedef typename graph_traits<Graph>::vertex_descriptor Vertex;
+./graph/include/boost/graph/dominator_tree.hpp:241:     const typename graph_traits<Graph>::vertex_descriptor& entry,
+./graph/include/boost/graph/dominator_tree.hpp:247:    typedef typename graph_traits<Graph>::vertex_descriptor Vertex;
+./graph/include/boost/graph/dominator_tree.hpp:297:     const typename graph_traits<Graph>::vertex_descriptor& entry,
+./graph/include/boost/graph/dominator_tree.hpp:339:     const typename graph_traits<Graph>::vertex_descriptor& entry,
+./graph/include/boost/graph/dominator_tree.hpp:343:    typedef typename graph_traits<Graph>::vertex_descriptor Vertex;
+./graph/include/boost/graph/dominator_tree.hpp:383:     const typename graph_traits<Graph>::vertex_descriptor& entry,
+./graph/include/boost/graph/dominator_tree.hpp:387:    typedef typename graph_traits<Graph>::vertex_descriptor Vertex;
+./graph/include/boost/graph/dominator_tree.hpp:484:     const typename graph_traits<Graph>::vertex_descriptor& entry,
+./graph/include/boost/graph/eccentricity.hpp:24:    typedef typename graph_traits<Graph>::vertex_descriptor Vertex;
+./graph/include/boost/graph/eccentricity.hpp:36:    typedef typename graph_traits<Graph>::vertex_descriptor Vertex;
+./graph/include/boost/graph/eccentricity.hpp:49:    typedef typename graph_traits<Graph>::vertex_descriptor Vertex;
+./graph/include/boost/graph/eccentricity.hpp:81:    typedef typename graph_traits<Graph>::vertex_descriptor Vertex;
+./graph/include/boost/graph/edge_coloring.hpp:33:            typename boost::graph_traits<Graph>::vertex_descriptor u,
+./graph/include/boost/graph/edge_coloring.hpp:48:    std::vector<typename boost::graph_traits<Graph>::vertex_descriptor>
+./graph/include/boost/graph/edge_coloring.hpp:51:                typename boost::graph_traits<Graph>::vertex_descriptor x,
+./graph/include/boost/graph/edge_coloring.hpp:52:                typename boost::graph_traits<Graph>::vertex_descriptor y)
+./graph/include/boost/graph/edge_coloring.hpp:54:      typedef typename boost::graph_traits<Graph>::vertex_descriptor vertex_t;
+./graph/include/boost/graph/edge_coloring.hpp:75:                    typename boost::graph_traits<Graph>::vertex_descriptor u)
+./graph/include/boost/graph/edge_coloring.hpp:86:                   typename boost::graph_traits<Graph>::vertex_descriptor x,
+./graph/include/boost/graph/edge_coloring.hpp:104:                   typename boost::graph_traits<Graph>::vertex_descriptor x,
+./graph/include/boost/graph/edge_coloring.hpp:120:               typename boost::graph_traits<Graph>::vertex_descriptor x,
+./graph/include/boost/graph/edge_coloring.hpp:146:      bool operator()(const typename boost::graph_traits<Graph>::vertex_descriptor u) const {
+./graph/include/boost/graph/edge_coloring.hpp:162:    typedef typename boost::graph_traits<Graph>::vertex_descriptor vertex_t;
+./graph/include/boost/graph/edge_connectivity.hpp:27:    std::pair<typename graph_traits<Graph>::vertex_descriptor,
+./graph/include/boost/graph/edge_connectivity.hpp:32:      typename Traits::vertex_descriptor p;
+./graph/include/boost/graph/edge_connectivity.hpp:47:                   typename graph_traits<Graph>::vertex_descriptor u,
+./graph/include/boost/graph/edge_connectivity.hpp:77:    typedef typename Traits::vertex_descriptor vertex_descriptor;
+./graph/include/boost/graph/edge_connectivity.hpp:92:    vertex_descriptor u, v, p, k;
+./graph/include/boost/graph/edge_connectivity.hpp:98:    std::set<vertex_descriptor> S, neighbor_S;
+./graph/include/boost/graph/edge_connectivity.hpp:99:    std::vector<vertex_descriptor> S_star, non_neighbor_S;
+./graph/include/boost/graph/edge_connectivity.hpp:165:    typename std::vector<vertex_descriptor>::iterator si;
+./graph/include/boost/graph/edge_list.hpp:52:    typedef V vertex_descriptor;
+./graph/include/boost/graph/edge_list.hpp:99:  typename edge_list_impl<G,EI,T,D>::vertex_descriptor
+./graph/include/boost/graph/edge_list.hpp:105:  typename edge_list_impl<G,EI,T,D>::vertex_descriptor
+./graph/include/boost/graph/edge_list.hpp:167:    typedef V vertex_descriptor;
+./graph/include/boost/graph/edge_list.hpp:185:  typename edge_list_impl_ra<G,EI,T,D>::vertex_descriptor
+./graph/include/boost/graph/edge_list.hpp:193:  typename edge_list_impl_ra<G,EI,T,D>::vertex_descriptor
+./graph/include/boost/graph/edmonds_karp_max_flow.hpp:43:            typename graph_traits<Graph>::vertex_descriptor src,
+./graph/include/boost/graph/edmonds_karp_max_flow.hpp:44:            typename graph_traits<Graph>::vertex_descriptor sink,
+./graph/include/boost/graph/edmonds_karp_max_flow.hpp:50:      typename graph_traits<Graph>::vertex_descriptor u;
+./graph/include/boost/graph/edmonds_karp_max_flow.hpp:81:     typename graph_traits<Graph>::vertex_descriptor src,
+./graph/include/boost/graph/edmonds_karp_max_flow.hpp:82:     typename graph_traits<Graph>::vertex_descriptor sink,
+./graph/include/boost/graph/edmonds_karp_max_flow.hpp:89:    typedef typename graph_traits<Graph>::vertex_descriptor vertex_t;
+./graph/include/boost/graph/edmonds_karp_max_flow.hpp:127:       typename graph_traits<Graph>::vertex_descriptor src,
+./graph/include/boost/graph/edmonds_karp_max_flow.hpp:128:       typename graph_traits<Graph>::vertex_descriptor sink,
+./graph/include/boost/graph/edmonds_karp_max_flow.hpp:148:       typename graph_traits<Graph>::vertex_descriptor src,
+./graph/include/boost/graph/edmonds_karp_max_flow.hpp:149:       typename graph_traits<Graph>::vertex_descriptor sink,
+./graph/include/boost/graph/edmonds_karp_max_flow.hpp:180:            typename graph_traits<Graph>::vertex_descriptor src,
+./graph/include/boost/graph/edmonds_karp_max_flow.hpp:181:            typename graph_traits<Graph>::vertex_descriptor sink,
+./graph/include/boost/graph/edmonds_karp_max_flow.hpp:197:       typename graph_traits<Graph>::vertex_descriptor src,
+./graph/include/boost/graph/edmonds_karp_max_flow.hpp:198:       typename graph_traits<Graph>::vertex_descriptor sink,
+./graph/include/boost/graph/edmonds_karp_max_flow.hpp:225:     typename graph_traits<Graph>::vertex_descriptor src,
+./graph/include/boost/graph/edmonds_karp_max_flow.hpp:226:     typename graph_traits<Graph>::vertex_descriptor sink,
+./graph/include/boost/graph/edmonds_karp_max_flow.hpp:240:     typename graph_traits<Graph>::vertex_descriptor src,
+./graph/include/boost/graph/edmonds_karp_max_flow.hpp:241:     typename graph_traits<Graph>::vertex_descriptor sink)
+./graph/include/boost/graph/exterior_property.hpp:85:            Graph, typename graph_traits<Graph>::vertex_descriptor, Value
+./graph/include/boost/graph/filtered_graph.hpp:131:    typedef typename Traits::vertex_descriptor          vertex_descriptor;
+./graph/include/boost/graph/filtered_graph.hpp:162:    typedef typename Traits::vertex_descriptor          vertex_descriptor;
+./graph/include/boost/graph/filtered_graph.hpp:177:      vertex_descriptor, out_edge_iterator>::type      adjacency_iterator;
+./graph/include/boost/graph/filtered_graph.hpp:209:    static vertex_descriptor null_vertex()
+./graph/include/boost/graph/filtered_graph.hpp:331:  typename filtered_graph_base<G>::vertex_descriptor
+./graph/include/boost/graph/filtered_graph.hpp:339:  typename filtered_graph_base<G>::vertex_descriptor
+./graph/include/boost/graph/filtered_graph.hpp:349:  out_edges(typename filtered_graph<G, EP, VP>::vertex_descriptor u,
+./graph/include/boost/graph/filtered_graph.hpp:362:  out_degree(typename filtered_graph<G, EP, VP>::vertex_descriptor u,
+./graph/include/boost/graph/filtered_graph.hpp:375:  adjacent_vertices(typename filtered_graph<G, EP, VP>::vertex_descriptor u,
+./graph/include/boost/graph/filtered_graph.hpp:389:  in_edges(typename filtered_graph<G, EP, VP>::vertex_descriptor u,
+./graph/include/boost/graph/filtered_graph.hpp:402:  in_degree(typename filtered_graph<G, EP, VP>::vertex_descriptor u,
+./graph/include/boost/graph/filtered_graph.hpp:416:  degree(typename filtered_graph<G, EP, VP>::vertex_descriptor u,
+./graph/include/boost/graph/filtered_graph.hpp:426:  degree(typename filtered_graph<G, EP, VP>::vertex_descriptor u,
+./graph/include/boost/graph/filtered_graph.hpp:434:  edge(typename filtered_graph<G, EP, VP>::vertex_descriptor u,
+./graph/include/boost/graph/filtered_graph.hpp:435:       typename filtered_graph<G, EP, VP>::vertex_descriptor v,
+./graph/include/boost/graph/filtered_graph.hpp:447:  edge_range(typename filtered_graph<G, EP, VP>::vertex_descriptor u,
+./graph/include/boost/graph/filtered_graph.hpp:448:             typename filtered_graph<G, EP, VP>::vertex_descriptor v,
+./graph/include/boost/graph/fruchterman_reingold.hpp:42:  operator()(typename graph_traits<Graph>::vertex_descriptor,
+./graph/include/boost/graph/fruchterman_reingold.hpp:43:             typename graph_traits<Graph>::vertex_descriptor,
+./graph/include/boost/graph/fruchterman_reingold.hpp:112:    typedef typename graph_traits<Graph>::vertex_descriptor vertex_descriptor;
+./graph/include/boost/graph/fruchterman_reingold.hpp:113:    typedef std::list<vertex_descriptor> bucket_t;
+./graph/include/boost/graph/fruchterman_reingold.hpp:227:    typedef typename graph_traits<Graph>::vertex_descriptor vertex_descriptor;
+./graph/include/boost/graph/fruchterman_reingold.hpp:239:    void operator()(vertex_descriptor u, vertex_descriptor v)
+./graph/include/boost/graph/fruchterman_reingold.hpp:287:  typedef typename graph_traits<Graph>::vertex_descriptor vertex_descriptor;
+./graph/include/boost/graph/fruchterman_reingold.hpp:309:      vertex_descriptor v = source(*e, g);
+./graph/include/boost/graph/fruchterman_reingold.hpp:310:      vertex_descriptor u = target(*e, g);
+./graph/include/boost/graph/geodesic_distance.hpp:144:    typedef typename graph_traits<Graph>::vertex_descriptor Vertex;
+./graph/include/boost/graph/geodesic_distance.hpp:183:    typedef typename graph_traits<Graph>::vertex_descriptor Vertex;
+./graph/include/boost/graph/graphml.hpp:69:    typedef typename graph_traits<MutableGraph>::vertex_descriptor vertex_descriptor;
+./graph/include/boost/graph/graphml.hpp:89:        std::pair<edge_descriptor,bool> retval = add_edge(any_cast<vertex_descriptor>(source),
+./graph/include/boost/graph/graphml.hpp:90:                                                          any_cast<vertex_descriptor>(target), m_g);
+./graph/include/boost/graph/graphml.hpp:124:            mpl::for_each<value_types>(put_property<vertex_descriptor,value_types>
+./graph/include/boost/graph/graphml.hpp:125:                                       (name, m_dp, any_cast<vertex_descriptor>(vertex),
+./graph/include/boost/graph/graphml.hpp:243:    typedef typename graph_traits<Graph>::vertex_descriptor vertex_descriptor;
+./graph/include/boost/graph/graphml.hpp:267:        else if (i->second->key() == typeid(vertex_descriptor))
+./graph/include/boost/graph/graphml.hpp:276:            << (i->second->key() == typeid(Graph*) ? "graph" : (i->second->key() == typeid(vertex_descriptor) ? "node" : "edge")) << "\""
+./graph/include/boost/graph/graphml.hpp:307:            if (i->second->key() == typeid(vertex_descriptor))
+./graph/include/boost/graph/graphviz.hpp:333:      typedef typename graph_traits<Graph>::vertex_descriptor Vertex;
+./graph/include/boost/graph/graphviz.hpp:597:    typedef typename graph_traits<Graph>::vertex_descriptor Vertex;
+./graph/include/boost/graph/graphviz.hpp:719:  typedef typename graph_traits<MutableGraph>::vertex_descriptor bgl_vertex_t;
+./graph/include/boost/graph/graph_archetypes.hpp:37:    typedef Vertex vertex_descriptor;
+./graph/include/boost/graph/graph_archetypes.hpp:57:    static vertex_descriptor null_vertex() {return vertex_descriptor();}
+./graph/include/boost/graph/graph_archetypes.hpp:96:    typedef Vertex vertex_descriptor;
+./graph/include/boost/graph/graph_archetypes.hpp:111:    static vertex_descriptor null_vertex() {return vertex_descriptor();}
+./graph/include/boost/graph/graph_archetypes.hpp:146:    typedef Vertex vertex_descriptor;
+./graph/include/boost/graph/graph_archetypes.hpp:162:    static vertex_descriptor null_vertex() {return vertex_descriptor();}
+./graph/include/boost/graph/graph_archetypes.hpp:219:        <typename Graph::vertex_descriptor, Property> type;
+./graph/include/boost/graph/graph_archetypes.hpp:221:        <typename Graph::vertex_descriptor, Property> const_type;
+./graph/include/boost/graph/graph_as_tree.hpp:53:             = typename graph_traits<Graph>::vertex_descriptor
+./graph/include/boost/graph/graph_concepts.hpp:59:        typedef typename graph_traits<G>::vertex_descriptor vertex_descriptor;
+./graph/include/boost/graph/graph_concepts.hpp:67:            BOOST_CONCEPT_ASSERT((DefaultConstructible<vertex_descriptor>));
+./graph/include/boost/graph/graph_concepts.hpp:68:            BOOST_CONCEPT_ASSERT((EqualityComparable<vertex_descriptor>));
+./graph/include/boost/graph/graph_concepts.hpp:69:            BOOST_CONCEPT_ASSERT((Assignable<vertex_descriptor>));
+./graph/include/boost/graph/graph_concepts.hpp:108:        typename graph_traits<G>::vertex_descriptor u, v;
+./graph/include/boost/graph/graph_concepts.hpp:142:        typename graph_traits<G>::vertex_descriptor v;
+./graph/include/boost/graph/graph_concepts.hpp:171:        typename graph_traits<G>::vertex_descriptor v;
+./graph/include/boost/graph/graph_concepts.hpp:218:        typename graph_traits<G>::vertex_descriptor v;
+./graph/include/boost/graph/graph_concepts.hpp:257:        typename graph_traits<G>::vertex_descriptor u, v;
+./graph/include/boost/graph/graph_concepts.hpp:286:        typename graph_traits<G>::vertex_descriptor u, v;
+./graph/include/boost/graph/graph_concepts.hpp:297:        typename graph_traits<G>::vertex_descriptor u, v;
+./graph/include/boost/graph/graph_concepts.hpp:323:        typename boost::graph_traits<G>::vertex_descriptor u;
+./graph/include/boost/graph/graph_concepts.hpp:337:        typename boost::graph_traits<G>::vertex_descriptor u;
+./graph/include/boost/graph/graph_concepts.hpp:358:        typename graph_traits<G>::vertex_descriptor v;
+./graph/include/boost/graph/graph_concepts.hpp:372:        typename graph_traits<G>::vertex_descriptor u, v;
+./graph/include/boost/graph/graph_concepts.hpp:388:        typename graph_traits<G>::vertex_descriptor u, v;
+./graph/include/boost/graph/graph_concepts.hpp:461:            typedef typename graph_traits<Graph>::vertex_descriptor Vertex;
+./graph/include/boost/graph/graph_stats.hpp:75:  typedef typename graph_traits<Graph>::vertex_descriptor vertex_type;
+./graph/include/boost/graph/graph_stats.hpp:97:  typedef typename graph_traits<Graph>::vertex_descriptor vertex_type;
+./graph/include/boost/graph/graph_stats.hpp:110:  typedef typename graph_traits<Graph>::vertex_descriptor vertex_type;
+./graph/include/boost/graph/graph_traits.hpp:57:        typedef typename G::vertex_descriptor      vertex_descriptor;
+./graph/include/boost/graph/graph_traits.hpp:74:        static inline vertex_descriptor null_vertex();
+./graph/include/boost/graph/graph_traits.hpp:78:    inline typename graph_traits<G>::vertex_descriptor
+./graph/include/boost/graph/graph_traits.hpp:299:            typedef typename graph_traits<Graph>::vertex_descriptor Vertex;
+./graph/include/boost/graph/graph_traits.hpp:309:            typedef typename graph_traits<Graph>::vertex_descriptor Vertex;
+./graph/include/boost/graph/graph_utility.hpp:34:  std::pair<typename graph_traits<UndirectedGraph>::vertex_descriptor,
+./graph/include/boost/graph/graph_utility.hpp:35:            typename graph_traits<UndirectedGraph>::vertex_descriptor>
+./graph/include/boost/graph/graph_utility.hpp:48:  incident_edges(typename graph_traits<Graph>::vertex_descriptor u,
+./graph/include/boost/graph/graph_utility.hpp:55:  inline typename graph_traits<Graph>::vertex_descriptor
+./graph/include/boost/graph/graph_utility.hpp:57:           typename graph_traits<Graph>::vertex_descriptor v,
+./graph/include/boost/graph/graph_utility.hpp:60:    typedef typename graph_traits<Graph>::vertex_descriptor vertex_descriptor;
+./graph/include/boost/graph/graph_utility.hpp:66:      return vertex_descriptor();
+./graph/include/boost/graph/graph_utility.hpp:331:    (typename graph_traits<IncidenceGraph>::vertex_descriptor x,
+./graph/include/boost/graph/graph_utility.hpp:332:     typename graph_traits<IncidenceGraph>::vertex_descriptor y,
+./graph/include/boost/graph/graph_utility.hpp:431:    bool has_no_out_edges(const typename boost::graph_traits<Graph>::vertex_descriptor& v, const Graph& g) {
+./graph/include/boost/graph/grid_graph.hpp:80:                                 BOOST_GRID_GRAPH_TRAITS_T::vertex_descriptor,
+./graph/include/boost/graph/grid_graph.hpp:136:      typedef typename graph_traits<Graph>::vertex_descriptor result_type;
+./graph/include/boost/graph/grid_graph.hpp:158:      typedef typename graph_traits<Graph>::vertex_descriptor vertex_descriptor;
+./graph/include/boost/graph/grid_graph.hpp:165:      grid_graph_out_edge_at(vertex_descriptor source_vertex,
+./graph/include/boost/graph/grid_graph.hpp:177:      vertex_descriptor m_vertex;
+./graph/include/boost/graph/grid_graph.hpp:186:      typedef typename graph_traits<Graph>::vertex_descriptor vertex_descriptor;
+./graph/include/boost/graph/grid_graph.hpp:193:      grid_graph_in_edge_at(vertex_descriptor target_vertex,
+./graph/include/boost/graph/grid_graph.hpp:205:      vertex_descriptor m_vertex;
+./graph/include/boost/graph/grid_graph.hpp:235:      typedef typename graph_traits<Graph>::vertex_descriptor result_type;
+./graph/include/boost/graph/grid_graph.hpp:278:    typedef boost::array<VertexIndex, Dimensions> vertex_descriptor;
+./graph/include/boost/graph/grid_graph.hpp:279:    typedef std::pair<vertex_descriptor, vertex_descriptor> edge_descriptor;
+./graph/include/boost/graph/grid_graph.hpp:314:    static inline vertex_descriptor null_vertex()
+./graph/include/boost/graph/grid_graph.hpp:316:      vertex_descriptor maxed_out_vertex;
+./graph/include/boost/graph/grid_graph.hpp:324:    grid_graph(vertex_descriptor dimension_lengths) :
+./graph/include/boost/graph/grid_graph.hpp:335:    grid_graph(vertex_descriptor dimension_lengths,
+./graph/include/boost/graph/grid_graph.hpp:348:    grid_graph(vertex_descriptor dimension_lengths,
+./graph/include/boost/graph/grid_graph.hpp:373:    vertex_descriptor next
+./graph/include/boost/graph/grid_graph.hpp:374:    (vertex_descriptor vertex,
+./graph/include/boost/graph/grid_graph.hpp:398:    vertex_descriptor previous
+./graph/include/boost/graph/grid_graph.hpp:399:    (vertex_descriptor vertex,
+./graph/include/boost/graph/grid_graph.hpp:433:    vertices_size_type index_of(vertex_descriptor vertex) const {
+./graph/include/boost/graph/grid_graph.hpp:450:    // index_of(vertex_descriptor))
+./graph/include/boost/graph/grid_graph.hpp:451:    vertex_descriptor vertex_at
+./graph/include/boost/graph/grid_graph.hpp:485:      vertex_descriptor vertex_source, vertex_target;
+./graph/include/boost/graph/grid_graph.hpp:541:      vertex_descriptor source_vertex = source(edge, *this);
+./graph/include/boost/graph/grid_graph.hpp:542:      vertex_descriptor target_vertex = target(edge, *this);
+./graph/include/boost/graph/grid_graph.hpp:623:    degree_size_type out_degree(vertex_descriptor vertex) const {
+./graph/include/boost/graph/grid_graph.hpp:650:    (vertex_descriptor vertex,
+./graph/include/boost/graph/grid_graph.hpp:691:    inline degree_size_type in_degree(vertex_descriptor vertex) const {
+./graph/include/boost/graph/grid_graph.hpp:698:    (vertex_descriptor vertex,
+./graph/include/boost/graph/grid_graph.hpp:733:    const vertex_descriptor m_dimension_lengths;
+./graph/include/boost/graph/grid_graph.hpp:765:    friend inline typename type::vertex_descriptor
+./graph/include/boost/graph/grid_graph.hpp:778:    out_edges(typename type::vertex_descriptor vertex,
+./graph/include/boost/graph/grid_graph.hpp:793:    (typename type::vertex_descriptor vertex,
+./graph/include/boost/graph/grid_graph.hpp:799:    out_edge_at(typename type::vertex_descriptor vertex,
+./graph/include/boost/graph/grid_graph.hpp:811:    adjacent_vertices (typename type::vertex_descriptor vertex,
+./graph/include/boost/graph/grid_graph.hpp:859:    in_edges(typename type::vertex_descriptor vertex,
+./graph/include/boost/graph/grid_graph.hpp:873:    in_degree (typename type::vertex_descriptor vertex,
+./graph/include/boost/graph/grid_graph.hpp:879:    degree (typename type::vertex_descriptor vertex,
+./graph/include/boost/graph/grid_graph.hpp:885:    in_edge_at(typename type::vertex_descriptor vertex,
+./graph/include/boost/graph/grid_graph.hpp:897:    edge (typename type::vertex_descriptor source_vertex,
+./graph/include/boost/graph/grid_graph.hpp:898:          typename type::vertex_descriptor destination_vertex,
+./graph/include/boost/graph/grid_graph.hpp:959:        typename type::vertex_descriptor vertex) {
+./graph/include/boost/graph/grid_graph.hpp:972:                    typename type::vertex_descriptor,
+./graph/include/boost/graph/grid_graph.hpp:977:                typename type::vertex_descriptor,
+./graph/include/boost/graph/gursoy_atun_layout.hpp:56:  typedef typename graph_traits<Graph>::vertex_descriptor
+./graph/include/boost/graph/gursoy_atun_layout.hpp:57:    vertex_descriptor;
+./graph/include/boost/graph/gursoy_atun_layout.hpp:71:  void operator()(vertex_descriptor v, const Graph&) const 
+./graph/include/boost/graph/gursoy_atun_layout.hpp:93:  run(const Graph& g, typename graph_traits<Graph>::vertex_descriptor s,
+./graph/include/boost/graph/gursoy_atun_layout.hpp:109:  run(const Graph& g, typename graph_traits<Graph>::vertex_descriptor s,
+./graph/include/boost/graph/gursoy_atun_layout.hpp:142:  typedef typename graph_traits<VertexListAndIncidenceGraph>::vertex_descriptor
+./graph/include/boost/graph/gursoy_atun_layout.hpp:143:    vertex_descriptor;
+./graph/include/boost/graph/gursoy_atun_layout.hpp:161:  vertex_descriptor min_distance_loc 
+./graph/include/boost/graph/hawick_circuits.hpp:105:    typedef typename Traits::vertex_descriptor Vertex;
+./graph/include/boost/graph/hawick_circuits.hpp:291:    typedef typename Traits::vertex_descriptor Vertex;
+./graph/include/boost/graph/howard_cycle_ratio.hpp:93:      typedef typename graph_traits<Graph>::vertex_descriptor vertex_t;
+./graph/include/boost/graph/howard_cycle_ratio.hpp:483:      typedef typename graph_traits<TG>::vertex_descriptor Vertex;
+./graph/include/boost/graph/isomorphism.hpp:35:      typedef typename graph_traits<Graph1>::vertex_descriptor vertex1_t;
+./graph/include/boost/graph/isomorphism.hpp:36:      typedef typename graph_traits<Graph2>::vertex_descriptor vertex2_t;
+./graph/include/boost/graph/isomorphism.hpp:347:    typedef typename graph_traits<Graph>::vertex_descriptor vertex_t;
+./graph/include/boost/graph/isomorphism.hpp:405:    typedef typename graph_traits<Graph1>::vertex_descriptor vertex1_t;
+./graph/include/boost/graph/isomorphism.hpp:406:    typedef typename graph_traits<Graph2>::vertex_descriptor vertex2_t;
+./graph/include/boost/graph/isomorphism.hpp:512:          typedef typename graph_traits<Graph2>::vertex_descriptor vertex2_t;
+./graph/include/boost/graph/is_kuratowski_subgraph.hpp:114:    typedef typename graph_traits<Graph>::vertex_descriptor vertex_t;
+./graph/include/boost/graph/is_kuratowski_subgraph.hpp:272:    std::map<vertex_t,typename graph_traits<small_graph_t>::vertex_descriptor> 
+./graph/include/boost/graph/is_straight_line_drawing.hpp:108:    typedef typename graph_traits<Graph>::vertex_descriptor vertex_t;
+./graph/include/boost/graph/iteration_macros.hpp:27:    for (typename boost::graph_traits<graph_t>::vertex_descriptor v;
+./graph/include/boost/graph/iteration_macros.hpp:53:    for (typename boost::graph_traits<graph_t>::vertex_descriptor v;
+./graph/include/boost/graph/iteration_macros.hpp:64:  for (typename boost::graph_traits<GraphType>::vertex_descriptor VNAME; \
+./graph/include/boost/graph/iteration_macros.hpp:72:  for (boost::graph_traits<GraphType>::vertex_descriptor VNAME; \
+./graph/include/boost/graph/iteration_macros.hpp:96:for (typename boost::graph_traits<GraphType>::vertex_descriptor VNAME; \
+./graph/include/boost/graph/iteration_macros.hpp:104:for (boost::graph_traits<GraphType>::vertex_descriptor VNAME; \
+./graph/include/boost/graph/johnson_all_pairs_shortest.hpp:72:    std::vector<typename Traits1::vertex_descriptor> 
+./graph/include/boost/graph/johnson_all_pairs_shortest.hpp:74:    typename Traits2::vertex_descriptor s = *vertices(g2).first;
+./graph/include/boost/graph/johnson_all_pairs_shortest.hpp:114:        typename Traits2::vertex_descriptor a = source(*e, g2),
+./graph/include/boost/graph/kamada_kawai_spring_layout.hpp:144:      typedef typename graph_traits<Graph>::vertex_descriptor
+./graph/include/boost/graph/kamada_kawai_spring_layout.hpp:145:        vertex_descriptor;
+./graph/include/boost/graph/kamada_kawai_spring_layout.hpp:168:      compute_partial_derivative(vertex_descriptor m, vertex_descriptor i)
+./graph/include/boost/graph/kamada_kawai_spring_layout.hpp:187:      compute_partial_derivatives(vertex_descriptor m)
+./graph/include/boost/graph/kamada_kawai_spring_layout.hpp:240:        vertex_descriptor p = *vertices(g).first;
+./graph/include/boost/graph/kamada_kawai_spring_layout.hpp:262:            vertex_descriptor i = *ui;
+./graph/include/boost/graph/kamada_kawai_spring_layout.hpp:289:              vertex_descriptor i = *ui;
+./graph/include/boost/graph/kamada_kawai_spring_layout.hpp:326:          vertex_descriptor old_p = p;
+./graph/include/boost/graph/kamada_kawai_spring_layout.hpp:388:               typename boost::graph_traits<Graph>::vertex_descriptor p,
+./graph/include/boost/graph/king_ordering.hpp:188:                std::deque< typename graph_traits<Graph>::vertex_descriptor >
+./graph/include/boost/graph/king_ordering.hpp:197:    typedef typename graph_traits<Graph>::vertex_descriptor Vertex;
+./graph/include/boost/graph/king_ordering.hpp:245:                typename graph_traits<Graph>::vertex_descriptor s,
+./graph/include/boost/graph/king_ordering.hpp:250:    std::deque< typename graph_traits<Graph>::vertex_descriptor > vertex_queue;
+./graph/include/boost/graph/king_ordering.hpp:266:    typedef typename boost::graph_traits<Graph>::vertex_descriptor Vertex;
+./graph/include/boost/graph/kruskal_min_spanning_tree.hpp:53:      typedef typename graph_traits<Graph>::vertex_descriptor Vertex;
+./graph/include/boost/graph/kruskal_min_spanning_tree.hpp:104:    typedef typename graph_traits<Graph>::vertex_descriptor vertex_t;
+./graph/include/boost/graph/kruskal_min_spanning_tree.hpp:125:    typedef typename graph_traits<Graph>::vertex_descriptor vertex_t;
+./graph/include/boost/graph/labeled_graph.hpp:109:    std::pair<typename graph_traits<Graph>::vertex_descriptor, bool>
+./graph/include/boost/graph/labeled_graph.hpp:113:        typedef typename graph_traits<Graph>::vertex_descriptor Vertex;
+./graph/include/boost/graph/labeled_graph.hpp:128:    std::pair<typename graph_traits<Graph>::vertex_descriptor, bool>
+./graph/include/boost/graph/labeled_graph.hpp:134:        typedef typename graph_traits<Graph>::vertex_descriptor Vertex;
+./graph/include/boost/graph/labeled_graph.hpp:142:    std::pair<typename graph_traits<Graph>::vertex_descriptor, bool>
+./graph/include/boost/graph/labeled_graph.hpp:148:        typedef typename graph_traits<Graph>::vertex_descriptor Vertex;
+./graph/include/boost/graph/labeled_graph.hpp:160:    std::pair<typename graph_traits<Graph>::vertex_descriptor, bool>
+./graph/include/boost/graph/labeled_graph.hpp:169:    typename graph_traits<Graph>::vertex_descriptor
+./graph/include/boost/graph/labeled_graph.hpp:176:    typename graph_traits<Graph>::vertex_descriptor
+./graph/include/boost/graph/labeled_graph.hpp:186:    typename graph_traits<Graph>::vertex_descriptor
+./graph/include/boost/graph/labeled_graph.hpp:241:        Selector, Label, typename graph_traits<Graph>::vertex_descriptor
+./graph/include/boost/graph/labeled_graph.hpp:266:    typedef typename graph_traits<graph_type>::vertex_descriptor vertex_descriptor;
+./graph/include/boost/graph/labeled_graph.hpp:348:    bool label_vertex(vertex_descriptor v, Label const& l)
+./graph/include/boost/graph/labeled_graph.hpp:359:    vertex_descriptor add_vertex(Label const& l) {
+./graph/include/boost/graph/labeled_graph.hpp:365:    vertex_descriptor add_vertex(Label const& l, vertex_property_type const& p)
+./graph/include/boost/graph/labeled_graph.hpp:376:    std::pair<vertex_descriptor, bool> insert_vertex(Label const& l) {
+./graph/include/boost/graph/labeled_graph.hpp:382:    std::pair<vertex_descriptor, bool>
+./graph/include/boost/graph/labeled_graph.hpp:392:    vertex_descriptor vertex(Label const& l) const
+./graph/include/boost/graph/labeled_graph.hpp:415:    static vertex_descriptor null_vertex()
+./graph/include/boost/graph/labeled_graph.hpp:437:    typedef typename graph_traits<graph_type>::vertex_descriptor vertex_descriptor;
+./graph/include/boost/graph/labeled_graph.hpp:476:    bool label_vertex(vertex_descriptor v, Label const& l)
+./graph/include/boost/graph/labeled_graph.hpp:481:    vertex_descriptor add_vertex(Label const& l) {
+./graph/include/boost/graph/labeled_graph.hpp:487:    vertex_descriptor add_vertex(Label const& l, vertex_property_type const& p)
+./graph/include/boost/graph/labeled_graph.hpp:490:    std::pair<vertex_descriptor, bool> insert_vertex(Label const& l) {
+./graph/include/boost/graph/labeled_graph.hpp:498:    std::pair<vertex_descriptor, bool>
+./graph/include/boost/graph/labeled_graph.hpp:507:    vertex_descriptor vertex(Label const& l) const
+./graph/include/boost/graph/labeled_graph.hpp:529:    static vertex_descriptor null_vertex()
+./graph/include/boost/graph/labeled_graph.hpp:543:inline bool label_vertex(typename LABELED_GRAPH::vertex_descriptor v,
+./graph/include/boost/graph/labeled_graph.hpp:549:inline typename LABELED_GRAPH::vertex_descriptor
+./graph/include/boost/graph/labeled_graph.hpp:559:edge(typename LABELED_GRAPH::vertex_descriptor const& u,
+./graph/include/boost/graph/labeled_graph.hpp:560:     typename LABELED_GRAPH::vertex_descriptor const& v,
+./graph/include/boost/graph/labeled_graph.hpp:579:out_edges(typename LABELED_GRAPH::vertex_descriptor v, LABELED_GRAPH const& g)
+./graph/include/boost/graph/labeled_graph.hpp:584:out_degree(typename LABELED_GRAPH::vertex_descriptor v, LABELED_GRAPH const& g)
+./graph/include/boost/graph/labeled_graph.hpp:588:inline typename LABELED_GRAPH::vertex_descriptor
+./graph/include/boost/graph/labeled_graph.hpp:593:inline typename LABELED_GRAPH::vertex_descriptor
+./graph/include/boost/graph/labeled_graph.hpp:604:in_edges(typename LABELED_GRAPH::vertex_descriptor v, LABELED_GRAPH const& g)
+./graph/include/boost/graph/labeled_graph.hpp:609:in_degree(typename LABELED_GRAPH::vertex_descriptor v, LABELED_GRAPH const& g)
+./graph/include/boost/graph/labeled_graph.hpp:614:degree(typename LABELED_GRAPH::vertex_descriptor v, LABELED_GRAPH const& g)
+./graph/include/boost/graph/labeled_graph.hpp:624:adjacenct_vertices(typename LABELED_GRAPH::vertex_descriptor v, LABELED_GRAPH const& g)
+./graph/include/boost/graph/labeled_graph.hpp:722:add_edge(typename LABELED_GRAPH::vertex_descriptor const& u,
+./graph/include/boost/graph/labeled_graph.hpp:723:         typename LABELED_GRAPH::vertex_descriptor const& v,
+./graph/include/boost/graph/labeled_graph.hpp:729:add_edge(typename LABELED_GRAPH::vertex_descriptor const& u,
+./graph/include/boost/graph/labeled_graph.hpp:730:         typename LABELED_GRAPH::vertex_descriptor const& v,
+./graph/include/boost/graph/labeled_graph.hpp:737:clear_vertex(typename LABELED_GRAPH::vertex_descriptor v, LABELED_GRAPH& g)
+./graph/include/boost/graph/labeled_graph.hpp:747:remove_edge(typename LABELED_GRAPH::vertex_descriptor u,
+./graph/include/boost/graph/labeled_graph.hpp:748:            typename LABELED_GRAPH::vertex_descriptor v,
+./graph/include/boost/graph/labeled_graph.hpp:789:inline typename LABELED_GRAPH::vertex_descriptor
+./graph/include/boost/graph/labeled_graph.hpp:796:inline typename LABELED_GRAPH::vertex_descriptor
+./graph/include/boost/graph/leda_graph.hpp:42:    typedef leda::node vertex_descriptor;
+./graph/include/boost/graph/leda_graph.hpp:191:    typedef leda::node vertex_descriptor;
+./graph/include/boost/graph/leda_graph.hpp:345:  typename graph_traits< leda::GRAPH<vtype,etype> >::vertex_descriptor
+./graph/include/boost/graph/leda_graph.hpp:353:  typename graph_traits< leda::GRAPH<vtype,etype> >::vertex_descriptor
+./graph/include/boost/graph/leda_graph.hpp:387:    typename graph_traits< leda::GRAPH<vtype,etype> >::vertex_descriptor u, 
+./graph/include/boost/graph/leda_graph.hpp:400:    typename graph_traits< leda::GRAPH<vtype,etype> >::vertex_descriptor u, 
+./graph/include/boost/graph/leda_graph.hpp:413:    typename graph_traits< leda::GRAPH<vtype,etype> >::vertex_descriptor u, 
+./graph/include/boost/graph/leda_graph.hpp:438:    typename graph_traits< leda::GRAPH<vtype,etype> >::vertex_descriptor u, 
+./graph/include/boost/graph/leda_graph.hpp:447:    typename graph_traits< leda::GRAPH<vtype,etype> >::vertex_descriptor u, 
+./graph/include/boost/graph/leda_graph.hpp:456:    typename graph_traits< leda::GRAPH<vtype,etype> >::vertex_descriptor u, 
+./graph/include/boost/graph/leda_graph.hpp:463:  typename graph_traits< leda::GRAPH<vtype,etype> >::vertex_descriptor
+./graph/include/boost/graph/leda_graph.hpp:470:  typename graph_traits< leda::GRAPH<vtype,etype> >::vertex_descriptor
+./graph/include/boost/graph/leda_graph.hpp:478:    typename graph_traits< leda::GRAPH<vtype,etype> >::vertex_descriptor u,
+./graph/include/boost/graph/leda_graph.hpp:492:    typename graph_traits< leda::GRAPH<vtype,etype> >::vertex_descriptor u,
+./graph/include/boost/graph/leda_graph.hpp:503:    typename graph_traits< leda::GRAPH<vtype,etype> >::vertex_descriptor u,
+./graph/include/boost/graph/leda_graph.hpp:504:    typename graph_traits< leda::GRAPH<vtype,etype> >::vertex_descriptor v,
+./graph/include/boost/graph/leda_graph.hpp:515:    typename graph_traits< leda::GRAPH<vtype,etype> >::vertex_descriptor u,
+./graph/include/boost/graph/leda_graph.hpp:516:    typename graph_traits< leda::GRAPH<vtype,etype> >::vertex_descriptor v,
+./graph/include/boost/graph/leda_graph.hpp:526:    typename graph_traits< leda::GRAPH<vtype,etype> >::vertex_descriptor u,
+./graph/include/boost/graph/leda_graph.hpp:527:    typename graph_traits< leda::GRAPH<vtype,etype> >::vertex_descriptor v,
+./graph/include/boost/graph/leda_graph.hpp:549:  graph_traits<leda::graph>::vertex_descriptor
+./graph/include/boost/graph/leda_graph.hpp:556:  graph_traits<leda::graph>::vertex_descriptor
+./graph/include/boost/graph/leda_graph.hpp:587:    graph_traits<leda::graph>::vertex_descriptor u, const leda::graph& g)
+./graph/include/boost/graph/leda_graph.hpp:597:    graph_traits<leda::graph>::vertex_descriptor u, 
+./graph/include/boost/graph/leda_graph.hpp:609:    graph_traits<leda::graph>::vertex_descriptor u, 
+./graph/include/boost/graph/leda_graph.hpp:631:    graph_traits<leda::graph>::vertex_descriptor u, 
+./graph/include/boost/graph/leda_graph.hpp:639:    graph_traits<leda::graph>::vertex_descriptor u, 
+./graph/include/boost/graph/leda_graph.hpp:647:    graph_traits<leda::graph>::vertex_descriptor u, 
+./graph/include/boost/graph/leda_graph.hpp:653:  graph_traits<leda::graph>::vertex_descriptor
+./graph/include/boost/graph/leda_graph.hpp:661:    graph_traits<leda::graph>::vertex_descriptor u,
+./graph/include/boost/graph/leda_graph.hpp:662:    graph_traits<leda::graph>::vertex_descriptor v,
+./graph/include/boost/graph/leda_graph.hpp:681:    graph_traits<leda::graph>::vertex_descriptor u,
+./graph/include/boost/graph/leda_graph.hpp:694:    graph_traits<leda::graph>::vertex_descriptor u,
+./graph/include/boost/graph/leda_graph.hpp:704:    graph_traits<leda::graph>::vertex_descriptor u,
+./graph/include/boost/graph/leda_graph.hpp:705:    graph_traits<leda::graph>::vertex_descriptor v,
+./graph/include/boost/graph/lookup_edge.hpp:25:  lookup_edge(typename boost::graph_traits<Graph>::vertex_descriptor src,
+./graph/include/boost/graph/lookup_edge.hpp:26:              typename boost::graph_traits<Graph>::vertex_descriptor tgt,
+./graph/include/boost/graph/lookup_edge.hpp:34:  lookup_edge(typename boost::graph_traits<Graph>::vertex_descriptor src,
+./graph/include/boost/graph/lookup_edge.hpp:35:              typename boost::graph_traits<Graph>::vertex_descriptor tgt,
+./graph/include/boost/graph/loop_erased_random_walk.hpp:44:         typename boost::graph_traits<Graph>::vertex_descriptor s,
+./graph/include/boost/graph/loop_erased_random_walk.hpp:47:         std::vector<typename boost::graph_traits<Graph>::vertex_descriptor>& path
+./graph/include/boost/graph/loop_erased_random_walk.hpp:49:    typedef typename boost::graph_traits<Graph>::vertex_descriptor vertex_descriptor;
+./graph/include/boost/graph/loop_erased_random_walk.hpp:60:      vertex_descriptor t = target(e, g);
+./graph/include/boost/graph/loop_erased_random_walk.hpp:69:        typename std::vector<vertex_descriptor>::iterator it = std::find(path.begin(), path.end(), t);
+./graph/include/boost/graph/loop_erased_random_walk.hpp:72:        for (typename std::vector<vertex_descriptor>::iterator j = it; j != path.end(); ++j) {
+./graph/include/boost/graph/loop_erased_random_walk.hpp:95:    operator()(typename gt::vertex_descriptor src, const Graph& g) const {
+./graph/include/boost/graph/loop_erased_random_walk.hpp:112:    operator()(typename gt::vertex_descriptor src, const Graph& g) const {
+./graph/include/boost/graph/make_biconnected_planar.hpp:38:    typedef typename graph_traits<Graph>::vertex_descriptor vertex_t;
+./graph/include/boost/graph/make_connected.hpp:33:    typedef typename graph_traits<Graph>::vertex_descriptor vertex_t;
+./graph/include/boost/graph/make_maximal_planar.hpp:31:    typedef typename graph_traits<Graph>::vertex_descriptor vertex_t;
+./graph/include/boost/graph/matrix_as_graph.hpp:38:    typedef V vertex_descriptor; \
+./graph/include/boost/graph/matrix_as_graph.hpp:64:    friend vertex_descriptor \
+./graph/include/boost/graph/matrix_as_graph.hpp:68:    friend vertex_descriptor \
+./graph/include/boost/graph/maximum_adjacency_search.hpp:63:    typename boost::graph_traits<Graph>::vertex_descriptor u;
+./graph/include/boost/graph/maximum_adjacency_search.hpp:120:      typedef typename boost::graph_traits<Graph>::vertex_descriptor vertex_descriptor;
+./graph/include/boost/graph/maximum_adjacency_search.hpp:123:     std::set<vertex_descriptor> assignedVertices;
+./graph/include/boost/graph/maximum_adjacency_search.hpp:148:      //vertex_descriptor s, t;
+./graph/include/boost/graph/maximum_adjacency_search.hpp:151:        const vertex_descriptor u = pq.top(); // u = extractmax(PQ)
+./graph/include/boost/graph/maximum_adjacency_search.hpp:158:          const vertex_descriptor v = get(assignments, target(e, g));
+./graph/include/boost/graph/maximum_adjacency_search.hpp:166:        typename std::set<vertex_descriptor>::const_iterator assignedVertexIt, assignedVertexEnd = assignedVertices.end();
+./graph/include/boost/graph/maximum_adjacency_search.hpp:168:          const vertex_descriptor uPrime = *assignedVertexIt;
+./graph/include/boost/graph/maximum_adjacency_search.hpp:174:              const vertex_descriptor v = get(assignments, target(e, g));
+./graph/include/boost/graph/maximum_adjacency_search.hpp:193:    typedef typename boost::graph_traits<Graph>::vertex_descriptor vertex_descriptor;
+./graph/include/boost/graph/maximum_adjacency_search.hpp:200:    BOOST_CONCEPT_ASSERT((boost::ReadWritePropertyMapConcept<VertexAssignmentMap, vertex_descriptor>));
+./graph/include/boost/graph/maximum_adjacency_search.hpp:201:    BOOST_CONCEPT_ASSERT((boost::Convertible<vertex_descriptor, typename boost::property_traits<VertexAssignmentMap>::value_type>));
+./graph/include/boost/graph/maximum_adjacency_search.hpp:227:          typedef typename boost::graph_traits<Graph>::vertex_descriptor vertex_descriptor;
+./graph/include/boost/graph/maximum_adjacency_search.hpp:230:          typedef boost::detail::make_priority_queue_from_arg_pack_gen<boost::graph::keywords::tag::max_priority_queue, weight_type, vertex_descriptor, std::greater<weight_type> > default_pq_gen_type;
+./graph/include/boost/graph/maximum_adjacency_search.hpp:238:          vertex_descriptor v = vertex_descriptor();
+./graph/include/boost/graph/maximum_adjacency_search.hpp:241:              vertex_descriptor
+./graph/include/boost/graph/maximum_adjacency_search.hpp:247:              vertex_descriptor
+./graph/include/boost/graph/maximum_adjacency_search.hpp:270:          typedef typename boost::graph_traits<Graph>::vertex_descriptor vertex_descriptor;
+./graph/include/boost/graph/maximum_adjacency_search.hpp:276:          typedef boost::detail::make_priority_queue_from_arg_pack_gen<boost::graph::keywords::tag::max_priority_queue, weight_type, vertex_descriptor, std::greater<weight_type> > default_pq_gen_type;
+./graph/include/boost/graph/maximum_adjacency_search.hpp:284:          vertex_descriptor v = vertex_descriptor();
+./graph/include/boost/graph/maximum_adjacency_search.hpp:287:              vertex_descriptor
+./graph/include/boost/graph/maximum_adjacency_search.hpp:293:              vertex_descriptor
+./graph/include/boost/graph/maximum_weighted_matching.hpp:25:        typedef typename graph_traits<Graph>::vertex_descriptor vertex_descriptor_t;
+./graph/include/boost/graph/maximum_weighted_matching.hpp:33:            vertex_descriptor_t v = *vi;
+./graph/include/boost/graph/maximum_weighted_matching.hpp:59:        typedef typename graph_traits<Graph>::vertex_descriptor vertex_descriptor_t;
+./graph/include/boost/graph/maximum_weighted_matching.hpp:60:        typedef typename std::vector<vertex_descriptor_t>::const_iterator vertex_vec_iter_t;
+./graph/include/boost/graph/maximum_weighted_matching.hpp:65:        typedef std::deque<vertex_descriptor_t> vertex_list_t;
+./graph/include/boost/graph/maximum_weighted_matching.hpp:67:        typedef typename map_vertex_to_<vertex_descriptor_t>::type vertex_to_vertex_map_t;
+./graph/include/boost/graph/maximum_weighted_matching.hpp:70:        typedef typename map_vertex_to_<std::pair<vertex_descriptor_t, vertex_descriptor_t> >::type vertex_to_pair_map_t;
+./graph/include/boost/graph/maximum_weighted_matching.hpp:88:            virtual vertex_descriptor_t get_base() const
+./graph/include/boost/graph/maximum_weighted_matching.hpp:111:            virtual std::vector<vertex_descriptor_t> vertices() const
+./graph/include/boost/graph/maximum_weighted_matching.hpp:113:                std::vector<vertex_descriptor_t> all_vertices;
+./graph/include/boost/graph/maximum_weighted_matching.hpp:116:                    std::vector<vertex_descriptor_t> some_vertices = (*bi)->vertices();
+./graph/include/boost/graph/maximum_weighted_matching.hpp:128:            trivial_blossom(vertex_descriptor_t v) : trivial_vertex(v) {}
+./graph/include/boost/graph/maximum_weighted_matching.hpp:129:            virtual vertex_descriptor_t get_base() const
+./graph/include/boost/graph/maximum_weighted_matching.hpp:134:            virtual std::vector<vertex_descriptor_t> vertices() const
+./graph/include/boost/graph/maximum_weighted_matching.hpp:136:                std::vector<vertex_descriptor_t> all_vertices;
+./graph/include/boost/graph/maximum_weighted_matching.hpp:143:            vertex_descriptor_t trivial_vertex;
+./graph/include/boost/graph/maximum_weighted_matching.hpp:190:                vertex_descriptor_t u = *vi;
+./graph/include/boost/graph/maximum_weighted_matching.hpp:204:        blossom_ptr_t in_top_blossom(vertex_descriptor_t v) const
+./graph/include/boost/graph/maximum_weighted_matching.hpp:213:        bool is_in_blossom(blossom_ptr_t b, vertex_descriptor_t v) const
+./graph/include/boost/graph/maximum_weighted_matching.hpp:228:        inline vertex_descriptor_t base_vertex(vertex_descriptor_t v) const
+./graph/include/boost/graph/maximum_weighted_matching.hpp:235:        void add_sub_blossom(blossom_ptr_t b, vertex_descriptor_t v)
+./graph/include/boost/graph/maximum_weighted_matching.hpp:256:            std::vector<vertex_descriptor_t> vertices_of_b = b->vertices();
+./graph/include/boost/graph/maximum_weighted_matching.hpp:271:        void put_T_label(vertex_descriptor_t v, vertex_descriptor_t T_label,
+./graph/include/boost/graph/maximum_weighted_matching.hpp:272:                         vertex_descriptor_t outlet_v, edge_property_t pi_v)
+./graph/include/boost/graph/maximum_weighted_matching.hpp:281:            vertex_descriptor_t v_mate = mate[v];
+./graph/include/boost/graph/maximum_weighted_matching.hpp:292:        std::pair<vertex_descriptor_t, vertex_descriptor_t> missing_label(vertex_descriptor_t b_base)
+./graph/include/boost/graph/maximum_weighted_matching.hpp:294:            vertex_descriptor_t missing_outlet = outlet[b_base];
+./graph/include/boost/graph/maximum_weighted_matching.hpp:303:            std::pair<vertex_descriptor_t, vertex_state_t> child(outlet[b_base], graph::detail::V_EVEN);
+./graph/include/boost/graph/maximum_weighted_matching.hpp:313:                std::pair<vertex_descriptor_t, vertex_state_t> child_parent = parent(child, true);
+./graph/include/boost/graph/maximum_weighted_matching.hpp:334:                vertex_descriptor_t sub_base = sub_blossom->get_base();
+./graph/include/boost/graph/maximum_weighted_matching.hpp:354:            vertex_descriptor_t b_base = b->get_base();
+./graph/include/boost/graph/maximum_weighted_matching.hpp:355:            std::pair<vertex_descriptor_t, vertex_descriptor_t> T_and_outlet = missing_label(b_base);
+./graph/include/boost/graph/maximum_weighted_matching.hpp:362:                vertex_descriptor_t sub_base = sub_blossom->get_base();
+./graph/include/boost/graph/maximum_weighted_matching.hpp:363:                vertex_descriptor_t min_tau_v = graph_traits<Graph>::null_vertex();
+./graph/include/boost/graph/maximum_weighted_matching.hpp:366:                std::vector<vertex_descriptor_t> sub_vertices = sub_blossom->vertices();
+./graph/include/boost/graph/maximum_weighted_matching.hpp:389:        void adjust_blossom(vertex_descriptor_t v, vertex_descriptor_t w)
+./graph/include/boost/graph/maximum_weighted_matching.hpp:432:            vertex_descriptor_t v, w;
+./graph/include/boost/graph/maximum_weighted_matching.hpp:443:        std::pair<vertex_descriptor_t, vertex_state_t> parent(std::pair<vertex_descriptor_t, vertex_state_t> v,
+./graph/include/boost/graph/maximum_weighted_matching.hpp:455:                vertex_descriptor_t w = use_old ? old_label[v.first].first : base_vertex(label_T[v.first]);
+./graph/include/boost/graph/maximum_weighted_matching.hpp:463:        vertex_descriptor_t nearest_common_ancestor(vertex_descriptor_t v, vertex_descriptor_t w,
+./graph/include/boost/graph/maximum_weighted_matching.hpp:464:                                                    vertex_descriptor_t& v_free_ancestor,
+./graph/include/boost/graph/maximum_weighted_matching.hpp:465:                                                    vertex_descriptor_t& w_free_ancestor) const
+./graph/include/boost/graph/maximum_weighted_matching.hpp:467:            std::pair<vertex_descriptor_t, vertex_state_t> v_up(v, graph::detail::V_EVEN);
+./graph/include/boost/graph/maximum_weighted_matching.hpp:468:            std::pair<vertex_descriptor_t, vertex_state_t> w_up(w, graph::detail::V_EVEN);
+./graph/include/boost/graph/maximum_weighted_matching.hpp:469:            vertex_descriptor_t nca;
+./graph/include/boost/graph/maximum_weighted_matching.hpp:509:        void make_blossom(blossom_ptr_t b, vertex_descriptor_t w_prime,
+./graph/include/boost/graph/maximum_weighted_matching.hpp:510:                          vertex_descriptor_t v_prime, vertex_descriptor_t stop_vertex)
+./graph/include/boost/graph/maximum_weighted_matching.hpp:512:            std::pair<vertex_descriptor_t, vertex_state_t> u(v_prime, graph::detail::V_ODD);
+./graph/include/boost/graph/maximum_weighted_matching.hpp:513:            std::pair<vertex_descriptor_t, vertex_state_t> u_up(w_prime, graph::detail::V_EVEN);
+./graph/include/boost/graph/maximum_weighted_matching.hpp:535:        void retrieve_augmenting_path(vertex_descriptor_t v, vertex_descriptor_t w, vertex_state_t v_state)
+./graph/include/boost/graph/maximum_weighted_matching.hpp:554:        void reversed_retrieve_augmenting_path(vertex_descriptor_t v, vertex_descriptor_t w, vertex_state_t v_state)
+./graph/include/boost/graph/maximum_weighted_matching.hpp:574:        void relabel(vertex_descriptor_t v)
+./graph/include/boost/graph/maximum_weighted_matching.hpp:580:                std::pair<vertex_descriptor_t, vertex_state_t> u(v, graph::detail::V_EVEN);
+./graph/include/boost/graph/maximum_weighted_matching.hpp:584:                vertex_descriptor_t old_base = u.first;
+./graph/include/boost/graph/maximum_weighted_matching.hpp:609:                std::pair<vertex_descriptor_t, vertex_state_t> u(b->get_base(), graph::detail::V_ODD);
+./graph/include/boost/graph/maximum_weighted_matching.hpp:619:        void augmenting(vertex_descriptor_t v, vertex_descriptor_t v_free_ancestor,
+./graph/include/boost/graph/maximum_weighted_matching.hpp:620:                        vertex_descriptor_t w, vertex_descriptor_t w_free_ancestor)
+./graph/include/boost/graph/maximum_weighted_matching.hpp:629:            vertex_descriptor_t a, b;
+./graph/include/boost/graph/maximum_weighted_matching.hpp:662:                vertex_descriptor_t u = *vi;
+./graph/include/boost/graph/maximum_weighted_matching.hpp:681:        void blossoming(vertex_descriptor_t v, vertex_descriptor_t v_prime,
+./graph/include/boost/graph/maximum_weighted_matching.hpp:682:                        vertex_descriptor_t w, vertex_descriptor_t w_prime,
+./graph/include/boost/graph/maximum_weighted_matching.hpp:683:                        vertex_descriptor_t nca)
+./graph/include/boost/graph/maximum_weighted_matching.hpp:715:            std::vector<vertex_descriptor_t> b_vertices = b->vertices(), old_base_in_b, other_base;
+./graph/include/boost/graph/maximum_weighted_matching.hpp:716:            vertex_descriptor_t b_base = b->get_base();
+./graph/include/boost/graph/maximum_weighted_matching.hpp:758:                vertex_descriptor_t u = *vi;
+./graph/include/boost/graph/maximum_weighted_matching.hpp:780:            vertex_descriptor_t v, w, w_free_ancestor, v_free_ancestor;
+./graph/include/boost/graph/maximum_weighted_matching.hpp:794:                vertex_descriptor_t v_prime = base_vertex(v);
+./graph/include/boost/graph/maximum_weighted_matching.hpp:795:                vertex_descriptor_t w_prime = base_vertex(w);
+./graph/include/boost/graph/maximum_weighted_matching.hpp:847:                        vertex_descriptor_t nca = nearest_common_ancestor(v_prime, w_prime, v_free_ancestor, w_free_ancestor);
+./graph/include/boost/graph/maximum_weighted_matching.hpp:883:                vertex_descriptor_t b_base = (*bi)->get_base();
+./graph/include/boost/graph/maximum_weighted_matching.hpp:894:                vertex_descriptor_t v = *vi, v_prime = base_vertex(v);
+./graph/include/boost/graph/maximum_weighted_matching.hpp:907:                vertex_descriptor_t v_prime = base_vertex(*vi);
+./graph/include/boost/graph/maximum_weighted_matching.hpp:914:                vertex_descriptor_t b_base = (*bi)->get_base();
+./graph/include/boost/graph/maximum_weighted_matching.hpp:923:                vertex_descriptor_t v = *vi;
+./graph/include/boost/graph/maximum_weighted_matching.hpp:944:                    vertex_descriptor_t b_base = b->get_base();
+./graph/include/boost/graph/maximum_weighted_matching.hpp:957:                std::vector<vertex_descriptor_t> base_nodes;
+./graph/include/boost/graph/maximum_weighted_matching.hpp:982:                vertex_descriptor_t v = source(best_edge.first, g), w = target(best_edge.first, g);
+./graph/include/boost/graph/maximum_weighted_matching.hpp:983:                vertex_descriptor_t v_prime = base_vertex(v), w_prime = base_vertex(w), v_free_ancestor, w_free_ancestor;
+./graph/include/boost/graph/maximum_weighted_matching.hpp:984:                vertex_descriptor_t nca = nearest_common_ancestor(v_prime, w_prime, v_free_ancestor, w_free_ancestor);
+./graph/include/boost/graph/maximum_weighted_matching.hpp:1012:        std::vector<vertex_descriptor_t> mate_vector;
+./graph/include/boost/graph/maximum_weighted_matching.hpp:1013:        std::vector<vertex_descriptor_t> label_S_vector, label_T_vector;
+./graph/include/boost/graph/maximum_weighted_matching.hpp:1014:        std::vector<vertex_descriptor_t> outlet_vector;
+./graph/include/boost/graph/maximum_weighted_matching.hpp:1015:        std::vector<vertex_descriptor_t> tau_idx_vector;
+./graph/include/boost/graph/maximum_weighted_matching.hpp:1019:        std::vector<std::pair<vertex_descriptor_t, vertex_descriptor_t> > old_label_vector;
+./graph/include/boost/graph/maximum_weighted_matching.hpp:1081:        typedef typename graph_traits<Graph>::vertex_descriptor vertex_descriptor_t;
+./graph/include/boost/graph/maximum_weighted_matching.hpp:1083:        typedef typename std::vector<vertex_descriptor_t>::iterator vertex_vec_iter_t;
+./graph/include/boost/graph/maximum_weighted_matching.hpp:1116:        std::vector<vertex_descriptor_t> mate_vector, best_mate_vector;
+./graph/include/boost/graph/maximum_weighted_matching.hpp:1133:            vertex_descriptor_t v, w;
+./graph/include/boost/graph/max_cardinality_matching.hpp:38:    typedef typename graph_traits<Graph>::vertex_descriptor
+./graph/include/boost/graph/max_cardinality_matching.hpp:39:      vertex_descriptor_t;
+./graph/include/boost/graph/max_cardinality_matching.hpp:47:        vertex_descriptor_t v = *vi;
+./graph/include/boost/graph/max_cardinality_matching.hpp:71:    typedef typename graph_traits<Graph>::vertex_descriptor
+./graph/include/boost/graph/max_cardinality_matching.hpp:72:      vertex_descriptor_t;
+./graph/include/boost/graph/max_cardinality_matching.hpp:78:        vertex_descriptor_t v = *vi;
+./graph/include/boost/graph/max_cardinality_matching.hpp:137:    typedef typename graph_traits<Graph>::vertex_descriptor
+./graph/include/boost/graph/max_cardinality_matching.hpp:138:      vertex_descriptor_t;
+./graph/include/boost/graph/max_cardinality_matching.hpp:139:    typedef typename std::pair< vertex_descriptor_t, vertex_descriptor_t >
+./graph/include/boost/graph/max_cardinality_matching.hpp:147:    typedef typename std::deque<vertex_descriptor_t> vertex_list_t;
+./graph/include/boost/graph/max_cardinality_matching.hpp:149:    typedef typename map_vertex_to_<vertex_descriptor_t>::type 
+./graph/include/boost/graph/max_cardinality_matching.hpp:209:        vertex_descriptor_t u = *vi;
+./graph/include/boost/graph/max_cardinality_matching.hpp:235:      vertex_descriptor_t v,w,w_free_ancestor,v_free_ancestor;
+./graph/include/boost/graph/max_cardinality_matching.hpp:251:        vertex_descriptor_t v_prime = origin[ds.find_set(v)];
+./graph/include/boost/graph/max_cardinality_matching.hpp:252:        vertex_descriptor_t w_prime = origin[ds.find_set(w)];
+./graph/include/boost/graph/max_cardinality_matching.hpp:266:          vertex_descriptor_t w_prime_mate = mate[w_prime];
+./graph/include/boost/graph/max_cardinality_matching.hpp:283:          vertex_descriptor_t w_up = w_prime;
+./graph/include/boost/graph/max_cardinality_matching.hpp:284:          vertex_descriptor_t v_up = v_prime;
+./graph/include/boost/graph/max_cardinality_matching.hpp:285:          vertex_descriptor_t nearest_common_ancestor 
+./graph/include/boost/graph/max_cardinality_matching.hpp:347:      vertex_descriptor_t a,b;
+./graph/include/boost/graph/max_cardinality_matching.hpp:389:    vertex_descriptor_t parent(vertex_descriptor_t x)
+./graph/include/boost/graph/max_cardinality_matching.hpp:403:    void link_and_set_bridges(vertex_descriptor_t x, 
+./graph/include/boost/graph/max_cardinality_matching.hpp:404:                              vertex_descriptor_t stop_vertex, 
+./graph/include/boost/graph/max_cardinality_matching.hpp:407:      for(vertex_descriptor_t v = x; v != stop_vertex; v = parent(v))
+./graph/include/boost/graph/max_cardinality_matching.hpp:442:    void retrieve_augmenting_path(vertex_descriptor_t v, vertex_descriptor_t w)  
+./graph/include/boost/graph/max_cardinality_matching.hpp:461:    void reversed_retrieve_augmenting_path(vertex_descriptor_t v,
+./graph/include/boost/graph/max_cardinality_matching.hpp:462:                                           vertex_descriptor_t w)  
+./graph/include/boost/graph/max_cardinality_matching.hpp:491:    std::vector<vertex_descriptor_t> mate_vector;
+./graph/include/boost/graph/max_cardinality_matching.hpp:495:    std::vector<vertex_descriptor_t> origin_vector;
+./graph/include/boost/graph/max_cardinality_matching.hpp:496:    std::vector<vertex_descriptor_t> pred_vector;
+./graph/include/boost/graph/max_cardinality_matching.hpp:498:    std::vector<vertex_descriptor_t> ds_parent_vector;
+./graph/include/boost/graph/max_cardinality_matching.hpp:530:    typedef typename graph_traits< Graph >::vertex_descriptor vertex_descriptor_t;
+./graph/include/boost/graph/max_cardinality_matching.hpp:545:        vertex_descriptor_t u = source(e,g);
+./graph/include/boost/graph/max_cardinality_matching.hpp:546:        vertex_descriptor_t v = target(e,g);
+./graph/include/boost/graph/max_cardinality_matching.hpp:574:    typedef typename graph_traits< Graph >::vertex_descriptor
+./graph/include/boost/graph/max_cardinality_matching.hpp:575:      vertex_descriptor_t;
+./graph/include/boost/graph/max_cardinality_matching.hpp:579:    typedef std::pair<vertex_descriptor_t, vertex_descriptor_t> vertex_pair_t;
+./graph/include/boost/graph/max_cardinality_matching.hpp:583:      inline static vertex_descriptor_t select_vertex(const vertex_pair_t p) 
+./graph/include/boost/graph/max_cardinality_matching.hpp:589:      inline static vertex_descriptor_t select_vertex(const vertex_pair_t p) 
+./graph/include/boost/graph/max_cardinality_matching.hpp:611:      typedef std::vector<std::pair<vertex_descriptor_t, vertex_descriptor_t> >
+./graph/include/boost/graph/max_cardinality_matching.hpp:623:        vertex_descriptor_t u = source(e,g);
+./graph/include/boost/graph/max_cardinality_matching.hpp:624:        vertex_descriptor_t v = target(e,g);
+./graph/include/boost/graph/max_cardinality_matching.hpp:740:    typedef typename graph_traits<Graph>::vertex_descriptor 
+./graph/include/boost/graph/max_cardinality_matching.hpp:741:      vertex_descriptor_t;
+./graph/include/boost/graph/max_cardinality_matching.hpp:745:    typedef typename map_vertex_to_<vertex_descriptor_t>::type 
+./graph/include/boost/graph/mcgregor_common_subgraphs.hpp:36:      typedef typename graph_traits<GraphFirst>::vertex_descriptor vertex_first_type;
+./graph/include/boost/graph/mcgregor_common_subgraphs.hpp:37:      typedef typename graph_traits<GraphSecond>::vertex_descriptor vertex_second_type;
+./graph/include/boost/graph/mcgregor_common_subgraphs.hpp:118:     typename graph_traits<GraphFirst>::vertex_descriptor new_vertex1,
+./graph/include/boost/graph/mcgregor_common_subgraphs.hpp:119:     typename graph_traits<GraphSecond>::vertex_descriptor new_vertex2,
+./graph/include/boost/graph/mcgregor_common_subgraphs.hpp:124:      typedef typename graph_traits<GraphSecond>::vertex_descriptor VertexSecond;
+./graph/include/boost/graph/mcgregor_common_subgraphs.hpp:279:      typedef typename graph_traits<GraphFirst>::vertex_descriptor VertexFirst;
+./graph/include/boost/graph/mcgregor_common_subgraphs.hpp:280:      typedef typename graph_traits<GraphSecond>::vertex_descriptor VertexSecond;
+./graph/include/boost/graph/mcgregor_common_subgraphs.hpp:416:      typedef typename graph_traits<GraphFirst>::vertex_descriptor
+./graph/include/boost/graph/metric_tsp_approx.hpp:49:        typedef typename graph_traits<Graph>::vertex_descriptor Vertex;
+./graph/include/boost/graph/metric_tsp_approx.hpp:103:        typename graph_traits<VertexListGraph>::vertex_descriptor start,
+./graph/include/boost/graph/metric_tsp_approx.hpp:113:    typename graph_traits<VertexListGraph>::vertex_descriptor start,
+./graph/include/boost/graph/metric_tsp_approx.hpp:147:    typename graph_traits<VertexListGraph>::vertex_descriptor start,
+./graph/include/boost/graph/metric_tsp_approx.hpp:159:                                       typename graph_traits<VertexListGraph>::vertex_descriptor start,
+./graph/include/boost/graph/metric_tsp_approx.hpp:171:        typedef typename graph_traits<VertexListGraph>::vertex_descriptor GVertex;
+./graph/include/boost/graph/metric_tsp_approx.hpp:176:        typedef graph_traits<MSTImpl>::vertex_descriptor Vertex;
+./graph/include/boost/graph/metric_tsp_approx.hpp:256:        typedef typename graph_traits<Graph>::vertex_descriptor Vertex;
+./graph/include/boost/graph/minimum_degree_ordering.hpp:199:      typedef typename graph_traits<Graph>::vertex_descriptor vertex_t;
+./graph/include/boost/graph/minimum_degree_ordering.hpp:230:      typedef typename graph_traits<Graph>::vertex_descriptor vertex_t;
+./graph/include/boost/graph/minimum_degree_ordering.hpp:259:      typedef typename Traits::vertex_descriptor vertex_t;
+./graph/include/boost/graph/named_function_params.hpp:723:    typename boost::graph_traits<G>::vertex_descriptor
+./graph/include/boost/graph/named_function_params.hpp:727:    typename boost::graph_traits<G>::vertex_descriptor
+./graph/include/boost/graph/named_function_params.hpp:735:      typedef typename boost::graph_traits<G>::vertex_descriptor result_type;
+./graph/include/boost/graph/named_graph.hpp:209:  typedef Vertex vertex_descriptor;
+./graph/include/boost/graph/named_graph.hpp:272:  optional<vertex_descriptor>
+./graph/include/boost/graph/named_graph.hpp:334:optional<typename BGL_NAMED_GRAPH::vertex_descriptor>
+./graph/include/boost/graph/named_graph.hpp:401:add_edge(typename BGL_NAMED_GRAPH::vertex_descriptor const& u,
+./graph/include/boost/graph/named_graph.hpp:414:         typename BGL_NAMED_GRAPH::vertex_descriptor const& v,
+./graph/include/boost/graph/named_graph.hpp:425:add_edge(typename BGL_NAMED_GRAPH::vertex_descriptor const& u,
+./graph/include/boost/graph/named_graph.hpp:435:         typename BGL_NAMED_GRAPH::vertex_descriptor const& v,
+./graph/include/boost/graph/neighbor_bfs.hpp:52:    typename graph_traits<Graph>::vertex_descriptor u;
+./graph/include/boost/graph/neighbor_bfs.hpp:133:       typename graph_traits<BidirectionalGraph>::vertex_descriptor s, 
+./graph/include/boost/graph/neighbor_bfs.hpp:139:      typedef typename GTraits::vertex_descriptor Vertex;
+./graph/include/boost/graph/neighbor_bfs.hpp:206:       typename graph_traits<VertexListGraph>::vertex_descriptor s,
+./graph/include/boost/graph/neighbor_bfs.hpp:213:      typedef typename Traits::vertex_descriptor Vertex;
+./graph/include/boost/graph/neighbor_bfs.hpp:240:       typename graph_traits<VertexListGraph>::vertex_descriptor s,
+./graph/include/boost/graph/neighbor_bfs.hpp:257:       typename graph_traits<VertexListGraph>::vertex_descriptor s,
+./graph/include/boost/graph/neighbor_bfs.hpp:283:     typename graph_traits<VertexListGraph>::vertex_descriptor s,
+./graph/include/boost/graph/neighbor_bfs.hpp:302:     typename graph_traits<IncidenceGraph>::vertex_descriptor s,
+./graph/include/boost/graph/neighbor_bfs.hpp:307:    typedef boost::queue<typename Traits::vertex_descriptor> queue_t;
+./graph/include/boost/graph/page_rank.hpp:147:      typename graph_traits<MutableGraph>::vertex_descriptor v = *vi++;
+./graph/include/boost/graph/planar_canonical_ordering.hpp:42:    typedef typename graph_traits<Graph>::vertex_descriptor vertex_t;
+./graph/include/boost/graph/planar_detail/boyer_myrvold_impl.hpp:68:      typedef typename graph_traits<Graph>::vertex_descriptor vertex_t;
+./graph/include/boost/graph/planar_detail/boyer_myrvold_impl.hpp:80:      typedef typename graph_traits<Graph>::vertex_descriptor vertex_t;
+./graph/include/boost/graph/planar_detail/boyer_myrvold_impl.hpp:149:    typedef typename graph_traits<Graph>::vertex_descriptor vertex_t;
+./graph/include/boost/graph/planar_detail/face_handles.hpp:264:    typedef typename graph_traits<Graph>::vertex_descriptor vertex_t;
+./graph/include/boost/graph/planar_detail/face_handles.hpp:318:    typedef typename graph_traits<Graph>::vertex_descriptor vertex_t;
+./graph/include/boost/graph/planar_detail/face_iterators.hpp:49:  //ValueType is either graph_traits<Graph>::vertex_descriptor 
+./graph/include/boost/graph/planar_detail/face_iterators.hpp:102:    typedef typename graph_traits<Graph>::vertex_descriptor vertex_t;
+./graph/include/boost/graph/planar_detail/face_iterators.hpp:307:    typedef typename graph_traits<Graph>::vertex_descriptor vertex_t;
+./graph/include/boost/graph/planar_face_traversal.hpp:63:    typedef typename graph_traits<Graph>::vertex_descriptor vertex_t;
+./graph/include/boost/graph/prim_minimum_spanning_tree.hpp:34:                  typename graph_traits<Graph>::vertex_descriptor s,
+./graph/include/boost/graph/prim_minimum_spanning_tree.hpp:52:     typename graph_traits<VertexListGraph>::vertex_descriptor s, 
+./graph/include/boost/graph/properties.hpp:244:    typedef typename graph_traits<Graph>::vertex_descriptor key_type;
+./graph/include/boost/graph/properties.hpp:283:  // Use this next function when vertex_descriptor is known to be an
+./graph/include/boost/graph/push_relabel_max_flow.hpp:54:              class VertexIndexMap,     // vertex_descriptor -> integer
+./graph/include/boost/graph/push_relabel_max_flow.hpp:60:      typedef typename Traits::vertex_descriptor vertex_descriptor;
+./graph/include/boost/graph/push_relabel_max_flow.hpp:67:      typedef preflow_layer<vertex_descriptor> Layer;
+./graph/include/boost/graph/push_relabel_max_flow.hpp:77:      inline bool is_admissible(vertex_descriptor u, vertex_descriptor v) {
+./graph/include/boost/graph/push_relabel_max_flow.hpp:90:      typedef typename std::list<vertex_descriptor>::iterator list_iterator;
+./graph/include/boost/graph/push_relabel_max_flow.hpp:92:      void add_to_active_list(vertex_descriptor u, Layer& layer) {
+./graph/include/boost/graph/push_relabel_max_flow.hpp:100:      void remove_from_active_list(vertex_descriptor u) {
+./graph/include/boost/graph/push_relabel_max_flow.hpp:104:      void add_to_inactive_list(vertex_descriptor u, Layer& layer) {
+./graph/include/boost/graph/push_relabel_max_flow.hpp:108:      void remove_from_inactive_list(vertex_descriptor u) {
+./graph/include/boost/graph/push_relabel_max_flow.hpp:118:                   vertex_descriptor src_, 
+./graph/include/boost/graph/push_relabel_max_flow.hpp:119:                   vertex_descriptor sink_,
+./graph/include/boost/graph/push_relabel_max_flow.hpp:155:          vertex_descriptor u = *u_iter;
+./graph/include/boost/graph/push_relabel_max_flow.hpp:177:            vertex_descriptor tgt = target(a, g);
+./graph/include/boost/graph/push_relabel_max_flow.hpp:193:          vertex_descriptor u = *u_iter;
+./graph/include/boost/graph/push_relabel_max_flow.hpp:238:          vertex_descriptor u = Q.top();
+./graph/include/boost/graph/push_relabel_max_flow.hpp:245:            vertex_descriptor v = target(a, g);
+./graph/include/boost/graph/push_relabel_max_flow.hpp:267:      void discharge(vertex_descriptor u)
+./graph/include/boost/graph/push_relabel_max_flow.hpp:275:              vertex_descriptor v = target(a, g);
+./graph/include/boost/graph/push_relabel_max_flow.hpp:313:        vertex_descriptor
+./graph/include/boost/graph/push_relabel_max_flow.hpp:336:      distance_size_type relabel_distance(vertex_descriptor u)
+./graph/include/boost/graph/push_relabel_max_flow.hpp:351:          vertex_descriptor v = target(a, g);
+./graph/include/boost/graph/push_relabel_max_flow.hpp:404:            vertex_descriptor u = *u_iter;
+./graph/include/boost/graph/push_relabel_max_flow.hpp:434:        vertex_descriptor r, restart, u;
+./graph/include/boost/graph/push_relabel_max_flow.hpp:436:        std::vector<vertex_descriptor> parent(n);
+./graph/include/boost/graph/push_relabel_max_flow.hpp:437:        std::vector<vertex_descriptor> topo_next(n);
+./graph/include/boost/graph/push_relabel_max_flow.hpp:439:        vertex_descriptor tos(parent[0]), 
+./graph/include/boost/graph/push_relabel_max_flow.hpp:468:                  vertex_descriptor v = target(a, g);
+./graph/include/boost/graph/push_relabel_max_flow.hpp:585:          vertex_descriptor u = *u_iter;
+./graph/include/boost/graph/push_relabel_max_flow.hpp:637:      vertex_descriptor src;
+./graph/include/boost/graph/push_relabel_max_flow.hpp:638:      vertex_descriptor sink;
+./graph/include/boost/graph/push_relabel_max_flow.hpp:667:      boost::queue<vertex_descriptor> Q;
+./graph/include/boost/graph/push_relabel_max_flow.hpp:691:     typename graph_traits<Graph>::vertex_descriptor src,
+./graph/include/boost/graph/push_relabel_max_flow.hpp:692:     typename graph_traits<Graph>::vertex_descriptor sink,
+./graph/include/boost/graph/push_relabel_max_flow.hpp:716:     typename graph_traits<Graph>::vertex_descriptor src,
+./graph/include/boost/graph/push_relabel_max_flow.hpp:717:     typename graph_traits<Graph>::vertex_descriptor sink,
+./graph/include/boost/graph/push_relabel_max_flow.hpp:736:     typename graph_traits<Graph>::vertex_descriptor src,
+./graph/include/boost/graph/push_relabel_max_flow.hpp:737:     typename graph_traits<Graph>::vertex_descriptor sink)
+./graph/include/boost/graph/random.hpp:35:  typename graph_traits<Graph>::vertex_descriptor
+./graph/include/boost/graph/random.hpp:75:  random_out_edge(Graph& g, typename graph_traits<Graph>::vertex_descriptor src, RandomNumGen& gen) {
+./graph/include/boost/graph/random.hpp:130:    typedef typename Traits::vertex_descriptor vertex_descriptor;
+./graph/include/boost/graph/random.hpp:155:        vertex_descriptor a = random_vertex(g, gen), b;
+./graph/include/boost/graph/random.hpp:199:    typedef typename Traits::vertex_descriptor vertex_t;
+./graph/include/boost/graph/random_spanning_tree.hpp:34:    void random_spanning_tree_internal(const Graph& g, typename graph_traits<Graph>::vertex_descriptor s, PredMap pred, ColorMap color, NextEdge next_edge) {
+./graph/include/boost/graph/random_spanning_tree.hpp:35:      typedef typename graph_traits<Graph>::vertex_descriptor vertex_descriptor;
+./graph/include/boost/graph/random_spanning_tree.hpp:42:      std::vector<vertex_descriptor> path;
+./graph/include/boost/graph/random_spanning_tree.hpp:50:        for (typename std::vector<vertex_descriptor>::const_reverse_iterator i = path.rbegin();
+./graph/include/boost/graph/random_spanning_tree.hpp:52:               (typename std::vector<vertex_descriptor>::const_reverse_iterator)path.rend();
+./graph/include/boost/graph/random_spanning_tree.hpp:54:          typename std::vector<vertex_descriptor>::const_reverse_iterator j = i;
+./graph/include/boost/graph/random_spanning_tree.hpp:79:  void random_spanning_tree(const Graph& g, Gen& gen, typename graph_traits<Graph>::vertex_descriptor root,
+./graph/include/boost/graph/random_spanning_tree.hpp:87:  void random_spanning_tree(const Graph& g, Gen& gen, typename graph_traits<Graph>::vertex_descriptor root,
+./graph/include/boost/graph/random_spanning_tree.hpp:98:    typedef typename graph_traits<Graph>::vertex_descriptor vertex_descriptor;
+./graph/include/boost/graph/random_spanning_tree.hpp:99:    vertex_descriptor default_vertex = *vertices(g).first;
+./graph/include/boost/graph/random_spanning_tree.hpp:100:    vertex_descriptor start_vertex = arg_pack[_root_vertex | default_vertex];
+./graph/include/boost/graph/read_dimacs.hpp:37:                                  typename graph_traits<Graph>::vertex_descriptor& src,
+./graph/include/boost/graph/read_dimacs.hpp:38:                                  typename graph_traits<Graph>::vertex_descriptor& sink,
+./graph/include/boost/graph/read_dimacs.hpp:48:  typedef typename graph_traits<Graph>::vertex_descriptor vertex_descriptor;
+./graph/include/boost/graph/read_dimacs.hpp:51:  std::vector<vertex_descriptor> verts;
+./graph/include/boost/graph/read_dimacs.hpp:293:                         typename graph_traits<Graph>::vertex_descriptor& src,
+./graph/include/boost/graph/read_dimacs.hpp:294:                         typename graph_traits<Graph>::vertex_descriptor& sink,
+./graph/include/boost/graph/read_dimacs.hpp:304:  typename graph_traits<Graph>::vertex_descriptor dummy_src, dummy_sink; // Not filled in
+./graph/include/boost/graph/relax.hpp:48:      typedef typename graph_traits<Graph>::vertex_descriptor Vertex;
+./graph/include/boost/graph/relax.hpp:88:      typedef typename graph_traits<Graph>::vertex_descriptor Vertex;
+./graph/include/boost/graph/reverse_graph.hpp:111:    typedef typename Traits::vertex_descriptor vertex_descriptor;
+./graph/include/boost/graph/reverse_graph.hpp:125:    typedef typename adjacency_iterator_generator<Self, vertex_descriptor, out_edge_iterator>::type adjacency_iterator;
+./graph/include/boost/graph/reverse_graph.hpp:160:    static vertex_descriptor null_vertex()
+./graph/include/boost/graph/reverse_graph.hpp:232:out_edges(const typename graph_traits<BidirectionalGraph>::vertex_descriptor u,
+./graph/include/boost/graph/reverse_graph.hpp:254:out_degree(const typename graph_traits<BidirectionalGraph>::vertex_descriptor u,
+./graph/include/boost/graph/reverse_graph.hpp:261:inline typename graph_traits<BidirectionalGraph>::vertex_descriptor
+./graph/include/boost/graph/reverse_graph.hpp:271:edge(const typename graph_traits<BidirectionalGraph>::vertex_descriptor u,
+./graph/include/boost/graph/reverse_graph.hpp:272:     const typename graph_traits<BidirectionalGraph>::vertex_descriptor v,
+./graph/include/boost/graph/reverse_graph.hpp:283:in_edges(const typename graph_traits<BidirectionalGraph>::vertex_descriptor u,
+./graph/include/boost/graph/reverse_graph.hpp:292:adjacent_vertices(typename graph_traits<BidirectionalGraph>::vertex_descriptor u,
+./graph/include/boost/graph/reverse_graph.hpp:305:in_degree(const typename graph_traits<BidirectionalGraph>::vertex_descriptor u,
+./graph/include/boost/graph/reverse_graph.hpp:312:inline typename graph_traits<BidirectionalGraph>::vertex_descriptor
+./graph/include/boost/graph/reverse_graph.hpp:319:inline typename graph_traits<BidirectionalGraph>::vertex_descriptor
+./graph/include/boost/graph/reverse_graph.hpp:327:degree(const typename graph_traits<BidirectionalGraph>::vertex_descriptor u,
+./graph/include/boost/graph/r_c_shortest_paths.hpp:33:    const typename graph_traits<Graph>::vertex_descriptor& vd = graph_traits<Graph>::vertex_descriptor() )
+./graph/include/boost/graph/r_c_shortest_paths.hpp:55:  const typename graph_traits<Graph>::vertex_descriptor resident_vertex;
+./graph/include/boost/graph/r_c_shortest_paths.hpp:157:  typename graph_traits<Graph>::vertex_descriptor s,
+./graph/include/boost/graph/r_c_shortest_paths.hpp:158:  typename graph_traits<Graph>::vertex_descriptor t,
+./graph/include/boost/graph/r_c_shortest_paths.hpp:259:      typename boost::graph_traits<Graph>::vertex_descriptor
+./graph/include/boost/graph/r_c_shortest_paths.hpp:370:      typename graph_traits<Graph>::vertex_descriptor cur_vertex =
+./graph/include/boost/graph/r_c_shortest_paths.hpp:504:  typename graph_traits<Graph>::vertex_descriptor s,
+./graph/include/boost/graph/r_c_shortest_paths.hpp:505:  typename graph_traits<Graph>::vertex_descriptor t,
+./graph/include/boost/graph/r_c_shortest_paths.hpp:549:  typename graph_traits<Graph>::vertex_descriptor s,
+./graph/include/boost/graph/r_c_shortest_paths.hpp:550:  typename graph_traits<Graph>::vertex_descriptor t,
+./graph/include/boost/graph/r_c_shortest_paths.hpp:599:  typename graph_traits<Graph>::vertex_descriptor s,
+./graph/include/boost/graph/r_c_shortest_paths.hpp:600:  typename graph_traits<Graph>::vertex_descriptor t,
+./graph/include/boost/graph/r_c_shortest_paths.hpp:639:  typename graph_traits<Graph>::vertex_descriptor s,
+./graph/include/boost/graph/r_c_shortest_paths.hpp:640:  typename graph_traits<Graph>::vertex_descriptor t,
+./graph/include/boost/graph/sequential_vertex_coloring.hpp:47:    typedef typename GraphTraits::vertex_descriptor Vertex;
+./graph/include/boost/graph/sequential_vertex_coloring.hpp:102:    typedef typename graph_traits<VertexListGraph>::vertex_descriptor
+./graph/include/boost/graph/sequential_vertex_coloring.hpp:103:      vertex_descriptor;
+./graph/include/boost/graph/sequential_vertex_coloring.hpp:109:    std::vector<vertex_descriptor> order(v.first, v.second);
+./graph/include/boost/graph/sequential_vertex_coloring.hpp:111:    std::vector<vertex_descriptor> order;
+./graph/include/boost/graph/sloan_ordering.hpp:107:  typename graph_traits<Graph>::vertex_descriptor 
+./graph/include/boost/graph/sloan_ordering.hpp:109:                           typename graph_traits<Graph>::vertex_descriptor &s, 
+./graph/include/boost/graph/sloan_ordering.hpp:114:    typedef typename graph_traits<Graph>::vertex_descriptor Vertex;
+./graph/include/boost/graph/sloan_ordering.hpp:259:                 typename graph_traits<Graph>::vertex_descriptor s,
+./graph/include/boost/graph/sloan_ordering.hpp:260:                 typename graph_traits<Graph>::vertex_descriptor e,
+./graph/include/boost/graph/sloan_ordering.hpp:272:    typedef typename graph_traits<Graph>::vertex_descriptor Vertex;
+./graph/include/boost/graph/sloan_ordering.hpp:391:                 typename graph_traits<Graph>::vertex_descriptor s,
+./graph/include/boost/graph/sloan_ordering.hpp:392:                 typename graph_traits<Graph>::vertex_descriptor e,
+./graph/include/boost/graph/sloan_ordering.hpp:423:    typedef typename boost::graph_traits<Graph>::vertex_descriptor Vertex;
+./graph/include/boost/graph/smallest_last_ordering.hpp:42:    typedef typename GraphTraits::vertex_descriptor Vertex;
+./graph/include/boost/graph/smallest_last_ordering.hpp:64:    typedef typename GraphTraits::vertex_descriptor Vertex;
+./graph/include/boost/graph/smallest_last_ordering.hpp:123:    typedef typename graph_traits<VertexListGraph>::vertex_descriptor vertex_descriptor;
+./graph/include/boost/graph/smallest_last_ordering.hpp:131:  std::vector<typename graph_traits<VertexListGraph>::vertex_descriptor>
+./graph/include/boost/graph/smallest_last_ordering.hpp:133:    std::vector<typename graph_traits<VertexListGraph>::vertex_descriptor> o(num_vertices(G));
+./graph/include/boost/graph/stanford_graph.hpp:83:    typedef Vertex* vertex_descriptor;
+./graph/include/boost/graph/stanford_graph.hpp:97:    static vertex_descriptor null_vertex()
+./graph/include/boost/graph/stanford_graph.hpp:101:    typedef Vertex* vertex_descriptor;
+./graph/include/boost/graph/stanford_graph.hpp:115:    static vertex_descriptor null_vertex()
+./graph/include/boost/graph/stanford_graph.hpp:188:  // want to use Vertex* as the vertex_descriptor instead of just
+./graph/include/boost/graph/stoer_wagner_min_cut.hpp:118:     * \param[out] assignments a read/write property map from each vertex to a \c vertex_descriptor object. This
+./graph/include/boost/graph/stoer_wagner_min_cut.hpp:132:      typedef typename boost::graph_traits<UndirectedGraph>::vertex_descriptor vertex_descriptor;
+./graph/include/boost/graph/stoer_wagner_min_cut.hpp:139:      vertex_descriptor bestStart = boost::graph_traits<UndirectedGraph>::null_vertex();
+./graph/include/boost/graph/stoer_wagner_min_cut.hpp:179:      typedef typename boost::graph_traits<UndirectedGraph>::vertex_descriptor vertex_descriptor;
+./graph/include/boost/graph/stoer_wagner_min_cut.hpp:185:      BOOST_CONCEPT_ASSERT((boost::WritablePropertyMapConcept<ParityMap, vertex_descriptor>));
+./graph/include/boost/graph/stoer_wagner_min_cut.hpp:187:      BOOST_CONCEPT_ASSERT((boost::ReadWritePropertyMapConcept<VertexAssignmentMap, vertex_descriptor>));
+./graph/include/boost/graph/stoer_wagner_min_cut.hpp:188:      BOOST_CONCEPT_ASSERT((boost::Convertible<vertex_descriptor, typename boost::property_traits<VertexAssignmentMap>::value_type>));
+./graph/include/boost/graph/stoer_wagner_min_cut.hpp:209:        typedef typename boost::graph_traits<UndirectedGraph>::vertex_descriptor vertex_descriptor;
+./graph/include/boost/graph/stoer_wagner_min_cut.hpp:212:        typedef boost::detail::make_priority_queue_from_arg_pack_gen<boost::graph::keywords::tag::max_priority_queue, weight_type, vertex_descriptor, std::greater<weight_type> > gen_type;
+./graph/include/boost/graph/stoer_wagner_min_cut.hpp:222:          boost::detail::make_property_map_from_arg_pack_gen<tag::vertex_assignment_map, vertex_descriptor>(vertex_descriptor())(g, arg_pack),
+./graph/include/boost/graph/strong_components.hpp:47:      void discover_vertex(typename graph_traits<Graph>::vertex_descriptor v,
+./graph/include/boost/graph/strong_components.hpp:55:      void finish_vertex(typename graph_traits<Graph>::vertex_descriptor v,
+./graph/include/boost/graph/strong_components.hpp:57:        typename graph_traits<Graph>::vertex_descriptor w;
+./graph/include/boost/graph/strong_components.hpp:98:      typedef typename graph_traits<Graph>::vertex_descriptor Vertex;
+./graph/include/boost/graph/strong_components.hpp:194:        typedef typename graph_traits<Graph>::vertex_descriptor Vertex;
+./graph/include/boost/graph/strong_components.hpp:291:    typedef typename graph_traits<Graph>::vertex_descriptor Vertex;
+./graph/include/boost/graph/st_connected.hpp:22:             typename graph_traits<Graph>::vertex_descriptor s,
+./graph/include/boost/graph/st_connected.hpp:23:             typename graph_traits<Graph>::vertex_descriptor t,
+./graph/include/boost/graph/st_connected.hpp:28:  typedef typename graph_traits<Graph>::vertex_descriptor Vertex;
+./graph/include/boost/graph/st_connected.hpp:72:             typename graph_traits<Graph>::vertex_descriptor s,
+./graph/include/boost/graph/st_connected.hpp:73:             typename graph_traits<Graph>::vertex_descriptor t)
+./graph/include/boost/graph/subgraph.hpp:85:    typedef typename Traits::vertex_descriptor         vertex_descriptor;
+./graph/include/boost/graph/subgraph.hpp:175:    static vertex_descriptor null_vertex()
+./graph/include/boost/graph/subgraph.hpp:198:    vertex_descriptor local_to_global(vertex_descriptor u_local) const
+./graph/include/boost/graph/subgraph.hpp:201:    vertex_descriptor global_to_local(vertex_descriptor u_global) const {
+./graph/include/boost/graph/subgraph.hpp:202:        vertex_descriptor u_local; bool in_subgraph;
+./graph/include/boost/graph/subgraph.hpp:217:    std::pair<vertex_descriptor, bool>
+./graph/include/boost/graph/subgraph.hpp:218:    find_vertex(vertex_descriptor u_global) const {
+./graph/include/boost/graph/subgraph.hpp:324:    typedef std::vector<vertex_descriptor> GlobalVertexList;
+./graph/include/boost/graph/subgraph.hpp:326:    typedef std::map<vertex_descriptor, vertex_descriptor> LocalVertexMap;
+./graph/include/boost/graph/subgraph.hpp:343:    edge_descriptor local_add_edge(vertex_descriptor u_local,
+./graph/include/boost/graph/subgraph.hpp:344:                                   vertex_descriptor v_local,
+./graph/include/boost/graph/subgraph.hpp:376:typename subgraph<G>::vertex_descriptor
+./graph/include/boost/graph/subgraph.hpp:377:add_vertex(typename subgraph<G>::vertex_descriptor u_global,
+./graph/include/boost/graph/subgraph.hpp:381:   typename subgraph<G>::vertex_descriptor u_local;
+./graph/include/boost/graph/subgraph.hpp:386:      typename subgraph<G>::vertex_descriptor v_global;
+./graph/include/boost/graph/subgraph.hpp:438:out_edges(typename graph_traits<G>::vertex_descriptor v, const subgraph<G>& g)
+./graph/include/boost/graph/subgraph.hpp:443:out_degree(typename graph_traits<G>::vertex_descriptor v, const subgraph<G>& g)
+./graph/include/boost/graph/subgraph.hpp:447:typename graph_traits<G>::vertex_descriptor
+./graph/include/boost/graph/subgraph.hpp:452:typename graph_traits<G>::vertex_descriptor
+./graph/include/boost/graph/subgraph.hpp:462:in_edges(typename graph_traits<G>::vertex_descriptor v, const subgraph<G>& g)
+./graph/include/boost/graph/subgraph.hpp:467:in_degree(typename graph_traits<G>::vertex_descriptor v, const subgraph<G>& g)
+./graph/include/boost/graph/subgraph.hpp:472:degree(typename graph_traits<G>::vertex_descriptor v, const subgraph<G>& g)
+./graph/include/boost/graph/subgraph.hpp:481:adjacent_vertices(typename subgraph<G>::vertex_descriptor v, const subgraph<G>& g)
+./graph/include/boost/graph/subgraph.hpp:517:edge(typename subgraph<G>::vertex_descriptor u,
+./graph/include/boost/graph/subgraph.hpp:518:     typename subgraph<G>::vertex_descriptor v,
+./graph/include/boost/graph/subgraph.hpp:588:add_edge(typename subgraph<G>::vertex_descriptor u,
+./graph/include/boost/graph/subgraph.hpp:589:         typename subgraph<G>::vertex_descriptor v,
+./graph/include/boost/graph/subgraph.hpp:610:add_edge(typename subgraph<G>::vertex_descriptor u,
+./graph/include/boost/graph/subgraph.hpp:611:         typename subgraph<G>::vertex_descriptor v,
+./graph/include/boost/graph/subgraph.hpp:679:remove_edge(typename subgraph<G>::vertex_descriptor u,
+./graph/include/boost/graph/subgraph.hpp:680:            typename subgraph<G>::vertex_descriptor v,
+./graph/include/boost/graph/subgraph.hpp:726:clear_vertex(typename subgraph<G>::vertex_descriptor v, subgraph<G>& g) {
+./graph/include/boost/graph/subgraph.hpp:737:    typename subgraph<G>::vertex_descriptor
+./graph/include/boost/graph/subgraph.hpp:740:        typename subgraph<G>::vertex_descriptor u_local, u_global;
+./graph/include/boost/graph/subgraph.hpp:755:typename subgraph<G>::vertex_descriptor
+./graph/include/boost/graph/subgraph.hpp:758:    typename subgraph<G>::vertex_descriptor  u_local, u_global;
+./graph/include/boost/graph/subgraph.hpp:776:void remove_vertex(typename subgraph<G>::vertex_descriptor u, subgraph<G>& g)
+./graph/include/boost/graph/subgraph.hpp:1069:typename subgraph<G>::vertex_descriptor
+./graph/include/boost/graph/successive_shortest_path_nonnegative_weights.hpp:66:        typename graph_traits<Graph>::vertex_descriptor s,
+./graph/include/boost/graph/successive_shortest_path_nonnegative_weights.hpp:67:        typename graph_traits<Graph>::vertex_descriptor t,
+./graph/include/boost/graph/successive_shortest_path_nonnegative_weights.hpp:116:        typename graph_traits<Graph>::vertex_descriptor s,
+./graph/include/boost/graph/successive_shortest_path_nonnegative_weights.hpp:117:        typename graph_traits<Graph>::vertex_descriptor t,
+./graph/include/boost/graph/successive_shortest_path_nonnegative_weights.hpp:133:        typename graph_traits<Graph>::vertex_descriptor s,
+./graph/include/boost/graph/successive_shortest_path_nonnegative_weights.hpp:134:        typename graph_traits<Graph>::vertex_descriptor t,
+./graph/include/boost/graph/successive_shortest_path_nonnegative_weights.hpp:154:        typename graph_traits<Graph>::vertex_descriptor s,
+./graph/include/boost/graph/successive_shortest_path_nonnegative_weights.hpp:155:        typename graph_traits<Graph>::vertex_descriptor t,
+./graph/include/boost/graph/successive_shortest_path_nonnegative_weights.hpp:171:        typename graph_traits<Graph>::vertex_descriptor s,
+./graph/include/boost/graph/successive_shortest_path_nonnegative_weights.hpp:172:        typename graph_traits<Graph>::vertex_descriptor t,
+./graph/include/boost/graph/successive_shortest_path_nonnegative_weights.hpp:193:        typename graph_traits<Graph>::vertex_descriptor s,
+./graph/include/boost/graph/successive_shortest_path_nonnegative_weights.hpp:194:        typename graph_traits<Graph>::vertex_descriptor t,
+./graph/include/boost/graph/successive_shortest_path_nonnegative_weights.hpp:210:        typename graph_traits<Graph>::vertex_descriptor s,
+./graph/include/boost/graph/successive_shortest_path_nonnegative_weights.hpp:211:        typename graph_traits<Graph>::vertex_descriptor t,
+./graph/include/boost/graph/successive_shortest_path_nonnegative_weights.hpp:233:        typename graph_traits<Graph>::vertex_descriptor s,
+./graph/include/boost/graph/successive_shortest_path_nonnegative_weights.hpp:234:        typename graph_traits<Graph>::vertex_descriptor t,
+./graph/include/boost/graph/successive_shortest_path_nonnegative_weights.hpp:251:        typename graph_traits<Graph>::vertex_descriptor s,
+./graph/include/boost/graph/successive_shortest_path_nonnegative_weights.hpp:252:        typename graph_traits<Graph>::vertex_descriptor t) {
+./graph/include/boost/graph/tiernan_all_cycles.hpp:130:                        typename graph_traits<Graph>::vertex_descriptor v,
+./graph/include/boost/graph/tiernan_all_cycles.hpp:139:                    typename graph_traits<Graph>::vertex_descriptor u,
+./graph/include/boost/graph/tiernan_all_cycles.hpp:140:                    typename graph_traits<Graph>::vertex_descriptor v,
+./graph/include/boost/graph/tiernan_all_cycles.hpp:162:        typedef typename graph_traits<Graph>::vertex_descriptor Vertex;
+./graph/include/boost/graph/tiernan_all_cycles.hpp:186:        typedef typename graph_traits<Graph>::vertex_descriptor Vertex;
+./graph/include/boost/graph/tiernan_all_cycles.hpp:208:    inline typename graph_traits<Graph>::vertex_descriptor
+./graph/include/boost/graph/tiernan_all_cycles.hpp:214:        typedef typename graph_traits<Graph>::vertex_descriptor Vertex;
+./graph/include/boost/graph/tiernan_all_cycles.hpp:242:        typedef typename graph_traits<Graph>::vertex_descriptor Vertex;
+./graph/include/boost/graph/tiernan_all_cycles.hpp:270:                            typename graph_traits<Graph>::vertex_descriptor v,
+./graph/include/boost/graph/tiernan_all_cycles.hpp:276:        typedef typename graph_traits<Graph>::vertex_descriptor Vertex;
+./graph/include/boost/graph/transitive_closure.hpp:74:    typedef typename graph_traits < Graph >::vertex_descriptor vertex;
+./graph/include/boost/graph/transitive_closure.hpp:264:    typedef typename graph_traits<GraphTC>::vertex_descriptor tc_vertex;
+./graph/include/boost/graph/transitive_closure.hpp:280:      typedef typename graph_traits < GraphTC >::vertex_descriptor tc_vertex;
+./graph/include/boost/graph/transitive_reduction.hpp:42:                          typename graph_traits<Graph>::vertex_descriptor >))
+./graph/include/boost/graph/transitive_reduction.hpp:46:                          typename graph_traits<Graph>::vertex_descriptor >)),
+./graph/include/boost/graph/transitive_reduction.hpp:52:    typedef typename graph_traits<Graph>::vertex_descriptor Vertex;
+./graph/include/boost/graph/two_graphs_common_spanning_trees.hpp:172:    typedef typename GraphTraits::vertex_descriptor vertex_descriptor;
+./graph/include/boost/graph/two_graphs_common_spanning_trees.hpp:202:      std::map<vertex_descriptor, default_color_type> vertex_color;
+./graph/include/boost/graph/two_graphs_common_spanning_trees.hpp:224:                std::map<vertex_descriptor, default_color_type> >(vertex_color),
+./graph/include/boost/graph/two_graphs_common_spanning_trees.hpp:235:                std::map<vertex_descriptor, default_color_type> >(vertex_color),
+./graph/include/boost/graph/two_graphs_common_spanning_trees.hpp:273:                  vertex_descriptor, default_color_type> >(vertex_color),
+./graph/include/boost/graph/two_graphs_common_spanning_trees.hpp:285:                  vertex_descriptor, default_color_type> >(vertex_color),
+./graph/include/boost/graph/two_graphs_common_spanning_trees.hpp:328:        std::map<vertex_descriptor, edge_descriptor> tree_map;
+./graph/include/boost/graph/two_graphs_common_spanning_trees.hpp:329:        std::map<vertex_descriptor, vertex_descriptor> pred_map;
+./graph/include/boost/graph/two_graphs_common_spanning_trees.hpp:330:        std::map<vertex_descriptor, int> dist_map, low_map;
+./graph/include/boost/graph/two_graphs_common_spanning_trees.hpp:334:                std::map<vertex_descriptor, edge_descriptor>
+./graph/include/boost/graph/two_graphs_common_spanning_trees.hpp:337:                std::map<vertex_descriptor, vertex_descriptor>
+./graph/include/boost/graph/two_graphs_common_spanning_trees.hpp:339:            associative_property_map< std::map<vertex_descriptor, int> >,
+./graph/include/boost/graph/two_graphs_common_spanning_trees.hpp:340:            associative_property_map< std::map<vertex_descriptor, int> >,
+./graph/include/boost/graph/two_graphs_common_spanning_trees.hpp:345:              std::map< vertex_descriptor, edge_descriptor> >(tree_map),
+./graph/include/boost/graph/two_graphs_common_spanning_trees.hpp:347:              std::map< vertex_descriptor, vertex_descriptor> >(pred_map),
+./graph/include/boost/graph/two_graphs_common_spanning_trees.hpp:349:              std::map< vertex_descriptor, int> >(dist_map),
+./graph/include/boost/graph/two_graphs_common_spanning_trees.hpp:351:              std::map< vertex_descriptor, int> >(low_map),
+./graph/include/boost/graph/two_graphs_common_spanning_trees.hpp:356:              std::map< vertex_descriptor, edge_descriptor> >(tree_map),
+./graph/include/boost/graph/two_graphs_common_spanning_trees.hpp:358:              std::map< vertex_descriptor, vertex_descriptor> >(pred_map),
+./graph/include/boost/graph/two_graphs_common_spanning_trees.hpp:360:              std::map< vertex_descriptor, int> >(dist_map),
+./graph/include/boost/graph/two_graphs_common_spanning_trees.hpp:362:              std::map< vertex_descriptor, int> >(low_map),
+./graph/include/boost/graph/two_graphs_common_spanning_trees.hpp:371:              std::map<vertex_descriptor, default_color_type> >(vertex_color),
+./graph/include/boost/graph/two_graphs_common_spanning_trees.hpp:380:              std::map<vertex_descriptor, default_color_type> >(vertex_color),
+./graph/include/boost/graph/two_graphs_common_spanning_trees.hpp:402:                    vertex_descriptor, default_color_type> >(vertex_color),
+./graph/include/boost/graph/two_graphs_common_spanning_trees.hpp:415:                    vertex_descriptor, default_color_type> >(vertex_color),
+./graph/include/boost/graph/two_graphs_common_spanning_trees.hpp:449:                    vertex_descriptor, default_color_type> >(vertex_color),
+./graph/include/boost/graph/two_graphs_common_spanning_trees.hpp:462:                    vertex_descriptor, default_color_type> >(vertex_color),
+./graph/include/boost/graph/two_graphs_common_spanning_trees.hpp:588:  typedef typename GraphTraits::vertex_descriptor vertex_descriptor;
+./graph/include/boost/graph/two_graphs_common_spanning_trees.hpp:643:  std::map<vertex_descriptor, edge_descriptor> tree_map;
+./graph/include/boost/graph/two_graphs_common_spanning_trees.hpp:644:  std::map<vertex_descriptor, vertex_descriptor> pred_map;
+./graph/include/boost/graph/two_graphs_common_spanning_trees.hpp:645:  std::map<vertex_descriptor, int> dist_map, low_map;
+./graph/include/boost/graph/two_graphs_common_spanning_trees.hpp:649:          std::map<vertex_descriptor, edge_descriptor>
+./graph/include/boost/graph/two_graphs_common_spanning_trees.hpp:652:          std::map<vertex_descriptor, vertex_descriptor>
+./graph/include/boost/graph/two_graphs_common_spanning_trees.hpp:654:      associative_property_map< std::map<vertex_descriptor, int> >,
+./graph/include/boost/graph/two_graphs_common_spanning_trees.hpp:655:      associative_property_map< std::map<vertex_descriptor, int> >,
+./graph/include/boost/graph/two_graphs_common_spanning_trees.hpp:660:        std::map< vertex_descriptor, edge_descriptor> >(tree_map),
+./graph/include/boost/graph/two_graphs_common_spanning_trees.hpp:662:        std::map< vertex_descriptor, vertex_descriptor> >(pred_map),
+./graph/include/boost/graph/two_graphs_common_spanning_trees.hpp:663:      associative_property_map<std::map< vertex_descriptor, int> >(dist_map),
+./graph/include/boost/graph/two_graphs_common_spanning_trees.hpp:664:      associative_property_map<std::map< vertex_descriptor, int> >(low_map),
+./graph/include/boost/graph/two_graphs_common_spanning_trees.hpp:669:        std::map< vertex_descriptor, edge_descriptor> >(tree_map),
+./graph/include/boost/graph/two_graphs_common_spanning_trees.hpp:671:        std::map< vertex_descriptor, vertex_descriptor> >(pred_map),
+./graph/include/boost/graph/two_graphs_common_spanning_trees.hpp:672:      associative_property_map<std::map< vertex_descriptor, int> >(dist_map),
+./graph/include/boost/graph/two_graphs_common_spanning_trees.hpp:673:      associative_property_map<std::map< vertex_descriptor, int> >(low_map),
+./graph/include/boost/graph/two_graphs_common_spanning_trees.hpp:677:  std::map<vertex_descriptor, default_color_type> vertex_color;
+./graph/include/boost/graph/two_graphs_common_spanning_trees.hpp:682:        std::map<vertex_descriptor, default_color_type> >(vertex_color),
+./graph/include/boost/graph/two_graphs_common_spanning_trees.hpp:688:        std::map<vertex_descriptor, default_color_type> >(vertex_color),
+./graph/include/boost/graph/two_graphs_common_spanning_trees.hpp:724:        std::map<vertex_descriptor, default_color_type> >(vertex_color),
+./graph/include/boost/graph/two_graphs_common_spanning_trees.hpp:735:        std::map<vertex_descriptor, default_color_type> >(vertex_color),
+./graph/include/boost/graph/two_graphs_common_spanning_trees.hpp:765:              std::map<vertex_descriptor, default_color_type> >(vertex_color),
+./graph/include/boost/graph/two_graphs_common_spanning_trees.hpp:776:              std::map<vertex_descriptor, default_color_type> >(vertex_color),
+./graph/include/boost/graph/two_graphs_common_spanning_trees.hpp:795:    std::map<vertex_descriptor, int> com_map;
+./graph/include/boost/graph/two_graphs_common_spanning_trees.hpp:800:        associative_property_map<std::map<vertex_descriptor, int> >(com_map)
+./graph/include/boost/graph/two_graphs_common_spanning_trees.hpp:806:        associative_property_map< std::map<vertex_descriptor, int> >(com_map)
+./graph/include/boost/graph/undirected_dfs.hpp:31:       typename graph_traits<IncidenceGraph>::vertex_descriptor u, 
+./graph/include/boost/graph/undirected_dfs.hpp:38:      typedef typename graph_traits<IncidenceGraph>::vertex_descriptor Vertex;
+./graph/include/boost/graph/undirected_dfs.hpp:97:       typename graph_traits<IncidenceGraph>::vertex_descriptor u, 
+./graph/include/boost/graph/undirected_dfs.hpp:104:      typedef typename graph_traits<IncidenceGraph>::vertex_descriptor Vertex;
+./graph/include/boost/graph/undirected_dfs.hpp:245:     typename graph_traits<IncidenceGraph>::vertex_descriptor u, 
+./graph/include/boost/graph/undirected_graph.hpp:71:    typedef typename graph_type::vertex_descriptor vertex_descriptor;
+./graph/include/boost/graph/undirected_graph.hpp:147:    vertex_descriptor make_index(vertex_descriptor v) {
+./graph/include/boost/graph/undirected_graph.hpp:154:    vertex_descriptor add_vertex()
+./graph/include/boost/graph/undirected_graph.hpp:157:    vertex_descriptor add_vertex(vertex_property_type const& p)
+./graph/include/boost/graph/undirected_graph.hpp:160:    void clear_vertex(vertex_descriptor v) {
+./graph/include/boost/graph/undirected_graph.hpp:167:    void remove_vertex(vertex_descriptor v) {
+./graph/include/boost/graph/undirected_graph.hpp:189:    add_edge(vertex_descriptor u, vertex_descriptor v)
+./graph/include/boost/graph/undirected_graph.hpp:193:    add_edge(vertex_descriptor u, vertex_descriptor v,
+./graph/include/boost/graph/undirected_graph.hpp:197:    void remove_edge(vertex_descriptor u, vertex_descriptor v) {
+./graph/include/boost/graph/undirected_graph.hpp:267:    vertex_bundled& operator[](vertex_descriptor v)
+./graph/include/boost/graph/undirected_graph.hpp:270:    vertex_bundled const& operator[](vertex_descriptor v) const
+./graph/include/boost/graph/undirected_graph.hpp:287:    static vertex_descriptor null_vertex()
+./graph/include/boost/graph/undirected_graph.hpp:341:inline typename UNDIRECTED_GRAPH::vertex_descriptor
+./graph/include/boost/graph/undirected_graph.hpp:347:inline typename UNDIRECTED_GRAPH::vertex_descriptor
+./graph/include/boost/graph/undirected_graph.hpp:354:out_degree(typename UNDIRECTED_GRAPH::vertex_descriptor v,
+./graph/include/boost/graph/undirected_graph.hpp:363:out_edges(typename UNDIRECTED_GRAPH::vertex_descriptor v,
+./graph/include/boost/graph/undirected_graph.hpp:370:in_degree(typename UNDIRECTED_GRAPH::vertex_descriptor v,
+./graph/include/boost/graph/undirected_graph.hpp:379:in_edges(typename UNDIRECTED_GRAPH::vertex_descriptor v,
+./graph/include/boost/graph/undirected_graph.hpp:388:incident_edges(typename UNDIRECTED_GRAPH::vertex_descriptor v,
+./graph/include/boost/graph/undirected_graph.hpp:394:degree(typename UNDIRECTED_GRAPH::vertex_descriptor v,
+./graph/include/boost/graph/undirected_graph.hpp:404:adjacent_vertices(typename UNDIRECTED_GRAPH::vertex_descriptor v,
+./graph/include/boost/graph/undirected_graph.hpp:409:typename UNDIRECTED_GRAPH::vertex_descriptor
+./graph/include/boost/graph/undirected_graph.hpp:416:edge(typename UNDIRECTED_GRAPH::vertex_descriptor u,
+./graph/include/boost/graph/undirected_graph.hpp:417:    typename UNDIRECTED_GRAPH::vertex_descriptor v,
+./graph/include/boost/graph/undirected_graph.hpp:451:inline typename UNDIRECTED_GRAPH::vertex_descriptor
+./graph/include/boost/graph/undirected_graph.hpp:456:inline typename UNDIRECTED_GRAPH::vertex_descriptor
+./graph/include/boost/graph/undirected_graph.hpp:463:clear_vertex(typename UNDIRECTED_GRAPH::vertex_descriptor v,
+./graph/include/boost/graph/undirected_graph.hpp:469:remove_vertex(typename UNDIRECTED_GRAPH::vertex_descriptor v, UNDIRECTED_GRAPH& g)
+./graph/include/boost/graph/undirected_graph.hpp:474:add_edge(typename UNDIRECTED_GRAPH::vertex_descriptor u,
+./graph/include/boost/graph/undirected_graph.hpp:475:         typename UNDIRECTED_GRAPH::vertex_descriptor v,
+./graph/include/boost/graph/undirected_graph.hpp:481:add_edge(typename UNDIRECTED_GRAPH::vertex_descriptor u,
+./graph/include/boost/graph/undirected_graph.hpp:482:         typename UNDIRECTED_GRAPH::vertex_descriptor v,
+./graph/include/boost/graph/undirected_graph.hpp:489:remove_edge(typename UNDIRECTED_GRAPH::vertex_descriptor u,
+./graph/include/boost/graph/undirected_graph.hpp:490:            typename UNDIRECTED_GRAPH::vertex_descriptor v,
+./graph/include/boost/graph/undirected_graph.hpp:510:remove_incident_edge_if(typename UNDIRECTED_GRAPH::vertex_descriptor v,
+./graph/include/boost/graph/undirected_graph.hpp:517:remove_out_edge_if(typename UNDIRECTED_GRAPH::vertex_descriptor v,
+./graph/include/boost/graph/undirected_graph.hpp:524:remove_in_edge_if(typename UNDIRECTED_GRAPH::vertex_descriptor v,
+./graph/include/boost/graph/undirected_graph.hpp:648:get_vertex_index(typename UNDIRECTED_GRAPH::vertex_descriptor v,
+./graph/include/boost/graph/vector_as_graph.hpp:64:    typedef V vertex_descriptor;
+./graph/include/boost/graph/vertex_and_edge_range.hpp:35:      vertex_descriptor;
+./graph/include/boost/graph/vertex_and_edge_range.hpp:48:    static vertex_descriptor null_vertex() 
+./graph/include/boost/graph/vertex_and_edge_range.hpp:108:                    ::vertex_descriptor
+./graph/include/boost/graph/vertex_and_edge_range.hpp:117:                    ::vertex_descriptor
+./graph/include/boost/graph/vf2_sub_graph_iso.hpp:82:      typedef typename graph_traits<GraphThis>::vertex_descriptor vertex_this_type;
+./graph/include/boost/graph/vf2_sub_graph_iso.hpp:83:      typedef typename graph_traits<GraphOther>::vertex_descriptor vertex_other_type;
+./graph/include/boost/graph/vf2_sub_graph_iso.hpp:295:      bool operator()(typename graph_traits<Graph>::vertex_descriptor s,
+./graph/include/boost/graph/vf2_sub_graph_iso.hpp:296:                      typename graph_traits<Graph>::vertex_descriptor t, 
+./graph/include/boost/graph/vf2_sub_graph_iso.hpp:318:      bool operator()(typename graph_traits<Graph>::vertex_descriptor s,
+./graph/include/boost/graph/vf2_sub_graph_iso.hpp:319:                      typename graph_traits<Graph>::vertex_descriptor t, 
+./graph/include/boost/graph/vf2_sub_graph_iso.hpp:389:      typedef typename graph_traits<Graph1>::vertex_descriptor vertex1_type;
+./graph/include/boost/graph/vf2_sub_graph_iso.hpp:390:      typedef typename graph_traits<Graph2>::vertex_descriptor vertex2_type;
+./graph/include/boost/graph/vf2_sub_graph_iso.hpp:744:      typedef typename graph_traits<Graph>::vertex_descriptor vertex_type;
+./graph/include/boost/graph/vf2_sub_graph_iso.hpp:763:      typedef typename graph_traits<Graph>::vertex_descriptor vertex_type;
+./graph/include/boost/graph/vf2_sub_graph_iso.hpp:845:      typedef typename graph_traits<GraphSmall>::vertex_descriptor vertex_small_type;
+./graph/include/boost/graph/vf2_sub_graph_iso.hpp:846:      typedef typename graph_traits<GraphLarge>::vertex_descriptor vertex_large_type;
+./graph/include/boost/graph/vf2_sub_graph_iso.hpp:902:  std::vector<typename graph_traits<Graph>::vertex_descriptor> 
+./graph/include/boost/graph/vf2_sub_graph_iso.hpp:905:    std::vector<typename graph_traits<Graph>::vertex_descriptor> vertex_order;
+./graph/include/boost/graph/vf2_sub_graph_iso.hpp:1078:    typedef typename graph_traits<Graph1>::vertex_descriptor vertex1_type;
+./graph/include/boost/graph/vf2_sub_graph_iso.hpp:1079:    typedef typename graph_traits<Graph2>::vertex_descriptor vertex2_type;
+./graph/include/boost/graph/vf2_sub_graph_iso.hpp:1190:      typename graph_traits<Graph1>::vertex_descriptor s1, t1;
+./graph/include/boost/graph/vf2_sub_graph_iso.hpp:1191:      typename graph_traits<Graph2>::vertex_descriptor s2, t2;
+./graph/include/boost/graph/visitors.hpp:182:      typename graph_traits<Graph>::vertex_descriptor
+./graph/include/boost/graph/wavefront.hpp:28:  ith_wavefront(typename graph_traits<Graph>::vertex_descriptor i,
+./graph/include/boost/graph/wavefront.hpp:32:    typename graph_traits<Graph>::vertex_descriptor v, w;
+./graph/include/boost/graph/wavefront.hpp:64:  ith_wavefront(typename graph_traits<Graph>::vertex_descriptor i,
+./graph/include/boost/graph/write_dimacs.hpp:50:                         typename graph_traits<Graph>::vertex_descriptor src,
+./graph/include/boost/graph/write_dimacs.hpp:51:                         typename graph_traits<Graph>::vertex_descriptor sink,
+./graph/src/graphml.cpp:177:    get_vertex_descriptor(const std::string& v)
+./graph/src/graphml.cpp:189:        source = get_vertex_descriptor(u);
+./graph/src/graphml.cpp:190:        target = get_vertex_descriptor(v);
+./graph/test/adj_list_cc.cpp:23:    typedef graph_traits<Graph>::vertex_descriptor Vertex;
+./graph/test/adj_list_cc.cpp:45:    typedef graph_traits<Graph>::vertex_descriptor Vertex;
+./graph/test/adj_list_cc.cpp:68:    typedef graph_traits<Graph>::vertex_descriptor Vertex;
+./graph/test/adj_list_cc.cpp:88:    typedef graph_traits<Graph>::vertex_descriptor Vertex;
+./graph/test/adj_list_cc.cpp:109:    typedef graph_traits<Graph>::vertex_descriptor Vertex;
+./graph/test/adj_list_cc.cpp:132:    typedef graph_traits<Graph>::vertex_descriptor Vertex;
+./graph/test/adj_list_cc.cpp:152:    typedef graph_traits<Graph>::vertex_descriptor Vertex;
+./graph/test/adj_list_cc.cpp:170:    typedef graph_traits<Graph>::vertex_descriptor Vertex;
+./graph/test/adj_list_cc.cpp:184:    typedef graph_traits<Graph>::vertex_descriptor Vertex;
+./graph/test/adj_list_cc.cpp:216:    typedef graph_traits<Graph>::vertex_descriptor Vertex;
+./graph/test/adj_list_invalidation.cpp:31:    typedef typename graph_traits<Graph>::vertex_descriptor Vertex;
+./graph/test/adj_list_invalidation.cpp:71:    typedef typename graph_traits<Graph>::vertex_descriptor Vertex;
+./graph/test/adj_list_invalidation.cpp:107:    typedef typename graph_traits<Graph>::vertex_descriptor Vertex;
+./graph/test/adj_list_loops.cpp:19:    typedef typename graph_traits<Graph>::vertex_descriptor Vertex;
+./graph/test/adj_list_loops.cpp:37:    typedef typename graph_traits<Graph>::vertex_descriptor Vertex;
+./graph/test/adj_list_loops.cpp:55:    typedef typename graph_traits<Graph>::vertex_descriptor Vertex;
+./graph/test/adj_list_loops.cpp:69:    typedef typename graph_traits<Graph>::vertex_descriptor Vertex;
+./graph/test/adj_matrix_cc.cpp:41:    typedef graph_traits<Graph>::vertex_descriptor Vertex;
+./graph/test/adj_matrix_cc.cpp:59:    typedef graph_traits<Graph>::vertex_descriptor Vertex;
+./graph/test/all_planar_input_files_test.cpp:70:  typedef typename graph_traits<Graph>::vertex_descriptor vertex_t;
+./graph/test/all_planar_input_files_test.cpp:125:  typedef graph_traits<graph>::vertex_descriptor vertex_t;
+./graph/test/astar_search_test.cpp:83:  typedef typename graph_traits<Graph>::vertex_descriptor Vertex;
+./graph/test/astar_search_test.cpp:123:  typedef mygraph_t::vertex_descriptor vertex;
+./graph/test/astar_search_test.cpp:185:  vector<mygraph_t::vertex_descriptor> p(num_vertices(g));
+./graph/test/basic_planarity_test.cpp:43:  typedef typename graph_traits<Graph>::vertex_descriptor vertex_t;
+./graph/test/basic_planarity_test.cpp:86:  typedef typename graph_traits<Graph>::vertex_descriptor vertex_t;
+./graph/test/basic_planarity_test.cpp:132:  typedef typename graph_traits<Graph>::vertex_descriptor vertex_t;
+./graph/test/bellman-test.cpp:79:  graph_traits<Graph>::vertex_descriptor s = vertex(A, g);
+./graph/test/betweenness_centrality_test.cpp:40:  typedef typename graph_traits<Graph>::vertex_descriptor Vertex;
+./graph/test/betweenness_centrality_test.cpp:88:  typedef typename graph_traits<Graph>::vertex_descriptor Vertex;
+./graph/test/betweenness_centrality_test.cpp:178:  typedef typename graph_traits<Graph>::vertex_descriptor Vertex;
+./graph/test/betweenness_centrality_test.cpp:246:  typedef typename graph_traits<MutableGraph>::vertex_descriptor vertex;
+./graph/test/betweenness_centrality_test.cpp:267:  typedef typename boost::graph_traits<Graph>::vertex_descriptor vertex;
+./graph/test/bfs.cpp:27:  typedef typename boost::graph_traits<Graph>::vertex_descriptor Vertex;
+./graph/test/bfs.cpp:118:    typedef typename Traits::vertex_descriptor vertex_descriptor;
+./graph/test/bfs.cpp:133:        vertex_descriptor start = boost::random_vertex(g, gen);
+./graph/test/bfs.cpp:138:        std::vector<vertex_descriptor> parent(i);
+./graph/test/bfs.cpp:153:          boost::iterator_property_map<typename std::vector<vertex_descriptor>::iterator, idx_type>
+./graph/test/biconnected_components_test.cpp:82:typedef graph_traits<Graph>::vertex_descriptor Vertex;
+./graph/test/bipartite_test.cpp:28:    typename traits::vertex_descriptor source, target;
+./graph/test/bipartite_test.cpp:42:  typename traits::vertex_descriptor first_vertex, current_vertex, last_vertex;
+./graph/test/bipartite_test.cpp:68:  typedef std::vector <typename traits::vertex_descriptor> vertex_vector_t;
+./graph/test/bipartite_test.cpp:115:  typedef std::map <boost::graph_traits <list_graph_t>::vertex_descriptor, size_t> index_map_t;
+./graph/test/boykov_kolmogorov_max_flow_test.cpp:51:std::pair< typename graph_traits<Graph>::vertex_descriptor,typename graph_traits<Graph>::vertex_descriptor>
+./graph/test/boykov_kolmogorov_max_flow_test.cpp:56:  typedef typename graph_traits<Graph>::vertex_descriptor vertex_descriptor;
+./graph/test/boykov_kolmogorov_max_flow_test.cpp:75:  vertex_descriptor s = random_vertex(g, gen);
+./graph/test/boykov_kolmogorov_max_flow_test.cpp:76:  vertex_descriptor t = graph_traits<Graph>::null_vertex();
+./graph/test/boykov_kolmogorov_max_flow_test.cpp:87:    vertex_descriptor source_vertex = target(old_edge, g);
+./graph/test/boykov_kolmogorov_max_flow_test.cpp:88:    vertex_descriptor target_vertex = source(old_edge, g);
+./graph/test/boykov_kolmogorov_max_flow_test.cpp:113:  graph_traits<tVectorGraph>::vertex_descriptor src,sink;
+./graph/test/boykov_kolmogorov_max_flow_test.cpp:139:  graph_traits<tListGraph>::vertex_descriptor src,sink;
+./graph/test/boykov_kolmogorov_max_flow_test.cpp:180:  graph_traits<tBundleGraph>::vertex_descriptor src,sink;
+./graph/test/boykov_kolmogorov_max_flow_test.cpp:201:  graph_traits<tGraph>::vertex_descriptor src,sink;
+./graph/test/boykov_kolmogorov_max_flow_test.cpp:246:  typedef typename graph_traits<Graph>::vertex_descriptor tVertex;
+./graph/test/boykov_kolmogorov_max_flow_test.cpp:259:                               typename graph_traits<Graph>::vertex_descriptor src,
+./graph/test/boykov_kolmogorov_max_flow_test.cpp:260:                               typename graph_traits<Graph>::vertex_descriptor sink)
+./graph/test/boykov_kolmogorov_max_flow_test.cpp:408:  graph_traits<tVectorGraph>::vertex_descriptor src, sink;
+./graph/test/bundled_properties.cpp:100:typename boost::graph_traits<Map>::vertex_descriptor 
+./graph/test/bundled_properties.cpp:107:typename boost::graph_traits<Map>::vertex_descriptor 
+./graph/test/bundled_properties.cpp:150:  typedef typename boost::graph_traits<Map>::vertex_descriptor vertex_descriptor;
+./graph/test/bundled_properties.cpp:156:  vertex_descriptor v = *vi;
+./graph/test/bundled_properties.cpp:162:  vertex_descriptor u = *vi++;
+./graph/test/bundled_properties.cpp:168:  vertex_descriptor bloomington = do_add_vertex(map, vi, City("Bloomington", 39000, 47401),
+./graph/test/bundled_properties.cpp:209:  typedef boost::graph_traits<SubMap>::vertex_descriptor Vertex;
+./graph/test/closeness_centrality.cpp:27:    typedef vector<typename traits::vertex_descriptor> type;
+./graph/test/closeness_centrality.cpp:51:    typedef typename graph_traits<Graph>::vertex_descriptor Vertex;
+./graph/test/closeness_centrality.cpp:89:    typedef typename graph_traits<Graph>::vertex_descriptor Vertex;
+./graph/test/clustering_coefficient.cpp:24:    typedef vector<typename traits::vertex_descriptor> type;
+./graph/test/clustering_coefficient.cpp:46:    typedef typename graph_traits<Graph>::vertex_descriptor Vertex;
+./graph/test/csr_graph_test.cpp:70:      typename boost::graph_traits<G1>::vertex_descriptor v1 = *i;
+./graph/test/csr_graph_test.cpp:71:      typename boost::graph_traits<G2>::vertex_descriptor v2 = iso[v1];
+./graph/test/csr_graph_test.cpp:149:  typedef typename boost::graph_traits<G>::vertex_descriptor Vertex;
+./graph/test/csr_graph_test.cpp:307:    CSRGraphT::vertex_descriptor test_vertex = vertex(num_vertices(g2) / 2, g2);
+./graph/test/cuthill_mckee_ordering.cpp:39:  typedef graph_traits<Graph>::vertex_descriptor Vertex;
+./graph/test/cycle_canceling_test.cpp:21:    boost::SampleGraph::vertex_descriptor s,t;
+./graph/test/cycle_canceling_test.cpp:33:    boost::SampleGraph::vertex_descriptor s,t;
+./graph/test/cycle_canceling_test.cpp:45:    boost::SampleGraph::vertex_descriptor s,t;
+./graph/test/degree_centrality.cpp:23:                 vector<typename graph_traits<Graph>::vertex_descriptor>& v)
+./graph/test/degree_centrality.cpp:41:    typedef typename graph_traits<Graph>::vertex_descriptor Vertex;
+./graph/test/degree_centrality.cpp:65:    typedef typename graph_traits<Graph>::vertex_descriptor Vertex;
+./graph/test/degree_centrality.cpp:90:    typedef typename graph_traits<Graph>::vertex_descriptor Vertex;
+./graph/test/delete_edge.cpp:32:    typedef Graph_t::vertex_descriptor VertexType;
+./graph/test/dfs.cpp:101:    typedef typename Traits::vertex_descriptor vertex_descriptor;
+./graph/test/dfs.cpp:119:        std::vector<vertex_descriptor> parent(num_vertices(g));
+./graph/test/dfs.cpp:130:          boost::iterator_property_map<typename std::vector<vertex_descriptor>::iterator, idx_type>
+./graph/test/dfs.cpp:154:            vertex_descriptor u = *ui, v = *vi;
+./graph/test/dijkstra_no_color_map_compare.cpp:45:  typedef typename graph_traits<Graph>::vertex_descriptor vertex_t;
+./graph/test/dominator_tree_test.cpp:231:    typedef graph_traits<G>::vertex_descriptor Vertex;
+./graph/test/eccentricity.cpp:27:    typedef vector<typename traits::vertex_descriptor> type;
+./graph/test/eccentricity.cpp:51:    typedef typename graph_traits<Graph>::vertex_descriptor Vertex;
+./graph/test/eccentricity.cpp:93:    typedef typename graph_traits<Graph>::vertex_descriptor Vertex;
+./graph/test/filtered_graph_properties_dijkstra.cpp:30:    typedef typename boost::graph_traits< tGraph >::vertex_descriptor tNode;
+./graph/test/find_flow_cost_bundled_properties_and_named_params_test.cpp:28:  traits::vertex_descriptor s,t;
+./graph/test/find_flow_cost_bundled_properties_and_named_params_test.cpp:56:  traits::vertex_descriptor s,t;
+./graph/test/finish_edge_bug.cpp:19:  typedef typename boost::graph_traits<graph_t>::vertex_descriptor vertex_descriptor;
+./graph/test/finish_edge_bug.cpp:23:  // void discover_vertex(vertex_descriptor u, const graph_t&) { // check!
+./graph/test/finish_edge_bug.cpp:26:  // void finish_vertex(vertex_descriptor u, const graph_t&) { // check!
+./graph/test/finish_edge_bug.cpp:29:  // void initialize_vertex(vertex_descriptor u, const graph_t&) { // check!
+./graph/test/finish_edge_bug.cpp:32:  // void start_vertex(vertex_descriptor u, const graph_t&) { // check!
+./graph/test/finish_edge_bug.cpp:65:  typedef graph_traits<adjacency_list<vecS, vecS, directedS> >::vertex_descriptor Vertex;
+./graph/test/floyd_warshall_test.cpp:64:    typedef typename boost::graph_traits<Graph>::vertex_descriptor vertex_des;
+./graph/test/floyd_warshall_test.cpp:236:    typedef typename boost::graph_traits<Graph>::vertex_descriptor vertex_des;
+./graph/test/graph.cpp:85:                      typename graph_traits<Graph>::vertex_descriptor a, 
+./graph/test/graph.cpp:86:                      typename graph_traits<Graph>::vertex_descriptor b, 
+./graph/test/graph.cpp:149:  typedef boost::graph_traits<Graph>::vertex_descriptor Vertex;
+./graph/test/graph.cpp:287:    graph_traits<Graph>::vertex_descriptor vid = add_vertex(g),
+./graph/test/graph.cpp:451:    // can't check in_vertex_set here because the vertex_descriptor c
+./graph/test/graph_test.hpp:32:    typedef typename graph_traits<Graph>::vertex_descriptor vertex_t;
+./graph/test/graph_test.hpp:337:    for (typename boost::graph_traits<Graph>::vertex_descriptor v;
+./graph/test/graph_test.hpp:358:    for (typename boost::graph_traits<Graph>::vertex_descriptor v;
+./graph/test/grid_graph_cc.cpp:20:  typedef typename graph_traits<Graph>::vertex_descriptor Vertex;
+./graph/test/grid_graph_test.cpp:47:  typedef typename graph_traits<Graph>::vertex_descriptor vertex_descriptor;
+./graph/test/grid_graph_test.cpp:95:  BOOST_FOREACH(vertex_descriptor current_vertex, vertices(graph)) {
+./graph/test/grid_graph_test.cpp:144:    BOOST_FOREACH(vertex_descriptor adjacent_vertex,
+./graph/test/grid_graph_test.cpp:157:    BOOST_FOREACH(vertex_descriptor unconnected_vertex, vertices(graph)) {
+./graph/test/gursoy_atun_layout_test.cpp:53:  typedef boost::graph_traits<graph_type>::vertex_descriptor vertex_descriptor;
+./graph/test/gursoy_atun_layout_test.cpp:61:  std::map<int, std::map<int, vertex_descriptor> > verts;
+./graph/test/gursoy_atun_layout_test.cpp:126:                        position_writer<Position, vertex_descriptor>(position),
+./graph/test/gursoy_atun_layout_test.cpp:137:                        position_writer<Position, vertex_descriptor>(position),
+./graph/test/incremental_components_test.cpp:32:  typedef typename graph_traits<Graph>::vertex_descriptor vertex_descriptor;
+./graph/test/incremental_components_test.cpp:38:  typedef std::map<vertex_descriptor, vertices_size_type> RankMap;
+./graph/test/incremental_components_test.cpp:41:  typedef std::vector<vertex_descriptor> ParentMap;
+./graph/test/incremental_components_test.cpp:43:    IndexPropertyMap, vertex_descriptor, vertex_descriptor&> IndexParentMap;
+./graph/test/incremental_components_test.cpp:66:  std::vector<vertex_descriptor> reverse_index_map(num_vertices(graph));
+./graph/test/incremental_components_test.cpp:68:  BOOST_FOREACH(vertex_descriptor vertex, vertices(graph)) {
+./graph/test/incremental_components_test.cpp:76:    std::set<vertex_descriptor> component_vertices;
+./graph/test/incremental_components_test.cpp:81:      vertex_descriptor child_vertex = reverse_index_map[child_index];
+./graph/test/incremental_components_test.cpp:88:    BOOST_FOREACH(vertex_descriptor child_vertex,
+./graph/test/incremental_components_test.cpp:153:  BOOST_FOREACH(graph_traits<ListGraph>::vertex_descriptor vertex,
+./graph/test/index_graph.cpp:17:    typedef typename graph_traits<Graph>::vertex_descriptor Vertex;
+./graph/test/isomorphism.cpp:64:  typedef typename graph_traits<Graph1>::vertex_descriptor vertex1;
+./graph/test/isomorphism.cpp:65:  typedef typename graph_traits<Graph2>::vertex_descriptor vertex2;
+./graph/test/isomorphism.cpp:131:  std::map<graph1::vertex_descriptor, graph2::vertex_descriptor> mapping;
+./graph/test/isomorphism.cpp:189:  std::map<graph1::vertex_descriptor, graph2::vertex_descriptor> mapping;
+./graph/test/king_ordering.cpp:39:  typedef graph_traits<Graph>::vertex_descriptor Vertex;
+./graph/test/layout_test.cpp:116:                  typename boost::graph_traits<Graph>::vertex_descriptor /*p*/,
+./graph/test/layout_test.cpp:137:  typedef typename graph_traits<Graph>::vertex_descriptor vertex_descriptor;
+./graph/test/layout_test.cpp:142:  vertex_descriptor u = add_vertex(g); put(vertex_index, g, u, 0);
+./graph/test/layout_test.cpp:143:  vertex_descriptor v = add_vertex(g); put(vertex_index, g, v, 1);
+./graph/test/layout_test.cpp:144:  vertex_descriptor w = add_vertex(g); put(vertex_index, g, w, 2);
+./graph/test/leda_graph_cc.cpp:19:    typedef graph_traits<Graph>::vertex_descriptor Vertex;
+./graph/test/make_bicon_planar_test.cpp:36:  typedef typename graph_traits<Graph>::vertex_descriptor vertex_t;
+./graph/test/make_connected_test.cpp:52:  typedef typename graph_traits<Graph>::vertex_descriptor vertex_t;
+./graph/test/make_maximal_planar_test.cpp:35:  typedef typename graph_traits<Graph>::vertex_descriptor vertex_t;
+./graph/test/mas_test.cpp:54:    typedef typename boost::graph_traits<Graph>::vertex_descriptor vertex_descriptor;
+./graph/test/mas_test.cpp:65:        m_curr(new vertex_descriptor(0)), m_prev(new vertex_descriptor(0)),
+./graph/test/mas_test.cpp:78:  void start_vertex(vertex_descriptor u, const Graph& g) {
+./graph/test/mas_test.cpp:85:  vertex_descriptor curr() const { return *m_curr; }
+./graph/test/mas_test.cpp:86:  vertex_descriptor prev() const { return *m_prev; }
+./graph/test/mas_test.cpp:92:    boost::shared_ptr<vertex_descriptor> m_curr, m_prev;
+./graph/test/mas_test.cpp:103:  typedef boost::graph_traits<undirected_graph>::vertex_descriptor vertex_descriptor;
+./graph/test/mas_test.cpp:113:  std::map<vertex_descriptor, vertex_descriptor> assignment;
+./graph/test/mas_test.cpp:114:  boost::associative_property_map<std::map<vertex_descriptor, vertex_descriptor> > assignments(assignment);
+./graph/test/mas_test.cpp:118:  typedef std::vector<vertex_descriptor>::size_type index_in_heap_type;
+./graph/test/mas_test.cpp:121:  boost::d_ary_heap_indirect<vertex_descriptor, 22, indicesInHeap_type, distances_type, std::greater<weight_type> > pq(distances, indicesInHeap);
+./graph/test/mas_test.cpp:123:  mas_edge_connectivity_visitor<undirected_graph,boost::d_ary_heap_indirect<vertex_descriptor, 22, indicesInHeap_type, distances_type, std::greater<weight_type> > >  test_vis(pq);
+./graph/test/mas_test.cpp:132:  BOOST_CHECK_EQUAL(test_vis.curr(), vertex_descriptor(7));
+./graph/test/mas_test.cpp:133:  BOOST_CHECK_EQUAL(test_vis.prev(), vertex_descriptor(6));
+./graph/test/mas_test.cpp:143:  BOOST_CHECK_EQUAL(test_vis.curr(), vertex_descriptor(7));
+./graph/test/mas_test.cpp:144:  BOOST_CHECK_EQUAL(test_vis.prev(), vertex_descriptor(6));
+./graph/test/mas_test.cpp:153:  BOOST_CHECK_EQUAL(test_vis.curr(), vertex_descriptor(7));
+./graph/test/mas_test.cpp:154:  BOOST_CHECK_EQUAL(test_vis.prev(), vertex_descriptor(6));
+./graph/test/mas_test.cpp:172:  BOOST_CHECK_EQUAL(test_vis.curr(), vertex_descriptor(7));
+./graph/test/mas_test.cpp:173:  BOOST_CHECK_EQUAL(test_vis.prev(), vertex_descriptor(3));
+./graph/test/mas_test.cpp:182:  typedef boost::graph_traits<undirected_unweighted_graph>::vertex_descriptor vertex_descriptor;
+./graph/test/mas_test.cpp:189:  std::map<vertex_descriptor, vertex_descriptor> assignment;
+./graph/test/mas_test.cpp:190:  boost::associative_property_map<std::map<vertex_descriptor, vertex_descriptor> > assignments(assignment);
+./graph/test/mas_test.cpp:195:  typedef std::vector<vertex_descriptor>::size_type index_in_heap_type;
+./graph/test/mas_test.cpp:198:  boost::d_ary_heap_indirect<vertex_descriptor, 22, indicesInHeap_type, distances_type, std::greater<weight_type> > pq(distances, indicesInHeap);
+./graph/test/mas_test.cpp:200:  mas_edge_connectivity_visitor<undirected_unweighted_graph,boost::d_ary_heap_indirect<vertex_descriptor, 22, indicesInHeap_type, distances_type, std::greater<weight_type> > >  test_vis(pq);
+./graph/test/mas_test.cpp:205:  BOOST_CHECK_EQUAL(test_vis.curr(), vertex_descriptor(7));
+./graph/test/mas_test.cpp:206:  BOOST_CHECK_EQUAL(test_vis.prev(), vertex_descriptor(3));
+./graph/test/mas_test.cpp:220:  BOOST_CHECK_EQUAL(test_vis.curr(), vertex_descriptor(7));
+./graph/test/mas_test.cpp:221:  BOOST_CHECK_EQUAL(test_vis.prev(), vertex_descriptor(6));
+./graph/test/matching_test.cpp:138:  typedef vector_property_map< typename graph_traits<Graph>::vertex_descriptor, vertex_index_map_t > mate_t;
+./graph/test/matching_test.cpp:140:  typedef typename graph_traits<Graph>::vertex_descriptor vertex_descriptor_t;
+./graph/test/matching_test.cpp:304:      vertex_descriptor_t u = random_vertex(j,rand_num);
+./graph/test/matching_test.cpp:305:      vertex_descriptor_t v = random_vertex(j,rand_num);
+./graph/test/max_flow_algorithms_bundled_properties_and_named_params.cpp:28:  traits::vertex_descriptor s,t;
+./graph/test/max_flow_test.cpp:74:  typedef graph_traits<Graph>::vertex_descriptor tVertex;
+./graph/test/mcgregor_subgraphs_test.cpp:49:    typedef typename boost::graph_traits<Graph>::vertex_descriptor Vertex;
+./graph/test/mcgregor_subgraphs_test.cpp:196:    typedef typename boost::graph_traits<Graph>::vertex_descriptor Vertex;
+./graph/test/mcgregor_subgraphs_test.cpp:228:  typedef typename boost::graph_traits<Graph>::vertex_descriptor Vertex;
+./graph/test/mean_geodesic.cpp:28:    typedef vector<typename traits::vertex_descriptor> type;
+./graph/test/mean_geodesic.cpp:51:    typedef typename graph_traits<Graph>::vertex_descriptor Vertex;
+./graph/test/mean_geodesic.cpp:92:    typedef typename graph_traits<Graph>::vertex_descriptor Vertex;
+./graph/test/metric_tsp_approx.cpp:88:    typedef graph_traits<Graph>::vertex_descriptor Vertex;
+./graph/test/metric_tsp_approx.cpp:134:    typedef graph_traits<Graph>::vertex_descriptor Vertex;
+./graph/test/metric_tsp_approx.cpp:200:    typedef graph_traits<Graph>::vertex_descriptor Vertex;
+./graph/test/min_cost_max_flow_utils.hpp:35:    typedef Traits::vertex_descriptor vertex_descriptor;
+./graph/test/min_cost_max_flow_utils.hpp:42:        void addEdge(vertex_descriptor v, vertex_descriptor w, long weight, long capacity) {
+./graph/test/min_cost_max_flow_utils.hpp:51:      Traits::edge_descriptor add(vertex_descriptor v, vertex_descriptor w
+./graph/test/min_cost_max_flow_utils.hpp:72:    static void getSampleGraph(Graph &g, vertex_descriptor & s, vertex_descriptor & t) {
+./graph/test/min_cost_max_flow_utils.hpp:82:    getSampleGraph(Graph &g, vertex_descriptor & s, vertex_descriptor & t, 
+./graph/test/min_cost_max_flow_utils.hpp:107:    static void getSampleGraph2(Graph &g, vertex_descriptor & s, vertex_descriptor & t) {
+./graph/test/named_vertices_test.cpp:59:typedef graph_traits<RoadMap>::vertex_descriptor Vertex;
+./graph/test/parallel_edges_loops_test.cpp:83:  typedef typename graph_traits<Graph>::vertex_descriptor vertex_t;
+./graph/test/parallel_edges_loops_test.cpp:198:  typedef graph_traits<graph>::vertex_descriptor vertex_t;
+./graph/test/property_iter.cpp:63:  typedef boost::graph_traits<Graph>::vertex_descriptor Vertex;
+./graph/test/random_matching_test.cpp:27:typedef vector_property_map<graph_traits<undirected_graph>::vertex_descriptor, vertex_index_map_t > mate_t;
+./graph/test/random_matching_test.cpp:29:typedef graph_traits<undirected_graph>::vertex_descriptor vertex_descriptor_t;
+./graph/test/random_matching_test.cpp:58:      vertex_descriptor_t u = random_vertex(g,rand_num);
+./graph/test/random_matching_test.cpp:59:      vertex_descriptor_t v = random_vertex(g,rand_num);
+./graph/test/random_spanning_tree_test.cpp:54:  shared_array_property_map<gt::vertex_descriptor, property_map<graph_type, vertex_index_t>::const_type> pred(num_vertices(g), get(vertex_index, g));
+./graph/test/rcsp_custom_vertex_id.cpp:46:typedef graph_traits<Graph>::vertex_descriptor Vertex;
+./graph/test/reverse_graph_cc.cpp:29:    typedef graph_traits<Graph>::vertex_descriptor Vertex;
+./graph/test/reverse_graph_cc.cpp:48:    typedef graph_traits<Graph>::vertex_descriptor Vertex;
+./graph/test/serialize.cpp:43:typedef graph_traits<Graph>::vertex_descriptor vd_type;
+./graph/test/stanford_graph_cc.cpp:28:    typedef graph_traits<Graph>::vertex_descriptor Vertex;
+./graph/test/stanford_graph_cc.cpp:41:    typedef graph_traits<Graph>::vertex_descriptor Vertex;
+./graph/test/stoer_wagner_test.cpp:81:    typedef boost::graph_traits<undirected_graph>::vertex_descriptor vertex_descriptor;
+./graph/test/stoer_wagner_test.cpp:90:    std::map<vertex_descriptor, vertex_descriptor> assignment;
+./graph/test/stoer_wagner_test.cpp:91:    boost::associative_property_map<std::map<vertex_descriptor, vertex_descriptor> > assignments(assignment);
+./graph/test/stoer_wagner_test.cpp:149:  typedef boost::graph_traits<undirected_unweighted_graph>::vertex_descriptor vertex_descriptor;
+./graph/test/stoer_wagner_test.cpp:157:  std::map<vertex_descriptor, bool> parity;
+./graph/test/stoer_wagner_test.cpp:158:  boost::associative_property_map<std::map<vertex_descriptor, bool> > parities(parity);
+./graph/test/stoer_wagner_test.cpp:159:  std::map<vertex_descriptor, vertex_descriptor> assignment;
+./graph/test/stoer_wagner_test.cpp:160:  boost::associative_property_map<std::map<vertex_descriptor, vertex_descriptor> > assignments(assignment);
+./graph/test/stoer_wagner_test.cpp:189:  typedef boost::graph_traits<undirected_graph>::vertex_descriptor vertex_descriptor;
+./graph/test/stoer_wagner_test.cpp:195:  std::map<vertex_descriptor, std::size_t> component;
+./graph/test/stoer_wagner_test.cpp:196:  boost::associative_property_map<std::map<vertex_descriptor, std::size_t> > components(component);
+./graph/test/stoer_wagner_test.cpp:201:  typedef std::vector<vertex_descriptor>::size_type index_in_heap_type;
+./graph/test/stoer_wagner_test.cpp:204:  boost::d_ary_heap_indirect<vertex_descriptor, 22, indicesInHeap_type, distances_type, std::greater<weight_type> > pq(distances, indicesInHeap);
+./graph/test/stoer_wagner_test.cpp:213:  typedef boost::graph_traits<undirected_graph>::vertex_descriptor vertex_descriptor;
+./graph/test/stoer_wagner_test.cpp:219:  std::map<vertex_descriptor, std::size_t> component;
+./graph/test/stoer_wagner_test.cpp:220:  boost::associative_property_map<std::map<vertex_descriptor, std::size_t> > components(component);
+./graph/test/stoer_wagner_test.cpp:230:  typedef boost::graph_traits<undirected_graph>::vertex_descriptor vertex_descriptor;
+./graph/test/stoer_wagner_test.cpp:236:  std::map<vertex_descriptor, std::size_t> component;
+./graph/test/stoer_wagner_test.cpp:237:  boost::associative_property_map<std::map<vertex_descriptor, std::size_t> > components(component);
+./graph/test/strong_components_test.cpp:36:  typedef graph_traits<adjacency_list<vecS, vecS, directedS> >::vertex_descriptor Vertex;
+./graph/test/subgraph.cpp:56:  typedef graph_traits<subgraph_t>::vertex_descriptor vertex_t;
+./graph/test/subgraph.cpp:126:        graph_t::vertex_descriptor v1, v2;
+./graph/test/subgraph.cpp:198:        typedef graph_traits<Graph>::vertex_descriptor Vertex;
+./graph/test/subgraph_add.cpp:87:    typedef Graph::vertex_descriptor Vertex;
+./graph/test/subgraph_add.cpp:166:    typedef std::map<graph_traits<Graph::graph_type>::vertex_descriptor, graph_traits<Graph::graph_type>::vertex_descriptor>::iterator v_itr;
+./graph/test/subgraph_add.cpp:188:    typedef Graph::vertex_descriptor Vertex;
+./graph/test/subgraph_add.cpp:249:    typedef std::map<graph_traits<Graph::graph_type>::vertex_descriptor, graph_traits<Graph::graph_type>::vertex_descriptor>::iterator v_itr;
+./graph/test/subgraph_bundled.cpp:36:typedef graph_traits<Subgraph>::vertex_descriptor Vertex;
+./graph/test/subgraph_bundled.cpp:120:        graph_traits<Graph>::vertex_descriptor v1, v2;
+./graph/test/subgraph_props.cpp:24:    typedef graph_traits<Subgraph>::vertex_descriptor Vertex;
+./graph/test/subgraph_props.cpp:88:    typedef graph_traits<Subgraph>::vertex_descriptor Vertex;
+./graph/test/successive_shortest_path_nonnegative_weights_test.cpp:21:    boost::SampleGraph::vertex_descriptor s,t;
+./graph/test/successive_shortest_path_nonnegative_weights_test.cpp:32:    boost::SampleGraph::vertex_descriptor s,t;
+./graph/test/successive_shortest_path_nonnegative_weights_test.cpp:43:    boost::SampleGraph::vertex_descriptor s,t;
+./graph/test/test_graph.hpp:119:    typedef typename graph_traits<Graph>::vertex_descriptor Vertex;
+./graph/test/test_properties.hpp:42:  typedef typename graph_traits<Graph>::vertex_descriptor Vertex;
+./graph/test/transitive_closure_test.cpp:39:num_incident(typename graph_traits<Graph>::vertex_descriptor u,
+./graph/test/transitive_closure_test.cpp:40:             typename graph_traits<Graph>::vertex_descriptor v,
+./graph/test/two_graphs_common_spanning_trees_test.cpp:43:boost::graph_traits<Graph>::vertex_descriptor
+./graph/test/two_graphs_common_spanning_trees_test.cpp:44:vertex_descriptor;
+./graph/test/undirected_dfs.cpp:103:    typedef typename Traits::vertex_descriptor vertex_descriptor;
+./graph/test/undirected_dfs.cpp:127:        std::vector<vertex_descriptor> parent(num_vertices(g));
+./graph/test/undirected_dfs.cpp:138:          boost::iterator_property_map<typename std::vector<vertex_descriptor>::iterator, idx_type>
+./graph/test/undirected_dfs.cpp:167:            vertex_descriptor u = *ui, v = *vi;
+./graph/test/vf2_sub_graph_iso_test.cpp:62:  typedef typename graph_traits<Graph1>::vertex_descriptor vertex1;
+./graph/test/vf2_sub_graph_iso_test.cpp:63:  typedef typename graph_traits<Graph2>::vertex_descriptor vertex2;
+./graph/test/vf2_sub_graph_iso_test.cpp:191:  typedef typename boost::graph_traits<G>::vertex_descriptor key_type;
+./graph/test/vf2_sub_graph_iso_test.cpp:199:std::size_t get(const IndirectIndexMap<G> &map, typename boost::graph_traits<G>::vertex_descriptor v) {
+./graph/test/vf2_sub_graph_iso_test_2.cpp:85:  typedef boost::graph_traits<Graph>::vertex_descriptor Vertex;
+./graph/test/weighted_matching_test.cpp:64:    typedef vector_property_map< typename graph_traits<Graph>::vertex_descriptor, vertex_index_map_t > mate_t;
